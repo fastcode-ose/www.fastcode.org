@@ -1,0 +1,32 @@
+{% set context = 'Fastcode Blog' %}
+
+<div class="sidebar-start-items__item">
+    <nav class="bd-links" id="bd-docs-nav" aria-label="Section navigation">
+        <h5 class="w-100 p-2 rounded" style="margin-left: -0.4em; margin-top: 0; color: var(--midnight); background-color: var(--lime);">
+            {{ context }}
+        </h5>
+        {% set postslist = collections.posts %}
+        <div class="bd-toc-item navbar-nav">
+            <ul class="nav bd-sidenav">
+                {% for item in postslist | reverse %}
+                    <li class="{% if page.url == item.url %}  toctree-l1 active {% else %} toctree-l1 {% endif %}">
+                        <a href="{{ item.url | url }}" class="reference" {% if page.url == item.url %} class="aria-current="page" {% endif %}>{{ item.data.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+</div>
+
+{% if page.url != '/posts/' %}
+    <div class="sidebar-start-items__item">
+        <div class="toc-item">
+            <h6 class="p-2 rounded" style="margin-left: -0.4em; margin-top: 0; color: var(--midnight); background-color: var(--teal);">
+                On this page
+            </h6>
+            <nav id="bd-toc-nav" class="page-toc">
+                {{ content | toc | safe }}
+            </nav>
+        </div>
+    </div>
+{% endif %}

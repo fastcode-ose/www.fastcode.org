@@ -1,0 +1,36 @@
+<nav class="bd-header navbar navbar-expand-lg navbar-dark bd-navbar justify-content-between px-4" style="font-size: 1.1rem;">
+<div class="container" style="max-width: 1120px;">
+  <a class="navbar-brand" href="/"><img class="pr-4" src="{{ sphinxDir }}_static/OpenCilk-icon-330.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExample05">
+    <ul class="navbar-nav mr-auto">
+    {% for entry in collections.all | eleventyNavigation("Home") %}
+        {% if page.url == entry.url %}
+        <li class="nav-item active px-2">
+            <a class="nav-link active" aria-current="page" href="{{ entry.url | url }}">{{ entry.title }}</a>
+        </li>
+        {% else %}
+        <li class="nav-item px-2">
+            <a class="nav-link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
+    <div id="navbar-end">
+      <div class="navbar-end-item">
+        <span class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle">
+            <a class="theme-switch" data-mode="light"><i class="fas fa-sun"></i></a>
+            <a class="theme-switch" data-mode="dark"><i class="far fa-moon"></i></a>
+            <a class="theme-switch" data-mode="auto"><i class="fas fa-adjust"></i></a>
+        </span>
+      </div>
+      <div class="navbar-end-item navbar-end__search-button-container">  
+ 
+      </div>
+    </div>
+</div>
+</nav>

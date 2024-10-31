@@ -1,0 +1,10 @@
+{
+  "layout": "layouts/post.njk",
+  "stylesheet": "none",
+  "sidebar": "blog",
+  "background": "bg-white",
+  "comments": "true",
+  "tags": [
+    "posts"
+  ]
+}

@@ -1,0 +1,96 @@
+{% if permalink !== false %}
+{% set sphinxDir = "/sphinx-html/" %}
+<!DOCTYPE html>
+
+<html lang="en">
+{% include 'partials/header.njk' %}
+ 
+<body data-spy="scroll" data-target="#bd-toc-nav" data-offset="180" data-default-mode="">
+    <input type="checkbox" class="sidebar-toggle" name="__primary" id="__primary">
+    <label class="overlay overlay-primary" for="__primary"></label>
+    <input type="checkbox" class="sidebar-toggle" name="__secondary" id="__secondary">
+    <label class="overlay overlay-secondary" for="__secondary"></label>
+    <div class="search-button__wrapper">
+        <div class="search-button__overlay"></div>
+        <div class="search-button__search-container">      
+            <form class="bd-search d-flex align-items-center" action="search.html" method="get">
+                <i class="icon fas fa-search"></i>
+                <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+            </form>
+        </div>
+    </div>
+
+    {% include 'partials/navbar.njk' %}  
+
+    <div class="bd-container">
+        <div class="bd-container__inner bd-page-width">
+            {% if sidebar %}
+                <div class="bd-sidebar-primary bd-sidebar">
+                    <div class="sidebar-start-items sidebar-primary__section">
+                        {% set sidebarCode = ["partials/sidebar-", sidebar, ".njk"] | join %}
+                        {% include sidebarCode %}
+                    </div>
+                </div>  
+            {% endif %}    
+            <main class="bd-main">
+                <div class="bd-content" {% if page.url !== '/' %} style="background-color: var(--pst-color-background);" {% endif %}>
+                    <div class="bd-article-container">        
+                        {% if page.url !== '/' %}
+                            {% include 'partials/breadcrumb.njk' %}
+                        {% endif %}
+                        {{ content | safe }}
+                    </div>        
+                </div>
+                <footer class="bd-footer-content">
+                    <div class="bd-footer-content__inner">
+                        
+                    </div>
+                </footer>
+
+                {% if comments  and (page.url !== '/') %}
+                    <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                        
+                        var disqus_config = function () {
+                        this.page.url = "https://www.opencilk.org{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = "{{ page.fileSlug }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+                        
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://opencilk.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                {% endif %}     
+            </main>
+        </div>
+    </div>
+
+    {% include 'partials/footer.njk' %}
+    
+    <!-- Scripts loaded after <body> so the DOM is not blocked -->
+    <script src="{{ sphinxDir }}_static/scripts/pydata-sphinx-theme.js?digest=9b1a4fa89bdd0e95b23b"></script>
+
+      <!-- Netlify CMS -->
+      <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+
+</body>
+</html>
+{% endif %}

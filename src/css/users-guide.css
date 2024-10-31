@@ -1,0 +1,26 @@
+
+main h2 {
+    color: white;
+    background-color: var(--blue);
+    margin-left: -0.25em;
+    padding-left: 0.25em;
+}
+main h3 {
+    font-weight: bold;
+    margin-left: -0.25em;
+    padding-left: 0.25em;
+}
+.bd-article-container ul li {
+    list-style-image: url("/img/caret-right-fill.svg");
+}
+h2 a.headerlink {
+    color: var(--darkteal);
+    text-decoration: none;
+}
+h3 a.headerlink, h4 a.headerlink {
+    color: var(--pst-color-headerlink);
+}
+h2 a.headerlink:hover, h3 a.headerlink:hover, h4 a.headerlink:hover {
+    color: var(--lime);
+    text-decoration: none;
+}

@@ -1,0 +1,194 @@
+/* See custom.css in Sphinx */
+body {
+  background-color: transparent;
+}
+h2 a.direct-link, h3 a.direct-link {
+  color: var(--lightgray);
+  text-decoration: none;
+}
+h2 a.direct-link:hover, h3 a.direct-link:hover {
+  color: var(--lime);
+  text-decoration: none;
+}
+.toc-entry a.nav-link, nav.bd-links li a, li.toctree-l1 a.reference {
+  color: var(--pst-color-header);
+}
+.toc-entry a.nav-link:hover, nav.bd-links li a:hover, li.toctree-l1 a.reference:hover {
+  color: var(--lime);
+}
+.toc-entry a.nav-link.active, nav.bd-links .active a, li.toctree-l1.active a.reference {
+  color: var(--pst-color-header);
+  
+}
+.toc-entry a.nav-link.active {
+  border-left: 2px solid var(--pst-color-header);
+}
+.toc-entry a.nav-link {
+  line-height: 130%;
+  padding: 0.4rem 0 0.4rem 1rem;
+}
+nav.bd-links li > a {
+  line-height: 130%;
+  padding: 0.4rem 0;
+}
+.bd-header .navbar-nav li a.nav-link  {
+  color: #e0e0e0;
+  font-size: 90%;
+}
+.bd-header .navbar-nav > .active > .nav-link {
+  color: var(--lime);
+  font-weight: 600;
+}
+.bd-header .navbar-nav li a.nav-link:hover {
+  color: var(--safetyyellow);
+}
+.bd-sidebar-primary {
+  padding: 1rem;
+  border-right: 2px solid var(--lime);
+}
+.toc-item {
+  border-left: none;
+  padding-left: 0;
+}
+.bd-container .bd-sidebar-primary {
+  background-color: --pst-color-primary;
+}
+input#__primary:checked ~ .bd-container .bd-sidebar-primary {
+  background-color: white;
+}
+.bd-sidebar-secondary {
+  padding: 1rem;
+}
+.bd-page-width {
+  max-width: 100em;
+}
+.bd-main .bd-content {
+  width: 100%;
+}
+.bd-main .bd-content .bd-article-container {
+  flex-grow: 1;
+  max-width: none;
+  justify-content: start;
+}
+.bd-article-container a {
+  text-decoration: underline;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.myCard-header {
+  font-family: Ubuntu;
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-size: larger;
+  font-weight: 600;
+  line-height: normal;
+}
+.myCard-lead {
+  font-size: 1.16rem;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+footer.bd-footer {
+  border-top: 2px solid var(--lime);
+}
+a.defn {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+.blog.card-body {
+  color: white;
+}
+.blog.card-body time {
+  color: var(--teal);
+}
+.blog.card-body a {
+  color: var(--sky);
+}
+.blog.card-body a:hover {
+  color: var(--lime);
+}
+.blog.card-body a.card-tag {
+  color: var(--yellow);
+}
+.blog.card-body a.card-tag:hover {
+  color: var(--tangelo);
+}
+img.icon {
+  height: 2em;
+}
+a.card-tag {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: smaller;
+}
+code {
+  font-size: 110%;
+  color: #eb551d; /* Darker tangelo also in prism.css */
+  word-break: normal;
+}
+
+.list-tight p {
+  margin: 0;
+}
+.list-tight li {
+  margin-bottom: 0.4em;
+}/* Posts list */
+.footer {
+  border-top: 2px solid var(--lime);
+  background-color: var(--pst-color-on-surface);
+  padding: 1em;
+}
+footer a {
+  color: var(--sky);
+}
+.postlist-date,
+.postlist-item:before {
+  font-size: 0.8125em; /* 13px /16 */
+  color: var(--darkgray);
+}
+.postlist-date {
+  word-spacing: -0.5px;
+}
+.postlist-link {
+  text-decoration: none;
+}
+.postlist-item-active .postlist-link {
+  color: var(--teal);
+  font-weight: bold;
+}
+.tmpl-home .postlist-link, .tmpl-page .postlist-link {
+  font-size: 1.1875em; /* 19px /16 */
+  font-weight: 700;
+}
+
+/* Tags */
+a.post-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 0.75em; /* 12px /16 */
+  padding: 0.08333333333333em 0.3333333333333em; /* 1px 4px /12 */
+  margin-right: 0.6666666666667em; /* 8px /12 */
+  margin-top: 0.5em; /* 6px /12 */
+  margin-bottom: 0.5em; /* 6px /12 */
+  color: var(--darkgray);
+  border: 1px solid var(--gray);
+  border-radius: 0.25em; /* 3px /12 */
+  text-decoration: none;
+  line-height: 1.8;
+}
+a[href].post-tag,
+a[href].post-tag:visited {
+  color: inherit;
+}
+a[href].post-tag:hover,
+a[href].post-tag:focus {
+  background-color: var(--pst-color-surface);
+}
+.postlist-item > .post-tag {
+  align-self: center;
+}

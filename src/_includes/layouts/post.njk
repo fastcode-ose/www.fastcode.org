@@ -1,0 +1,40 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+<h1>{{ title }}</h1>
+
+<div>
+    {% if authorpic %}
+      <p class="my-0 py-0">
+        <div class="d-flex justify-content-start align-items-center">
+          <div >
+            <img src="{{ authorpic }}" width="56"></img>
+          </div>
+          <div class="d-flex me-4">
+            <small>By {{ author }}</small></br>
+          </div>
+        </div>
+        <small>{{ page.date | readableDate }}</small>
+      </p>
+    {% else %}
+      <small><p class="my-0 py-0">{{ page.date | readableDate }} &mdash; By {{ author }}</p></small>
+    {% endif %}
+
+    {% if tagline %}
+    <p>{{ tagline | markdownify | safe }}</p>
+    {% endif %}
+
+    {%- for tag in tags | filterTagList -%}
+    {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+    <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+    {%- endfor %}
+
+    {% if attribution %}
+      <small><div class="breadcrumb-item active">{{ metadata.attribution.cilkplus }}</div></small>
+    {% endif %}
+
+    <div style="margin-top: 0.5em;">
+        {{ content | safe }}
+    </div>
+</div>

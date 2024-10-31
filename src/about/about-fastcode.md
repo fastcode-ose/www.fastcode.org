@@ -15,9 +15,29 @@ date: 2022-07-05T16:59:41.487Z
 
 Fastcode is an open-source community dedicated to advancing software performance engineering (SPE) -- making software run fast or otherwise consume few resources such as time, storage, and energy.
 
-## Focusing on research and education
+## Welcoming your participation
 
-Fastcode has an "academic-first" strategy to kick-start the SPE community. Then, by capturing the hearts and minds of students learning about parallel computing and SPE, the core community can grow to help the larger world of software developers cope with the end of Moore’s Law.
+Whether you're just curious about SPE or a leading expert, Fastcode welcomes your participation. Here are some ways to [get involved](/get-involved/).
+
+## Four pillars
+
+Fastcode activity is loosely organized by four "pillars":
+* **Technology:** improving the tools that people use for SPE
+* **Research:** supporting the development of SPE as a principled scientific field
+* **Education:** making it easier for instructors to teach SPE
+* **Skill-building:** providing places for hands-on practicing of SPE skills.
+
+## Managing organization
+
+The Fastcode [managing organization](https://new.nsf.gov/funding/initiatives/pathways-enable-open-source-ecosystems/about-pose) is responsible for catalyzing distributed, community-driven development and growth of the Fastcode open-source ecosystem.
+
+* Dorothy Curtis (MIT)
+* Bruce Hoppe
+* [Tim Kaler](https://www.csail.mit.edu/person/timothy-kaler) (MIT)
+* [Charles Leiserson](https://people.csail.mit.edu/cel/) (MIT)
+* [John Owens](https://www.ece.ucdavis.edu/~jowens/) (UCD)
+* [TB Schardl](http://neboat.mit.edu/) (MIT)
+* [Yihan Sun](https://www.cs.ucr.edu/~yihans/) (UCR)
 
 ## Acknowledgments
 

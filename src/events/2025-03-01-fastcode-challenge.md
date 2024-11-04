@@ -1,6 +1,6 @@
 ---
-title: PPoPP programming competition
-tagline: Sign up now! don't delay
+title: Fastcode Challenge
+tagline: A new programming competition at PPoPP 2025
 featuredEvent: true
 author: Bruce Hoppe
 event_date: March 1, 2025

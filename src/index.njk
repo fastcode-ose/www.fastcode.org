@@ -104,7 +104,7 @@ features:
 
               <div class="carousel-inner w-100">
                 {% for item in actioncalls %}
-                  <div class="carousel-item {% if item.number == 0 %}active{% endif %}" style="min-height: 18rem;">
+                  <div class="carousel-item {% if item.number == 0 %}active{% endif %}" style="min-height: 18rem; background-color:rgba(4, 48, 101, 0.16);">
 
                     
                     <div class="carousel-caption" style="bottom: none; top: 5.5rem; text-align: left;">
@@ -113,6 +113,7 @@ features:
                       <a href="{{ item.button_link }}" class="btn px-4 me-md-2" style="text-decoration: none; color: var(--yellow); background-color: var(--blue);">{{ item.button }}</a>
                     </div>
                   </div>
+                  
                 {% endfor %}
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" style="opacity: 1;">

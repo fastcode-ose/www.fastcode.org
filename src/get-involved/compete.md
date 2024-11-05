@@ -2,6 +2,7 @@
 layout: layouts/page.njk
 sidebar: toc
 title: Program to win!
+tagline: Enter the Fastcode Challenge at PPoPP 2025.
 order: 2
 eleventyNavigation:
   parent: Events
@@ -9,7 +10,7 @@ eleventyNavigation:
   order: 2
 ---
 
-## Enter the Fastcode Challenge
+## Attention all student programmers
 
 We are happy to announce the first [**Fastcode Challenge**](/events/fastcode-challenge/) at PPoPP 2025. Fastcode Challenge is a student programming competition, and a subsequent workshop at PPoPP to invite participants with outstanding submissions to submit papers and give invited talks. There will also be invited talks from keynote speakers. 
 

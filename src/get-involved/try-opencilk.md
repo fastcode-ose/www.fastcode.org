@@ -1,5 +1,6 @@
 ---
 title: Try OpenCilk
+tagline: An integrated open-source platform for task-parallel programming.
 sidebar: toc
 eleventyNavigation:
   order: 5

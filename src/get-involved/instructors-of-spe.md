@@ -2,6 +2,7 @@
 layout: layouts/page.njk
 sidebar: toc
 title: Join the SPE instructors community
+tagline: Share ideas and resources for teaching SPE to your students.
 eleventyNavigation:
   key: Join the SPE instructors community
   order: 3

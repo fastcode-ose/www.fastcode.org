@@ -8,7 +8,7 @@ templateClass: tmpl-page
 
 <div>
     {% if tagline %}
-    <p>{{ tagline | markdownify | safe }}</p>
+    <div><em>{{ tagline }}</em></div>
     {% endif %}
 
     {%- for tag in tags | filterTagList -%}

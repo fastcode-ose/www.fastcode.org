@@ -30,5 +30,5 @@ Stories we'd love to hear about include
 * how you see the interface between HPC (or field `x`) and SPE
 * why you use language `x` or tool `y` for SPE
 
-Email [Bruce Hoppe](mailto:behoppe@mit.edu) to learn more.
+Contact [Bruce Hoppe](mailto:behoppe@mit.edu) to learn more.
  

@@ -8,27 +8,32 @@ eleventyNavigation:
   order: 3
 ---
 
-## Welcome etc
+# Welcome
 
-Introduction to instructors community
+{% img "/img/cel-learn-spe.png", "600px" %}
 
-## List of classes and workshops
+Whether you're curious about teaching your first-ever performance-engineering module or wanting to share the success of an existing SPE class, you are welcome to join Fastcode's SPE instructors community.
 
-To help you develop your own course or module on performance engineering, we are compiling a list of relevant classes and workshops with materials that you can adapt. Each listing includes links to basic materials (e.g., lecture PDFs). Additional materials (e.g., editable slide decks, and solutions for homeworks and quizzes) are often also available, as detailed below, when you [join the OpenCilk community](../join-us/). Do you have your own class or module to add to our list? Please [let us know](/contribute/contact/).
+# Helpful resources
 
-{% alert "hint", "Click on a link below to jump to that section:" %}
+### For starters
 
-- Performance engineering of software systems
-  * [MIT 6.106](#mit-6.106)
-  * [UC Davis EEC 289Q](#uc-davis-eec-289q)
-- [Modern algorithms workshop: parallel algorithms](#modern-algorithms-workshop:-parallel-algorithms)
+Here is a short paper, "[Helping faculty teach software performance engineering](https://escholarship.org/uc/item/2fj7x89s)," published at [EduPar-24](https://tcpp.cs.gsu.edu/curriculum/?q=edupar24). EduPar is part of [CDER](https://tcpp.cs.gsu.edu/curriculum/?q=node/21183), which develops and curates many useful resources for teaching parallel and distributed computing. See also [Get started with SPE](/get-involved/get-started-spe).
 
+To help you develop your own course or module on SPE, below is an incomplete list of relevant classes and workshops. Each listing includes links to lecture PDFs and sometimes videos. (Do you have your own class or module to add to our list? Please [let us know](/get-involved/contact/).)
+
+### For community members
+
+When you join the Fastcode instructors community, you get access to editable slide decks and LaTeX documents, and you are welcome to join SPE-instructor discussions to share ideas and questions with like-minded faculty.
+
+{% alert "note", "To join the Fastcode instructors community" %}
+Contact [John Owens](mailto:jowens@ucdavis.edu), and he will sign you up!
 {% endalert %}
 
+# List of classes and workshops
 
-## Performance engineering of software systems
 
-### MIT 6.106
+## MIT 6.106
 
 At MIT, _Performance Engineering of Software Systems_ is an upper-division undergraduate course with prerequisitess of introductory computer architecture, algorithms, and programming courses. Other faculty have adapted this material as an introductory graduate course. The class uses the C language with OpenCilk task-parallel extensions. Materials from Fall 2018 are available on [MIT Open CourseWare](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/), which includes 23 lectures (listed below), [10 homeworks](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/pages/assignments), [4 projects](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/pages/projects), [4 quizzes](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/pages/quizzes), and [practice problems](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/pages/recitation-problems) from selected recitations.
 
@@ -67,7 +72,7 @@ Recent projects have included rotating an image, parallelization of a physical s
 - Reference code for homeworks and projects
 - A library of past quiz and exam questions
 
-### UC Davis EEC 289Q
+## UC Davis EEC 289Q
 
 John Owens adapted [MIT 6.106](#mit-6.106) to create _Performance Engineering of Software Systems_ at UC Davis.
 
@@ -108,4 +113,4 @@ Originally created in 2018 as a single full-day class, this workshop includes an
 - Case study: Jaccard similarity ([PDF](https://ucdavis.box.com/s/1dtmh0m6w080f4tcnial1qdfgla73udg))
 - Post-Moore software ([PDF](https://ucdavis.box.com/s/35umq7ysmjjl1pq4u39zf7nhrlpsb43x))
 
-[Join the OpenCilk community](../join-us/) for access to editable slide decks.
+[Join the Fastcode instructors community](#for-community-members) for access to editable slide decks.

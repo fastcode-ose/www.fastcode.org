@@ -10,7 +10,7 @@ eleventyNavigation:
 
 # Welcome
 
-{% img "/img/cel-learn-spe.png", "600px" %}
+{% img "/img/cel-learn-spe.png", "550px" %}
 
 Whether you're curious about teaching your first-ever performance-engineering module or wanting to share the success of an existing SPE class, you are welcome to join Fastcode's SPE instructors community.
 
@@ -32,51 +32,39 @@ Contact [John Owens](mailto:jowens@ucdavis.edu), and he will sign you up!
 
 # List of classes and workshops
 
+## UC Berkeley
 
-## MIT 6.106
+#### [CS267](https://sites.google.com/lbl.gov/cs267-spr2024): Applications of Parallel Computers
 
-At MIT, _Performance Engineering of Software Systems_ is an upper-division undergraduate course with prerequisitess of introductory computer architecture, algorithms, and programming courses. Other faculty have adapted this material as an introductory graduate course. The class uses the C language with OpenCilk task-parallel extensions. Materials from Fall 2018 are available on [MIT Open CourseWare](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/), which includes 23 lectures (listed below), [10 homeworks](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/pages/assignments), [4 projects](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/pages/projects), [4 quizzes](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/pages/quizzes), and [practice problems](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/pages/recitation-problems) from selected recitations.
+CS267 was originally designed to teach students how to program parallel computers to efficiently solve challenging problems in science and engineering, where very fast computers are required either to perform complex simulations or to analyze enormous datasets.... While this general outline remains, a large change in the computing world started in the mid 2000's: not only are the fastest computers parallel, but nearly all computers are becoming parallel.... Students in CS267 will get an overview of the parallel architecture space, gain experience using some of the most popular parallel programming tools, and be exposed to a number of open research questions.
 
-#### Lectures
+## Cornell
 
-1. Introduction & Matrix Multiplication ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec1/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-1-intro-and-matrix-multiplication/))
-1. Bentley Rules for Optimizing Work ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec2/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-2-bentley-rules-for-optimizing-work/))
-1. Bit Hacks ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec3/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-3-bit-hacks/))
-1. Assembly Language and Computer Architecture ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec4/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-4-assembly-language-computer-architecture/))
-1. C to Assembly ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec5/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-5-c-to-assembly/))
-1. Multicore Programming ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec6/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-6-multicore-programming/))
-1. Races and Parallelism ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec7/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-7-races-and-parallelism/))
-1. Analysis of Multithreaded Algorithms ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec8/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-8-analysis-of-multithreaded-algorithms/))
-1. What Compilers Can and Cannot Do ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec9/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-9-what-compilers-can-and-cannot-do/))
-1. Measurement and Timing ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec10/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-10-measurement-and-timing/))
-1. Storage Allocation ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec11/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-11-storage-allocation/))
-1. Parallel Storage Allocation ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec12/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-12-parallel-storage-allocation/))
-1. The Cilk Runtime System ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec13/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-13-the-cilk-runtime-system/))
-1. Caching and Cache-Efficient Algorithms ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec14/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-14-caching-and-cache-efficient-algorithms/))
-1. Cache-Oblivious Algorithms ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec15/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-15-cache-oblivious-algorithms/))
-1. Nondeterministic Parallel Programming ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec16/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-16-nondeterministic-parallel-programming/))
-1. Synchronization Without Locks ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec17/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-17-synchronization-without-locks/))
-1. Domain Specific Languages and Autotuning ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec18/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-18-domain-specific-languages-and-autotuning/))
-1. Leiserchess Codewalk ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec19/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-19-leiserchess-codewalk/))
-1. Speculative Parallelism & Leiserchess ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec20/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-20-speculative-parallelism-leiserchess/))
-1. Tuning a TSP Algorithm ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec21/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-21-tuning-a-tsp-algorithm/))
-1. Graph Optimization ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec22/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-22-graph-optimization/))
-1. High Performance in Dynamic Languages ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec23/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-23-high-performance-in-dynamic-languages/))
+#### [CS 5220](https://www.cs.cornell.edu/courses/cs5220/2024fa/schedule.html): Applications of Parallel Computers
 
-MIT's course has a significant homework/project component. Enabling students to achieve high performance on project submissions is a significant goal of the course. MIT typically uses servers from commercial cloud providers (historically AWS) to accept project submissions and measure performance.
-Recent projects have included rotating an image, parallelization of a physical simulation, and memory management. The traditional MIT capstone project is a bot that plays one side of a 2-player game, where optimized bot performance is a necessity for a competitive submission.
+CS 5220 is an introduction to performance tuning and parallelization, particularly for scientific codes. Topics include:
+* Single-processor architecture, caches, and serial performance tuning
+* Basics of parallel machine organization
+* Distributed memory programming with MPI
+* Shared memory programming with OpenMP
+* Parallel patterns: data partitioning, synchronization, and load balancing
+* Examples of parallel numerical algorithms
+* Applications from science and engineering
 
-[Join the OpenCilk community](../join-us/) for access to
-- PowerPoint source for slides
-- LaTeX source for homework and projects from a past course offering
-- Reference code for homeworks and projects
-- A library of past quiz and exam questions
+## CMU
 
-## UC Davis EEC 289Q
+#### [15-418/15-618](https://www.cs.cmu.edu/~15418/schedule.html): Parallel Computer Architecture and Programming
 
-John Owens adapted [MIT 6.106](#mit-6.106) to create _Performance Engineering of Software Systems_ at UC Davis.
+ From smart phones, to multi-core CPUs and GPUs, to the world's largest supercomputers, parallel processing is ubiquitous in modern computing. The goal of this course is to provide a deep understanding of the fundamental principles and engineering trade-offs involved in designing modern parallel computing systems as well as to teach parallel programming techniques necessary to effectively utilize these machines. Because writing good parallel programs requires an understanding of key machine performance characteristics, this course will cover hardware design and how that affects software design.
 
-#### Lectures
+
+## UC Davis 
+
+#### EEC 289Q: Performance Engineering of Software Systems
+Hands-on, project-based introduction to building scalable and high-performance software systems.
+Topics include performance analysis, algorithmic techniques for high performance, instruction-level
+optimizations, caching optimizations, parallel programming, and building scalable systems. The course
+programming language is C. Links to lecture slides are below.
 
 1. Intro and Matrix Multiplication ([PDF](https://ucdavis.box.com/s/lqbbzplf7cjo1dnxi8hon2pkjigest7n))
 2. Bentley Rules for Optimizing Work ([PDF](https://ucdavis.box.com/s/7asxi08fobekk6e1pkoo5r7zuyjrktrw))
@@ -98,6 +86,29 @@ John Owens adapted [MIT 6.106](#mit-6.106) to create _Performance Engineering of
 18. Synchronization without Locks ([PDF](https://ucdavis.box.com/s/dohev283rm0p7iwtlclu849iigdhrrkj))
 19. Potpourri ([PDF](https://ucdavis.box.com/s/a98i1k7c70jg3tw9wdw9kj7xsexbgifx))
 20. Speculative Parallelism ([PDF](https://ucdavis.box.com/s/7px55i4u01kgem0xtq384aenmjm6u23y))
+
+## IIT Dharwad
+#### [CS601](https://hegden.github.io/cs601/) Software Development for Scientific Computing
+This course focuses on software development skills in the context of dominant algorithmic patterns found in scientific computing. Topics include:
+* Exploring tools that cross most disciplines (build tools, version control tools, compilers, debugging tools, profiling tools etc.)
+* Exploring dominant algorithmic patterns found in dense and sparse linear algebra, structured and unstructured grid methods, tree-based codes, particle methods, FFTs, and PDEs
+* Selected topics in C++ programming, asymptotic analysis, perfomance tuning
+
+
+## GaTech
+#### [CSE 6220/CX 4220](https://sites.gatech.edu/cse6220fall24/) Introduction to High Performance Computing
+This course will provide a comprehensive introduction to parallel algorithms and parallel programming, with strong emphasis on the design of parallel algorithms and their rigorous analysis. Exposure to parallel programming is provided through programming assignments using MPI. Throughout the course, the design of algorithms is interlaced with the programming techniques useful in coding them.
+
+#### [CSE 6230](https://sites.gatech.edu/cse6230spring24/) HPC Tools and Applications
+This course teaches hands-on practical performance engineering on high-performance computer systems, starting with single-processor multicore platforms up to large-scale distributed systems. Topics include cache-friendly algorithm analysis and implementation, parallel programming, concurrent data structures, tools for effective performance engineering, and modern high-performance computing (HPC) applications.
+
+## Johns Hopkins
+#### [EN 601.420/620](http://parallel.cs.jhu.edu/schedule2024.html) Parallel Computing for Data Science
+This course studies parallelism in data science, drawing examples from data analytics, statistical programming, and machine learning. It focuses mostly on the Python programming ecosystem, but we will use C/C++ to accelerate Python and Java to explore shared-memory threading. It explores parallelism at all levels, including instruction level parallelism (pipelining and vectorization), shared-memory multicore, and distributed computing. Concepts from computer architecture and operating systems will be developed in support of parallelism, including Moore’s law, the memory hierarchy, caching, processes/threads, and concurrency control. The course will cover modern data-parallel programming frameworks, including Dask, Spark, Hadoop!, and Ray. The course will not cover GPU deep-learning frameworks nor CUDA. The course is suitable for second-year undergraduate CS majors and graduate students from other science and engineering disciplines that have prior programming experience.
+
+## MIT 
+#### [6.172](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/) Performance Engineering of Software Systems
+6.172 is an 18-unit class that provides a hands-on, project-based introduction to building scalable and high-performance software systems. Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, caching optimizations, parallel programming, and building scalable systems. The course programming language is C.
 
 ## Modern algorithms workshop: parallel algorithms
 

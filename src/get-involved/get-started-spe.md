@@ -43,9 +43,11 @@ We are actively maintaining the following list of resources to help you learn SP
 * [Programming Models for Parallel Computing](https://mitpress.mit.edu/9780262528818/programming-models-for-parallel-computing/) (2015) by Pavan Balaji (ed)
 * [Performance Solutions](http://www.perfeng.com/classic-site/psbook.htm) (2001) by Connie Smith 
 
-#### Patterns of parallel programming
+#### Parallel programming
 
+* [Parallel C++: Efficient and Scalable High-Performance Parallel Programming Using HPX](https://link.springer.com/book/10.1007/978-3-031-54369-2) (2024) by Patrick Diehl, Steven R. Brandt, and Hartmut Kaiser
 * [Structured Parallel Programming: Patterns for Efficient Computation](https://www.amazon.com/Structured-Parallel-Programming-Efficient-Computation/dp/0124159931) (2012) by Michael McCool, James Reinders, and Arch Robison
 * [Patterns of Parallel Programming with .NET](https://download.microsoft.com/download/3/4/D/34D13993-2132-4E04-AE48-53D3150057BD/Patterns_of_Parallel_Programming_CSharp.pdf) (2010) by Stephen Toub
 * [Patterns for Parallel Programming](https://www.amazon.com/Patterns-Parallel-Programming-Software-ebook/dp/B001UG3IQQ) (2004) by Timothy Mattson, Beverly Sanders, and Berna Massingill
+* [Introduction to Parallel Computing](https://www.amazon.com/Introduction-Parallel-Computing-Ananth-Grama/dp/0201648652) (2003) by by Ananth Grama, Anshul Gupta, George Karypis, and Vipin Kumar
 * [Our Pattern Language](https://patterns.eecs.berkeley.edu/) by UC Berkeley

@@ -7,6 +7,8 @@ order: 1
 eleventyNavigation:
   key: Get started with SPE
   order: 1
+tags:
+  get_involved
 ---
 
 ## Try Speedcode

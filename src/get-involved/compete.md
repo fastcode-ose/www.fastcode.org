@@ -8,6 +8,8 @@ eleventyNavigation:
   parent: Events
   key: Compete
   order: 2
+tags:
+  get_involved
 ---
 
 ## Attention all student programmers

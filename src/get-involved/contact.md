@@ -4,6 +4,8 @@ title: Contact us
 eleventyNavigation:
   key: Contact
   order: 99
+tags:
+  get_involved
 ---
 
 Do you have questions or comments about Fastcode or software performance engineering?  We would love to hear from you. 

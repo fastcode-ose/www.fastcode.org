@@ -4,6 +4,8 @@ tagline: An integrated open-source platform for task-parallel programming.
 sidebar: toc
 eleventyNavigation:
   order: 5
+tags:
+  get_involved
 ---
 
 ## OpenCilk makes it easy

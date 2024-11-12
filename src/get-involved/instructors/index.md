@@ -3,9 +3,13 @@ layout: layouts/page.njk
 sidebar: toc
 title: Join the SPE instructors community
 tagline: Share ideas and resources for teaching SPE to your students.
-eleventyNavigation:
-  key: Join the SPE instructors community
-  order: 3
+eleventyComputed:
+  eleventyNavigation:
+    parent: Get involved
+    key: Instructors community
+    order: 3
+tags:
+  get_involved
 ---
 
 # Welcome
@@ -18,16 +22,18 @@ Whether you're curious about teaching your first-ever performance-engineering mo
 
 ### For starters
 
-Here is a short paper, "[Helping faculty teach software performance engineering](https://escholarship.org/uc/item/2fj7x89s)," published at [EduPar-24](https://tcpp.cs.gsu.edu/curriculum/?q=edupar24). EduPar is part of [CDER](https://tcpp.cs.gsu.edu/curriculum/?q=node/21183), which develops and curates many useful resources for teaching parallel and distributed computing. See also [Get started with SPE](/get-involved/get-started-spe).
+Here is a short paper, "[Helping faculty teach software performance engineering](https://escholarship.org/uc/item/2fj7x89s)," published at [EduPar-24](https://tcpp.cs.gsu.edu/curriculum/?q=edupar24). EduPar (an annual workshop at IDDPS) and its sibling EduHPC (at SC) are organized through [CDER](https://tcpp.cs.gsu.edu/curriculum/?q=node/21183), which develops and curates many useful resources for teaching parallel and distributed computing. See also [Get started with SPE](/get-involved/get-started-spe).
 
-To help you develop your own course or module on SPE, below is an incomplete list of relevant classes and workshops. Each listing includes links to lecture PDFs and sometimes videos. (Do you have your own class or module to add to our list? Please [let us know](/get-involved/contact/).)
+To help you develop your own course or module on SPE, below is an incomplete list of relevant classes and workshops. Each listing includes links to lecture PDFs and sometimes videos.
+
+Do you have your own class or module to add to our list? Please [let us know](/get-involved/contact/).
 
 ### For community members
 
 When you join the Fastcode instructors community, you get access to editable slide decks and LaTeX documents, and you are welcome to join SPE-instructor discussions to share ideas and questions with like-minded faculty.
 
 {% alert "note", "To join the Fastcode instructors community" %}
-Contact [John Owens](mailto:jowens@ucdavis.edu), and he will sign you up!
+[Sign up here](/get-involved/instructors/join/)!
 {% endalert %}
 
 # List of classes and workshops
@@ -124,4 +130,4 @@ Originally created in 2018 as a single full-day class, this workshop includes an
 - Case study: Jaccard similarity ([PDF](https://ucdavis.box.com/s/1dtmh0m6w080f4tcnial1qdfgla73udg))
 - Post-Moore software ([PDF](https://ucdavis.box.com/s/35umq7ysmjjl1pq4u39zf7nhrlpsb43x))
 
-[Join the Fastcode instructors community](#for-community-members) for access to editable slide decks.
+Join the Fastcode instructors community for access to editable slide decks.

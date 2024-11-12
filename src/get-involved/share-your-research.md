@@ -6,6 +6,8 @@ image: /img/eagle-and-owl.png
 eleventyNavigation:
   key: Share your research
   order: 4
+tags:
+  get_involved
 ---
 
 ## Help wanted

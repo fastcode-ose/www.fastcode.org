@@ -130,4 +130,4 @@ Originally created in 2018 as a single full-day class, this workshop includes an
 - Case study: Jaccard similarity ([PDF](https://ucdavis.box.com/s/1dtmh0m6w080f4tcnial1qdfgla73udg))
 - Post-Moore software ([PDF](https://ucdavis.box.com/s/35umq7ysmjjl1pq4u39zf7nhrlpsb43x))
 
-Join the Fastcode instructors community for access to editable slide decks.
+[Join the Fastcode instructors community](/get-involved/instructors/join/) for access to editable slide decks.

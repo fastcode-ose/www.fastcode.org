@@ -3,9 +3,5 @@
     "stylesheet": "none",
     "sidebar": "toc",
     "background": "bg-white",
-    "permalink": "/events/{{ page.fileSlug | slugify }}/", 
-    "eleventyNavigation": {
-        "parent": "Get involved"
-    },
     "comments": false
 }

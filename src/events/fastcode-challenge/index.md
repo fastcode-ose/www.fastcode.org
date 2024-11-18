@@ -18,26 +18,36 @@ tags:
 
 ## Introduction
 
-We are excited to announce the first **FastCode Programming Challenge (FCPC)** at PPoPP 2025 \[link\], organized and sponsored by the *Fastcode Community*. Fastcode Challenge is a student programming competition, and a subsequent workshop at PPoPP, where outstanding submissions are invited to submit papers and give invited talks. There will also be talks from invited keynote speakers. 
+We are excited to announce the first **FastCode Programming Challenge (FCPC)** at [PPoPP’25](https://ppopp25.sigplan.org/), organized and sponsored by the *Fastcode Community*. Fastcode Challenge is a student programming competition, and a subsequent workshop at PPoPP, where outstanding submissions are invited to submit papers and give invited talks. There will also be talks from invited keynote speakers. 
 
 The goal of the competition is to engage more students in learning parallel algorithms and programming, offering them resources and support to enhance their skills, and cultivating students' interests in writing fast code. We hope these efforts will inspire more students to study parallel programming and parallel computing research, thereby making a positive impact on their future careers. We encourage students from all levels to participate, including K-12 students, undergraduate students, Master's students, and Ph.D. students. 
 
-The competition has two tracks: a problem-solving track and an AI track. The **problem-solving track** focuses on writing fast code for two specific problems: single-source shortest paths (SSSP) and breadth-first search (BFS). BFS and SSSP are both fundamental graph problems, but are much more challenging in the parallel context. In fact, there are tens of papers published in top conferences every year focusing on improving their performance or related problems, and there are still open challenges in achieving significant speedup over sequential algorithms (see more details in the link below). Therefore, there are various open directions to explore for performance engineering. The **AI track** focuses on leveraging AI models to write fast parallel code. Recent advancement in Large Language Models (LLMs) has shown great potential in AI-based code generation/completion. However, writing *fast*, *parallel* code remains a big challenge for these LLMs. Specifically, the lack of adequate parallel code datasets prevents effective training of LLMs, which thus significantly impedes progress in LLM-based parallel code generation. This AI track contest aims to harness community efforts to **develop an open-source, large-scale, and high-quality dataset for parallel code generation**, igniting an ImageNet-like revolution in LLM-based parallel code generation.
+The competition has two tracks.
+
+### [Track 1: Software Performance Engineering for Irregular Computation (SPE4IC)](./traditional/)
+
+Track 1 (the *human track*) selects two highly challenging problems for parallel programming for human programmers: single-source shortest paths (SSSP) and breadth-first search (BFS). While both of them are fundamental and easy tasks sequentially, they become much more challenging in the parallel context. Achieving effective parallelism is particularly challenging due to the irregular nature of the computations, such as irregular structures of graphs (e.g., sparse, large-diameter graphs), and irregular distribution of edge weights (e.g., non-uniform weights or large weight ranges). Every year, numerous papers are published at top conferences focusing on improving their performance or related problems, yet achieving significant speedup over sequential algorithms still remains an open challenge. Therefore, there are various open directions to explore. In this track, we are interested in **efficient implementations to address these challenges in irregular computation using effective software performance engineering**. 
+
+### [Track 2: Large Language Model for Parallel Programming (LLM4PP)](./ai)
+
+Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel code. Recent advancements in Large Language Models (LLMs) have shown great potential in AI-based code generation/completion. However, writing fast, parallel code remains a big challenge for these LLMs. Specifically, the lack of adequate parallel code datasets prevents effective training of LLMs, which thus significantly impedes progress in LLM-based parallel code generation. This AI track contest aims to harness community efforts to **develop an open-source, large-scale, and high-quality dataset for parallel code generation**, igniting an ImageNet-like revolution in LLM-based parallel code generation.
+
 
 ## Problem Description
 
-* [The problem-solving track](./traditional/)
-* [The AI track](./ai)
+### [Track 1: Software Performance Engineering for Irregular Computation (SPE4IC)](./traditional/)
+
+### [Track 2: Large Language Model for Parallel Programming (LLM4PP)](./ai)
 
 ## Time & Location
 
-Competition: Nov. 2024 \- Feb. 2025\. Online at [speedcode.org](http://speedcode.org) 
+* Competition: Nov. 2024 \- Feb. 2025\. Online at [speedcode.org](http://speedcode.org) 
 
-Workshop: March 2nd, 2025\. The Westin Las Vegas Hotel & Spa, Las Vegas, NV, USA (affiliated with [PPoPP’25](https://ppopp25.sigplan.org/venue/PPoPP-2025-venue)).
+* Workshop: March 2nd, 2025\. The Westin Las Vegas Hotel & Spa, Las Vegas, NV, USA (affiliated with [PPoPP’25](https://ppopp25.sigplan.org/venue/PPoPP-2025-venue)).
 
 ## Highlights
 
-- **Multiple awards** \[a link to awards\] and prize money are available\! US-based students can apply for a dedicated travel grant to cover travel expenses and registration fees to the workshop in Las Vegas, NV.    
+- [**Multiple awards**](#awards) and prize money are available\! US-based students can apply for a dedicated travel grant to cover travel expenses to attend the workshop at PPoPP in Las Vegas, NV.    
 - The competition is fully supported by speedcode.org, which allows you to **debug and test your parallel code online**, and provides performance analysis tools. You will get immediate results every time you submit the code online, without requiring access to a multicore server.  
 - All participants will submit their methodology as a short paper, which will be peer-reviewed. Accepted papers will be **published as FCPC workshop papers along with PPoPP proceedings**.   
 - Award-winning submissions and authors of accepted papers will be invited to **present their work** at the workshop (Day 0 at PPoPP). More submissions will be invited to present posters. 
@@ -46,40 +56,37 @@ Workshop: March 2nd, 2025\. The Westin Las Vegas Hotel & Spa, Las Vegas, NV, USA
 
 You can register at [https://forms.gle/DUJUwocnFDgRmMa26](https://forms.gle/DUJUwocnFDgRmMa26) 
 
+You can join as a team with at most two members. 
+
 ## Important Dates
 
-- Nov. 17, 2024: Registration and competition starts  
-- December. 17: Scoreboard available. The first round of large-scale testing results become available.  
-- Jan. 10, 2025: Scoreboard freezes. The second round of large-scale testing results become available.  
-- Jan. 17, 2025: Competition ends (AoE)  
-- Jan. 24, 2025: Participants will receive notifications about competition results  
+- Nov. 20, 2024: Registration and competition starts  
+- Dec. 20: Scoreboard available. The first round of large-scale testing results become available.  
+- Jan. 17, 2025: Scoreboard freezes. The second round of large-scale testing results become available.  
+- Jan. 24, 2025: Competition ends (AoE)  
 - Feb. 1, 2025: paper submission due (AoE)  
+- Feb. 5, 2025: Competition results notification  
 - Feb. 15, 2025: paper final notification  
 - Mar. 2, 2025: Workshop
 
 We understand that there is a short time between the final notification and the workshop date. If there is unexpected issues such that authors cannot participate in person (e.g., visa delay), we allow the authors to give talks online. 
 
-\[Xuhao, can you add the timeline for the AI track here? You can either add it to the current timeline, or have a separate one for the AI track\]
+## Awards and Prizes <a id='awards'></a>
 
-## Awards and Prizes
 
 There will be a best paper and best presentation award for the entire workshop, which will be evaluated based on the quality of the paper and presentation.
 
-There are two tracks. The problem-solving track also contains two problems. For each problem in the problem-solving track, and the AI track, we have the following prizes and awards:
+For Track 2 and each problem in Track 1, the top three teams will be awarded prizes (First, Second and Third Prizes). 
 
-**Prizes**
+**Each track has a total of $1000 in the prize pool.** We are seeking more sponsors with prize money added to the pools. The rank will be determined purely based on the performance of the submitted code. The prize will be allocated among the prize winners based on their relative performance and the quality of paper submissions. 
 
-- 1 First Prize ($???)  
-- 1 Second Prize ($???)  
-- 1 Third Prize ($???)
+For Track 1, a contestant may choose to participate in one or two problems (SSSP and BFS). The winners of the two problems can be different teams, and the prize money will also be allocated accordingly based on the quality of the papers and the relative performance to other submissions. 
 
-**Honorable Mentions**
+### Honorable Mentions
 
-- Best Undergraduate Submission (if applicable; all team members must be undergraduate students or younger)  
-- Best Pre-college submission (if applicable; all team members must be pre-college)  
-- Best submission for each of the two test sets  
-- Large-scale challenge award (see more details in the problem description for the problem-solving page)  
-- Top three teams in each phase of the AI-track, if different from the final prize winners
+- Best Undergraduate Submission (if applicable; all team members must be undergraduate students or younger, one team for each track)
+- Track 1: Best team for each problem or each test set (sparse/dense test set), if different from the final prize winners. 
+- Track 2: Top three teams in each phase, if different from the final prize winners
 
 The prizes and honorable mentions will be based on the performance of the submissions. 
 
@@ -87,7 +94,7 @@ All US-based students can apply for student travel grants sponsored by NSF.
 
 ## Workshop Papers and Talks
 
-**All submissions have to submit a workshop paper to be considered for prizes and awards.** The papers will be peer-reviewed separately from the code submissions. Accepted papers will be included as FCPC’25 workshop papers, published along with the PPoPP proceedings at ACM Digital Library. 
+**All submissions have to submit a workshop paper to be considered for prizes and awards.** The papers will be peer-reviewed separately from the code submissions. Accepted papers will be included as FCPC'25 workshop papers, published along with the PPoPP proceedings at ACM Digital Library. 
 
 The paper will be reviewed independently as short workshop papers. The performance of the code will be considered, but a lot more criteria about paper writing will be considered, including clarity, novelty, formalization, simplicity/elegance/generality of methodology, etc. Even though the performance may not be at the top among all participants, a paper may still be accepted if it is a solid paper with significant technical and scientific contributions. Some examples include but are not limited to
 
@@ -96,8 +103,6 @@ The paper will be reviewed independently as short workshop papers. The performan
 - The paper includes a detailed and in-depth experimental study
 
 All first, second and third prize winners will be invited to give talks, regardless of paper acceptance. Rejected papers may be considered as posters. 
-
-There will be invited keynote talks at the workshop. The list of speakers will be available soon. 
 
 ## Paper Submission Guideline
 
@@ -115,33 +120,50 @@ The Fastcode Challenge is mainly organized and sponsored by the Fastcode Communi
 
 The student travel grants are supported by NSF.
 
-## Organizing committee
+### Organizing Committee
 
-Organizing Chair: Yihan Sun, UC Riverside
+#### Organizing Chair
 
-Technique Support: Tim Kaler, MIT
+Yihan Sun, UC Riverside
 
-Problem Setting Committee:  
-Track 1:
+#### Technique Support
 
-- (Chair) Brian Wheatman, University of Chicago  
-- Xiaojun Dong, UC Riverside  
-- Youzhe Liu, UC Riverside
+Tim Kaler, MIT
 
-Track 2:
+#### Problem Setting
 
-- (Chair) Xuhao Chen, MIT  
-- Ryan Deng, MIT
+**Track 1**
 
-Publicity Committee
+Brian Wheatman (Chair), University of Chicago
 
-- Bruce Hoppe, MIT  
-- Yan Gu, UC Riverside
+Xiaojun Dong, UC Riverside
 
-Paper Review and Publication Committee:
+Youzhe Liu, UC Riverside
 
-- (Chair) Roberto Palmieri, Lehigh University  
-- (Chair) Lewis Tseng, UMass Lowell  
-- More members TBD
 
-If you have any questions, you can send an email to Yihan Sun ([yihans@cs.ucr.edu](mailto:yihans@cs.ucr.edu)). 
+**Track 2**
+
+Xuhao Chen (Chair), MIT
+
+Ryan Deng, MIT
+
+Tim Kaler, MIT
+
+#### Publicity and Website
+
+Bruce Hoppe, MIT
+
+Yan Gu, UC Riverside
+
+#### Paper Review and Publication
+
+(Chair) Roberto Palmieri, Lehigh University
+
+(Chair) Lewis Tseng, UMass Lowell
+
+More members TBD
+
+
+If you have any questions about the problems, please contact [fastcode.programming.challenge@gmail.com](mailto:fastcode.programming.challenge@gmail.com).
+
+For any general questions about the competition, please contact Yihan Sun ([yihans@cs.ucr.edu](mailto:yihans@cs.ucr.edu)). 

@@ -39,9 +39,9 @@ We are actively maintaining the following list of resources to help you learn SP
 
 #### Principles and practice of writing fast code
 
+* [Performance Analysis and Tuning on Modern CPUs](https://www.amazon.com/dp/B0DMVQ1QDD?) (2024) by Denis Bakhvalov
 * [Algorithms for Modern Hardware](https://en.algorithmica.org/hpc/) (2023) by Sergey Slotin
 * [The Art of Multiprocessor Programming](https://www.amazon.com/Art-Multiprocessor-Programming-Maurice-Herlihy/dp/0124159508/) (2021) by Maurice Herlihy, Nir Shavit, Victor Luchangco, and Michael Spear
-* [Performance Analysis and Tuning on Modern CPUs](https://book.easyperf.net/perf_book) (2020) by Denis Bakhvalov
 * [Programming Models for Parallel Computing](https://mitpress.mit.edu/9780262528818/programming-models-for-parallel-computing/) (2015) by Pavan Balaji (ed)
 * [Performance Solutions](http://www.perfeng.com/classic-site/psbook.htm) (2001) by Connie Smith 
 

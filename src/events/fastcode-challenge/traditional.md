@@ -3,7 +3,7 @@ layout: layouts/page.njk
 sidebar: toc
 title: Problem-Solving Track
 tagline: Tagline.
-permalink: /events/fastcode-challenge/traditional/
+permalink: /events/fastcode-challenge/spe4ic/
 eleventyComputed:
   eleventyNavigation:
     parent: Fastcode Challenge
@@ -17,10 +17,11 @@ The **FastCode Programming Challenge** aims to push participants to optimize mul
 
 This competition emphasizes **software performance engineering** on multicore architectures. Participants will leverage parallel computing techniques, and scoring will be based on processing efficiency, measured by the speed (edges processed per second) across diverse graph datasets. Competitors will need to refine their solutions for both high- and low-diameter graphs, carefully balancing memory access patterns, load distribution, and scalability to achieve peak performance.
 
-The problems are available at: 
+You can submit your solutions on speedcode using the links below:
 
-SSSP: [https://speedcode.org/ide/contest.html?ppopp_test_sssp_v1](https://speedcode.org/ide/contest.html?ppopp_test_sssp_v1)
-BFS: [https://speedcode.org/ide/contest.html?ppopp_test_bfs_v1](https://speedcode.org/ide/contest.html?ppopp_test_bfs_v1)
+* [SSSP](https://speedcode.org/ide/contest.html?ppopp_test_sssp_v1)
+
+* [BFS](https://speedcode.org/ide/contest.html?ppopp_test_bfs_v1)
 
 After you login to speedcode you may be redirected to the home page, if you follow the link again you should be taken directly to the problem page. 
 
@@ -79,14 +80,14 @@ After you login to speedcode you may be redirected to the home page, if you foll
 ### Execution Environment
 
 * **Platform**: The competition will be run on the **Speedcode platform**, which provides a standardized environment for evaluating and benchmarking submissions.
- * CPU Cores: 24 cores available for parallel execution.
- * Memory: 96 GB of RAM.
- * More details available [here](https://instances.vantage.sh/aws/ec2/c5d.12xlarge#Compute)
+  * CPU Cores: 24 cores available for parallel execution.
+  * Memory: 96 GB of RAM.
+  * More details available [here](https://instances.vantage.sh/aws/ec2/c5d.12xlarge#Compute)
 * **Parallelization**: Participants may use **Cilk** or **OpenMP** for parallelization. Solutions are encouraged to leverage parallel computing techniques where appropriate to optimize performance.  
 * Solutions must operate fully in memory, with no disk or external memory usage during execution.  
 * A small amount of time is given in the graph constructor for preprocessing.
- * This is not counted in the time and can be used to do things like change how the graph is stored.
- * The time is roughly equivalent to how long it takes to solve a single shortest-path query sequentially.
+  * This is not counted in the time and can be used to do things like change how the graph is stored.
+  * The time is roughly equivalent to how long it takes to solve a single shortest-path query sequentially.
 
 ### Allowed Libraries
 

@@ -2,12 +2,12 @@
 layout: layouts/page.njk
 sidebar: toc
 title: AI Track
-tagline: Tagline.
-permalink: /events/fastcode-challenge/ai/
+#tagline: Tagline.
+permalink: /events/fastcode-challenge/llm4pp/
 eleventyComputed:
   eleventyNavigation:
     parent: Fastcode Challenge
-    key: AI
+    key: LLM4PP
     order: 100
 ---
 

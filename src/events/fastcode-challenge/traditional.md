@@ -2,12 +2,12 @@
 layout: layouts/page.njk
 sidebar: toc
 title: SPE4IC
-tagline: Tagline.
+#tagline: Tagline.
 permalink: /events/fastcode-challenge/spe4ic/
 eleventyComputed:
   eleventyNavigation:
     parent: Fastcode Challenge
-    key: Traditional
+    key: SPE4IC
     order: 99
 ---
 

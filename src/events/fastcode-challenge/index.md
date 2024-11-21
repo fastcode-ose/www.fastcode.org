@@ -16,6 +16,14 @@ tags:
   - competition
 ---
 
+Quick Links: 
+
+**Track 1 (SPE4IC):** [[Description]](./spe4ic/) [[Link to the SSSP Problem]](https://speedcode.org/ide/contest.html?ppopp_test_sssp_v1) [[Link to the BFS Problem]](https://speedcode.org/ide/contest.html?ppopp_test_bfs_v1)
+
+**Track 2 (LLM4PP):** [[Description]](./llm4pp/) [[Link to the GitHub Page]](https://github.com/SpeedCodeOrg/LLM4PP/)
+
+[[Speedcode Instruction]](https://speedcode.org/fcpc25) 
+
 ## Introduction
 
 We are excited to announce the first **FastCode Programming Challenge (FCPC)** at [PPoPP’25](https://ppopp25.sigplan.org/), organized and sponsored by the *Fastcode Community*. Fastcode Challenge is a student programming competition, and a subsequent workshop at PPoPP, where outstanding submissions are invited to submit papers and give invited talks. There will also be talks from invited keynote speakers. 
@@ -24,20 +32,20 @@ The goal of the competition is to engage more students in learning parallel algo
 
 The competition has two tracks.
 
-### [Track 1: Software Performance Engineering for Irregular Computation (SPE4IC)](./traditional/)
+### [Track 1: Software Performance Engineering for Irregular Computation (SPE4IC)](./spe4ic/)
 
 Track 1 (the *human track*) selects two highly challenging problems for parallel programming for human programmers: single-source shortest paths (SSSP) and breadth-first search (BFS). While both of them are fundamental and easy tasks sequentially, they become much more challenging in the parallel context. Achieving effective parallelism is particularly challenging due to the irregular nature of the computations, such as irregular structures of graphs (e.g., sparse, large-diameter graphs), and irregular distribution of edge weights (e.g., non-uniform weights or large weight ranges). Every year, numerous papers are published at top conferences focusing on improving their performance or related problems, yet achieving significant speedup over sequential algorithms still remains an open challenge. Therefore, there are various open directions to explore. In this track, we are interested in **efficient implementations to address these challenges in irregular computation using effective software performance engineering**. 
 
-### [Track 2: Large Language Model for Parallel Programming (LLM4PP)](./ai)
+### [Track 2: Large Language Model for Parallel Programming (LLM4PP)](./llm4pp/)
 
 Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel code. Recent advancements in Large Language Models (LLMs) have shown great potential in AI-based code generation/completion. However, writing fast, parallel code remains a big challenge for these LLMs. Specifically, the lack of adequate parallel code datasets prevents effective training of LLMs, which thus significantly impedes progress in LLM-based parallel code generation. This AI track contest aims to harness community efforts to **develop an open-source, large-scale, and high-quality dataset for parallel code generation**, igniting an ImageNet-like revolution in LLM-based parallel code generation.
 
 
 ## Problem Description
 
-### [Track 1: Software Performance Engineering for Irregular Computation (SPE4IC)](./traditional/)
+### [Track 1: Software Performance Engineering for Irregular Computation (SPE4IC)](./spe4ic/)
 
-### [Track 2: Large Language Model for Parallel Programming (LLM4PP)](./ai)
+### [Track 2: Large Language Model for Parallel Programming (LLM4PP)](./llm4pp/)
 
 ## Time & Location
 

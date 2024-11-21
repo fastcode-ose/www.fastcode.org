@@ -141,7 +141,8 @@ BFS can compute unweighted SSSP.  The general SSSP on weighted graphs is strictl
 
 There exist parallel SSSP algorithms, which are generally referred to as stepping algorithms \[3\] as shown below.  They also keep a frontier of “active” vertices, denoted as $F$, like in BFS, Dijkstra, and Bellman-Ford.  The high-level idea of this framework is that in each round, the algorithm extracts a subset of vertices from $F$ with the smallest distances, as they are likely to be close to the final distances, and less likely to be frequently updated by other vertices.  For example, in $\Delta$-stepping \[5\], in the $i$-th round, all vertices with distances no more than $i\Delta$ will be extracted. In $\rho$-stepping \[3\], in each round, the $\rho$ vertices in $F$ with the smallest distances will be extracted.  
 
-![img](https://www.cs.ucr.edu/~yihans/FCPC25/sssp-code.png){ width=70% }
+<div style="width:50%">![img](https://www.cs.ucr.edu/~yihans/FCPC25/sssp-code.png)</div>
+
 
 #### Challenges and existing optimizations:
 

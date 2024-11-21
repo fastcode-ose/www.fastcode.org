@@ -16,7 +16,7 @@ tags:
   - competition
 ---
 
-Quick Links: 
+### Quick Links: 
 
 **Track 1 (SPE4IC):** [[Description]](./spe4ic/) [[Link to the SSSP Problem]](https://speedcode.org/ide/contest.html?ppopp_test_sssp_v1) [[Link to the BFS Problem]](https://speedcode.org/ide/contest.html?ppopp_test_bfs_v1)
 
@@ -41,7 +41,7 @@ Track 1 (the *human track*) selects two highly challenging problems for parallel
 Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel code. Recent advancements in Large Language Models (LLMs) have shown great potential in AI-based code generation/completion. However, writing fast, parallel code remains a big challenge for these LLMs. Specifically, the lack of adequate parallel code datasets prevents effective training of LLMs, which thus significantly impedes progress in LLM-based parallel code generation. This AI track contest aims to harness community efforts to **develop an open-source, large-scale, and high-quality dataset for parallel code generation**, igniting an ImageNet-like revolution in LLM-based parallel code generation.
 
 
-## Problem Description
+## Problem Descriptions
 
 ### [Track 1: Software Performance Engineering for Irregular Computation (SPE4IC)](./spe4ic/)
 
@@ -58,7 +58,7 @@ Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel 
 - [**Multiple awards**](#awards) and prize money are available\! US-based students can apply for a dedicated travel grant to cover travel expenses to attend the workshop at PPoPP in Las Vegas, NV.    
 - The competition is fully supported by speedcode.org, which allows you to **debug and test your parallel code online**, and provides performance analysis tools. You will get immediate results every time you submit the code online, without requiring access to a multicore server.  
 - All participants will submit their methodology as a short paper, which will be peer-reviewed. Accepted papers will be **published as FCPC workshop papers along with PPoPP proceedings**.   
-- Award-winning submissions and authors of accepted papers will be invited to **present their work** at the workshop (Day 0 at PPoPP). More submissions will be invited to present posters. 
+- Award-winning submissions and authors of accepted papers will be invited to **present their work** at the workshop (happening at PPoPP). More submissions will be invited to present posters. 
 
 ## Registration
 
@@ -132,42 +132,42 @@ The student travel grants are supported by NSF.
 
 #### Organizing Chair
 
-Yihan Sun, UC Riverside
+- Yihan Sun, UC Riverside
 
 #### Technique Support
 
-Tim Kaler, MIT
+- Tim Kaler, MIT
 
 #### Problem Setting
 
 **Track 1**
 
-Brian Wheatman (Chair), University of Chicago
+- Brian Wheatman (Chair), University of Chicago
 
-Xiaojun Dong, UC Riverside
+- Xiaojun Dong, UC Riverside
 
-Youzhe Liu, UC Riverside
+- Youzhe Liu, UC Riverside
 
 
 **Track 2**
 
-Xuhao Chen (Chair), MIT
+- Xuhao Chen (Chair), MIT
 
-Ryan Deng, MIT
+- Ryan Deng, MIT
 
-Tim Kaler, MIT
+- Tim Kaler, MIT
 
 #### Publicity and Website
 
-Bruce Hoppe, MIT
+- Bruce Hoppe, MIT
 
-Yan Gu, UC Riverside
+- Yan Gu, UC Riverside
 
 #### Paper Review and Publication
 
-(Chair) Roberto Palmieri, Lehigh University
+- Roberto Palmieri (Chair), Lehigh University
 
-(Chair) Lewis Tseng, UMass Lowell
+- Lewis Tseng (Chair), UMass Lowell
 
 More members TBD
 

@@ -135,10 +135,6 @@ The student travel grants are supported by NSF.
 
 - Yihan Sun, UC Riverside
 
-#### Technique Support
-
-- Tim Kaler, MIT
-
 #### Problem Setting
 
 **Track 1**

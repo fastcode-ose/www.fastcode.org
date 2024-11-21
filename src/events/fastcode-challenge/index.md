@@ -26,9 +26,10 @@ tags:
 
 ## Introduction
 
-We are excited to announce the first **FastCode Programming Challenge (FCPC)** at [PPoPP’25](https://ppopp25.sigplan.org/), organized and sponsored by the *Fastcode Community*. Fastcode Challenge is a student programming competition, and a subsequent workshop at PPoPP, where outstanding submissions are invited to submit papers and give invited talks. There will also be talks from invited keynote speakers. 
+We are excited to announce the first **FastCode Programming Challenge (FCPC)** at [PPoPP’25](https://ppopp25.sigplan.org/), organized and sponsored by the *Fastcode Community*. Fastcode Challenge is a student programming competition, and a subsequent workshop at PPoPP, where outstanding submissions are invited to submit papers and give invited talks. 
 
-The goal of the competition is to engage more students in learning parallel algorithms and programming, offering them resources and support to enhance their skills, and cultivating students' interests in writing fast code. We hope these efforts will inspire more students to study parallel programming and parallel computing research, thereby making a positive impact on their future careers. We encourage students from all levels to participate, including K-12 students, undergraduate students, Master's students, and Ph.D. students. 
+The goal of the competition is to engage more students in learning parallel algorithms and programming, offering them resources and support to enhance their skills, and cultivating students' interests in writing fast code. We hope these efforts will inspire more students to study parallel programming and parallel computing research, thereby making a positive impact on their future careers. We encourage students from all levels to participate. 
+
 
 The competition has two tracks.
 
@@ -86,7 +87,7 @@ There will be a best paper and best presentation award for the entire workshop, 
 
 For Track 2 and each problem in Track 1, the top three teams will be awarded prizes (First, Second and Third Prizes). 
 
-**Each track has a total of $1000 in the prize pool.** We are seeking more sponsors with prize money added to the pools. The rank will be determined purely based on the performance of the submitted code. The prize will be allocated among the prize winners based on their relative performance and the quality of paper submissions. 
+**Each track has a total of $1000 in the prize pool.** We are seeking more sponsors with prize money added to the pools. The prize will be allocated among the prize winners based on their relative performance and the quality of paper submissions. 
 
 For Track 1, a contestant may choose to participate in one or two problems (SSSP and BFS). The winners of the two problems can be different teams, and the prize money will also be allocated accordingly based on the quality of the papers and the relative performance to other submissions. 
 

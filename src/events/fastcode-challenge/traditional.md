@@ -17,6 +17,14 @@ The **FastCode Programming Challenge** aims to push participants to optimize mul
 
 This competition emphasizes **software performance engineering** on multicore architectures. Participants will leverage parallel computing techniques, and scoring will be based on processing efficiency, measured by the speed (edges processed per second) across diverse graph datasets. Competitors will need to refine their solutions for both high- and low-diameter graphs, carefully balancing memory access patterns, load distribution, and scalability to achieve peak performance.
 
+The problems are available at: 
+
+SSSP: [https://speedcode.org/ide/contest.html?ppopp_test_sssp_v1](https://speedcode.org/ide/contest.html?ppopp_test_sssp_v1)
+BFS: [https://speedcode.org/ide/contest.html?ppopp_test_bfs_v1](https://speedcode.org/ide/contest.html?ppopp_test_bfs_v1)
+
+After you login to speedcode you may be redirected to the home page, if you follow the link again you should be taken directly to the problem page. 
+
+
 ## Time & Location
 
 * **Competition**: November 2024 \- February 2025, online at [speedcode.org](https://speedcode.org)  
@@ -36,7 +44,7 @@ This competition emphasizes **software performance engineering** on multicore ar
 
 ### Problem 2: Single Source Shortest Path (SSSP)
 
-* **Objective**: Compute the shortest path distances from a given source node to all other nodes in a graph with weighted edges.  
+* **Objective**: Compute the shortest path distances from a given source node to all other nodes in a graph with weighted edges (floats).  
 * **Input Format**:  
   * **Graph Representation**: As with BFS, the graph will be in CSR format, but with an additional array to store edge weights.  
   * **Source Node**: A single integer representing the starting node.  
@@ -55,16 +63,12 @@ This competition emphasizes **software performance engineering** on multicore ar
 ## Evaluation and Scoring
 
 * **Primary Scoring Metric**:  
-  * **Edges Processed per Second**: The primary score will be calculated as the geometric mean of the number of edges processed per second across all datasets. This metric ensures that solutions are evaluated fairly across graphs of varying sizes, densities, and diameters.  
-* **Bonus Prizes for Specialized Excellence**:  
-  * Prizes will also be awarded to participants who demonstrate **exceptional performance** on specific categories:  
+  * **Edges Processed per Second**: The primary score will be calculated as the geometric mean of the number of edges processed per second across all datasets. This metric ensures that solutions are evaluated fairly across graphs of varying sizes, densities, and diameters. The top three teams will be awarded first, second and third prizes. 
+* **Bonus Awards for Specialized Excellence**:  
+  * Honrable Mentions will be awarded to participants who demonstrate **exceptional performance** on specific categories:  
     * **Low-Diameter Graphs**: Top scores on datasets with low diameters.  
     * **High-Diameter Graphs**: Top scores on datasets with high diameters.  
-  * These bonus prizes are intended to recognize outstanding optimizations targeted to specific graph characteristics, encouraging innovative approaches for various scenarios within software performance engineering.  
-* **Bonus Prize for Large Scale Solution**  
-  * The solutions will be run on a few much bigger graphs on a much larger server and solutions that perform will in this environment will be eligible for a special award   
-  * The code will be executed on a machine with 96 cores (196 hyperthreads), xx memory, and xxx \[add the description for the machine\]. The final tested graph may have up to xx vertices and edges, with float edge weights.  
-* **Bonus Prize for excellent papers** (Described below) 
+  * These bonus awards are intended to recognize outstanding optimizations targeted to specific graph characteristics, encouraging innovative approaches for various scenarios within software performance engineering.  
 
 ## Infrastructure and Code Requirements
 
@@ -74,12 +78,15 @@ This competition emphasizes **software performance engineering** on multicore ar
 
 ### Execution Environment
 
-* **Platform**: The competition will be run on the **Speedcode platform**, which provides a standardized environment for evaluating and benchmarking submissions.  
-  * **CPU Cores**: 8 cores available for parallel execution.  
-  * **Memory**: 32 GB of RAM.  
+* **Platform**: The competition will be run on the **Speedcode platform**, which provides a standardized environment for evaluating and benchmarking submissions.
+ * CPU Cores: 24 cores available for parallel execution.
+ * Memory: 96 GB of RAM.
+ * More details available [here](https://instances.vantage.sh/aws/ec2/c5d.12xlarge#Compute)
 * **Parallelization**: Participants may use **Cilk** or **OpenMP** for parallelization. Solutions are encouraged to leverage parallel computing techniques where appropriate to optimize performance.  
 * Solutions must operate fully in memory, with no disk or external memory usage during execution.  
-* No preprocessing of the graph can be done before the timer is started
+* A small amount of time is given in the graph constructor for preprocessing.
+ * This is not counted in the time and can be used to do things like change how the graph is stored.
+ * The time is roughly equivalent to how long it takes to solve a single shortest-path query sequentially.
 
 ### Allowed Libraries
 
@@ -87,29 +94,13 @@ This competition emphasizes **software performance engineering** on multicore ar
 * **Additional Libraries**:  
   * **ParlayLib**: [ParlayLib on GitHub](https://github.com/cmuparlay/parlaylib) – A library designed for parallel algorithms and data structures.  
   * **Abseil (absl)**: [Abseil on GitHub](https://github.com/abseil/abseil-cpp) – Provides common utilities such as containers, algorithms, and synchronization primitives.  
-  * **Boost**: [Boost Libraries](https://www.boost.org/) – A collection of portable and widely used C++ libraries.  
 * **Additional Library Requests**: Participants may request approval to use other libraries, which will be evaluated on a case-by-case basis.
 
 ## Additional Rules 
 
 * **Submission Requirements**:To be considered as an award winner, the participant(s) are required to submit a workshop paper (described below) and open-source their code.   
 * **Team Structure**: Participants can compete in teams of at most two people. There can be more authors in the workshop paper (e.g., including faculty members who help with paper writing). 
-
-## Workshop Papers and Talks
-
-**All submissions must include a workshop paper to be considered for prizes and awards.** The papers will be peer-reviewed separately from the code submissions. Accepted papers will be included as FCPC’25 workshop papers, published along with the PPoPP proceedings at ACM Digital Library. 
-
-The paper will be reviewed independently as short workshop papers. Performance of the code will be considered, but more criteria about paper writing will be considered, including clarity, novelty, formalization, simplicity/elegance/generality of methodology, etc. Even though performance may not be at the top among all participants, a paper may still be accepted if it contains significant technical and scientific contributions.
-
-Some examples include but are not limited to:
-
-* The paper provides an interesting/novel technique that improves performance on a certain type of graphs   
-* The paper presents a nice framework/general methodology for this problem  
-* The paper includes a detailed and in-depth experimental study
-
-All first, second and third prize winners will be invited to give talks, regardless of paper acceptance. Rejected papers may be considered as posters. 
-
-There will be invited keynote talks at the workshop. The list of speakers will be available soon. 
+* **No Cached Data**: No data can be stored outside the constructor to be used in later computations. 
 
 ## Problem Background
 
@@ -117,71 +108,76 @@ There will be invited keynote talks at the workshop. The list of speakers will b
 
 #### Background 
 
-Most of the state-of-the-art parallel BFS implementations are under a frontier-based framework. Starting from a source *s*, the algorithm will visit all the 1-hop neighbors of *s* in parallel, storing them in the first *frontier* *F*1. In the subsequent rounds, we will always visit all vertices in the current frontier *F*i, and generate the next frontier *F*i+1 by finding all unvisited neighbors for all vertices in the current frontier *F*i. This process is repeated until all vertices have been visited. A simple pseudocode is shown below:
+Most of the state-of-the-art parallel BFS implementations are under a frontier-based framework. Starting from a source $s$, the algorithm will visit all the 1-hop neighbors of s in parallel, storing them in the first frontier $F_1$. In the subsequent rounds, we will always visit all vertices in the current frontier $F_i$, and generate the next frontier $F_{i+1}$ by finding all unvisited neighbors for all vertices in the current frontier $F_i$. This process is repeated until all vertices have been visited. A simple pseudocode is shown below:
 
-![][image1]
 
-In this case, all the *i*\-hop neighbors of *s* will be visited in parallel in round *i*. The rounds are performed one after the other. 
+![](bfs-code.png)
 
-To update the *visited* array while avoiding duplicates, an atomic operation *compare\_and\_swap* is usually used.
+In this case, all the $i$\-hop neighbors of s will be visited in parallel in round $i$. The rounds are performed one after the other. 
+
+To update the `visited` array while avoiding duplicates, an atomic operation `compare_and_swap` is usually used.
+
 
 #### Challenges
 
-One inherent challenge in parallel BFS is to achieve parallelism on large-diameter graphs. The frontier-based framework will proceed in *D* rounds, where *D* is the farthest hop distance from any vertex to the source (or roughly, the diameter of the graph). On very sparse graphs with large diameters, the number of rounds can be large, and between them, a global synchronization for all threads is needed. 
+One inherent challenge in parallel BFS is to achieve parallelism on large-diameter graphs. The frontier-based framework will proceed in $D$ rounds, where $D$ is the farthest hop distance from any vertex to the source (or roughly, the diameter of the graph). On very sparse graphs with large diameters, the number of rounds can be large, and between them, a global synchronization for all threads is needed. 
 
 Some theoretical results focus on using shortcuts or hopset-based ideas to achieve provable low span, but this usually increases work and it remains unknown whether they can be practical. 
 
+
 #### Existing Optimizations
 
-A common optimization for parallel BFS is called directional optimization \[1\]. When the frontier size is large, instead of generating the next frontier from the current frontier, one can simply process all vertices in parallel, and determine if one of their in-neighbors is in the current frontier. If so, they are added to the next frontier, and all the rest of the neighbors can be skipped. Such a “pull” version of frontier generation may allow for better cache locality, as well as a simpler frontier representation using just bit-flags. On dense graphs such as social networks, existing results show that this optimization is very effective in improving performance by saving work \- the running time of the parallel algorithm on one core can be faster than the standard queue-based sequential solution. 
+We overview two existing optimizations here. The contestants may choose to use them to improve their performance (references are provided). We also look forward to novel ideas provided by the contestants to address the aforementioned challenges!
 
-A recently developed optimization to overcome the low parallelism on large-diameter graphs is vertical granularity control \[2\]. The idea here is a bit sophisticated and we refer the contestant to read the paper for details. The high-level idea is to explore multiple hops in one round, so that it makes much fewer rounds to finish BFS.  The approach allocates a small “buffer” of size k for each visited vertex in the frontier in the stack memory (invisible from other processors), and does a mini-BFS in the buffer.  Once sufficient work is done (either visiting a fixed number of vertices or edges), the rest of the vertices will be flushed to the next frontier.  Note that in this implementation, a vertex might be visited multiple times, so this technique is inherently a work-parallelism trade-off.
+A common optimization for parallel BFS is called directional optimization \[1\]. When the frontier size is large, instead of generating the next frontier from the current frontier, one can simply process all vertices in parallel, and determine if one of their in-neighbors is in the current frontier. If so, they are added to the next frontier, and all the rest of the neighbors can be skipped. Such a “pull” version of frontier generation may allow for better cache locality, as well as a simpler frontier representation using just bit-flags. On dense graphs such as social networks, existing results show that this optimization is very effective in improving performance by saving work - the running time of the parallel algorithm on one core can be faster than the standard queue-based sequential solution. 
 
-Parallel Single-Source Shortest Paths (SSSP)
+A recently developed optimization to address the low parallelism on large-diameter graphs is vertical granularity control \[2\]. The high-level idea is to explore multiple hops in one round, so that it makes much fewer rounds to finish BFS.  The approach allocates a small “buffer” of size $k$ for each visited vertex in the frontier in the stack memory (invisible from other processors), and does a mini-BFS in the buffer.  Once sufficient work is done (either visiting a fixed number of vertices or edges), the rest of the vertices will be flushed to the next frontier.  Note that in this implementation, a vertex might be visited multiple times, so this technique is inherently a work-parallelism trade-off.
 
-BFS can compute unweighted SSSP.  The general SSSP on weighted graphs is strictly harder.  Sequentially, the classic solutions include Dijkstra’s algorithm, Bellman-Ford, and more.  In most real-world instances, Dijkstra is usually the most efficient.  However, Dijkstra is a greedy algorithm, and it visits one vertex at a time, which is inherently sequential.  
 
-There exist parallel SSSP algorithms, which are generally referred to as the stepping algorithms \[3\].  
-is notoriously hard both in theory and in practice. In general, SSSP is harder to solve than BFS, since a BFS can be viewed as unweighted version of SSSP. We are also not aware of a work-efficient algorithm with sublinear span. 
+### Parallel Single-Source Shortest Paths (SSSP)
+
+BFS can compute unweighted SSSP.  The general SSSP on weighted graphs is strictly harder.  Sequentially, the classic solutions include Dijkstra’s algorithm, Bellman-Ford, and more.  In most real-world instances, Dijkstra is usually the most efficient.  However, Dijkstra visits one vertex at a time, which is inherently sequential.  
+
+There exist parallel SSSP algorithms, which are generally referred to as stepping algorithms \[3\] as shown below.  They also keep a frontier of “active” vertices, denoted as $F$, like in BFS, Dijkstra, and Bellman-Ford.  The high-level idea of this framework is that in each round, the algorithm extracts a subset of vertices from $F$ with the smallest distances, as they are likely to be close to the final distances, and less likely to be frequently updated by other vertices.  For example, in $\Delta$-stepping \[5\], in the $i$-th round, all vertices with distances no more than $i\Delta$ will be extracted. In $\rho$-stepping \[3\], in each round, the $\rho$ vertices in $F$ with the smallest distances will be extracted.  
+
+![img](sssp-code.png)
+
+#### Challenges and existing optimizations:
+
+Similar to BFS, the performance of parallel SSSP is limited on large-diameter graphs, due to a few reasons.  On large-diameter graphs, the frontier size is smaller, usually given insufficient parallelism.  One can probably extract vertices more aggressively (i.e., a larger $F'$), by setting up a larger $\Delta$ or $\rho$, with the goal of improving parallelism.  However, this is likely to cause multiple rounds of revisiting to the same vertex, which will lead to significant extra work.  An existing attempt to resolve this issue is also the vertical granularity control (VGC) \[3\].  It allows exploration of multiple hops from the current frontier in the same round to increase parallelism.  However, it will also lead to some extra work.
+
+Another challenge is the parameter choosing: in both $\Delta$-stepping and $\rho$-stepping, the parameter affects the performance---a larger parameter causes excessive extra work in revisiting the vertices, while a smaller parameter leads to insufficient parallelism.  One may want to auto-tune the best parameter.  Attempts can be found in some existing papers such as \[4\].
+
+### Preprocessing
+
+Certain preprocessing may improve the performance for both BFS and SSSP. In both problems, we allow for a small amount of preprocessing time. Some possible optimizations you can consider include:
+
+* Finding the best parameters of the algorithm (use simple preprocessing to decide the best parameters, such as Delta in Delta-stepping)
+* Graph reordering (changing the ordering of vertices to achieve better cache locality
+* Shortcuts (adding shortcuts to reduce graph diameter)
+
+You can explore more optimizations to enable more effective preprocessing. 
+
 
 #### Useful References:
 
-\[1\] “Direction-Optimizing Breadth-First Search” by Scott Beamer, Krste Asanovic, David Patterson  
-\[2\] “PASGAL: Parallel And Scalable Graph Algorithm Library” by Xiaojun Dong, Yan Gu, Yihan Sun, and Letong Wang  
+\[1\] “Direction-Optimizing Breadth-First Search” by Scott Beamer, Krste Asanovic, David Patterson
+
+\[2\] “PASGAL: Parallel And Scalable Graph Algorithm Library” by Xiaojun Dong, Yan Gu, Yihan Sun, and Letong Wang
+
 \[3\] “Efficient Stepping Algorithms and Implementations for Parallel Shortest Paths” by Xiaojun Dong, Yan Gu, Yihan Sun, and Yunming Zhang
 
-## Organizers and Sponsors
+\[4\] “GraphIt: A High-Performance Graph DSL” by Yunming Zhang, Mengjiao Yang, Riyadh Baghdadi, Shoaib Kamil, Julian Shun, and Saman Amarasinghe
 
-The Fastcode Challenge is mainly organized and sponsored by the Fastcode Community (initiated by the OpenCilk team), which is an open-source community dedicated to advancing software performance engineering. The OpenCilk team provides support through the speedcode.org platform with an interactive interface for participants to debug and test their code. 
+\[5\] "$\Delta$-stepping: a parallelizable shortest path algorithm." by Ulrich Meyer and Peter Sanders.
 
-The Fastcode community is supported by NSF funding.
+Existing open-source parallel implementations for SSSP and BFS:
 
-## Organizing committee
+- GBBS: Graph-Based Benchmark Suite [[Github Link]](https://github.com/ParAlg/gbbs)
+- Ligra: A Lightweight Graph Processing Framework for Shared Memory [[GitHub Link]](https://github.com/jshun/ligra)
+- Galois [[GitHub Link]](https://github.com/IntelligentSoftwareSystems/Galois)
+- GAPBS: GAP Benchmark Suite [[Github Link]](https://github.com/sbeamer/gapbs)
+- PASGAL: Parallel and Scalable Graph Algorithm Libraray [[GitHub Link]](https://github.com/ucrparlay/PASGAL)  (SSSP implementation also available [here](https://github.com/ucrparlay/Parallel-SSSP) )
 
-Organizing Chair: Yihan Sun, UC Riverside
+You can find relevant publications on their websites. 
 
-Technique Support 
-
-- Tim Kaler, MIT  
-- Xuhao Chen, MIT
-
-Problem Setting Committee:
-
-- (Chair) Brian Wheatman, University of Chicago  
-- Xiaojun Dong, UC Riverside  
-- Youzhe Liu, UC Riverside
-
-Publicity Committee
-
-- Bruce Hoppe, MIT  
-- Yan Gu, UC Riverside
-
-Paper Review and Publication Committee
-
-- (Chair) Roberto Palmieri, Lehigh University  
-- (Chair) Lewis Tseng, UMass Lowell  
-- More members TBD
-
-If you have any questions, you can send an email to **Yihan Sun ([yihans@cs.ucr.edu](mailto:yihans@cs.ucr.edu)).** 
-
-## FAQs

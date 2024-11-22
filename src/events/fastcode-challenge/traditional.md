@@ -178,7 +178,7 @@ Existing open-source parallel implementations for SSSP and BFS:
 - Ligra: A Lightweight Graph Processing Framework for Shared Memory [[GitHub Link]](https://github.com/jshun/ligra)
 - Galois [[GitHub Link]](https://github.com/IntelligentSoftwareSystems/Galois)
 - GAPBS: GAP Benchmark Suite [[Github Link]](https://github.com/sbeamer/gapbs)
-- PASGAL: Parallel and Scalable Graph Algorithm Libraray [[GitHub Link]](https://github.com/ucrparlay/PASGAL)  (SSSP implementation also available [here](https://github.com/ucrparlay/Parallel-SSSP) )
+- PASGAL: Parallel and Scalable Graph Algorithm Library [[GitHub Link]](https://github.com/ucrparlay/PASGAL)  (SSSP implementation also available [here](https://github.com/ucrparlay/Parallel-SSSP) )
 
 You can find relevant publications on their websites. 
 

@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 sidebar: toc
-title: AI Track
+title: Large Language Model for Parallel Programming (LLM4PP) at FCPC25
 #tagline: Tagline.
 permalink: /events/fastcode-challenge/llm4pp/
 eleventyComputed:
@@ -11,73 +11,48 @@ eleventyComputed:
     order: 100
 ---
 
-# **PPoPP Contest on LLM-based Parallel Programming** 
+Please fill out the signup form [here](https://docs.google.com/forms/d/1PkDMD6WdLzZcWlwzIrPJ68bfcDYlQ93nOfQhFUL7NTM). We will be releasing [the starting toolkit](https://github.com/SpeedCodeOrg/LLM4PP/) soon.
 
-# **(LLM4PP @ PPoPP 2025\)**
-
-**Welcome to the PPoPP Contest on LLM-based Parallel Programming (LLM4PP @ PPoPP 2025)\!**
-
-**Information about the FastCode Workshop @ PPoPP 2025**  
-**Time: 10:00 AM \- 11:30 AM**  
-**Room: XXX**  
-**Location: XXX**  
-**Zoom link: XXX**
+## Introduction
 
 For decades, programmers could rely on Moore’s Law to speed up their applications, if they simply waited for new and faster hardware. But the end of Moore’s Law put an end to the exponential growth in semiconductor performance, which has put pressure on programmers to understand software performance. Unfortunately, programming modern parallel hardware is notoriously hard for average programmers. Even for experienced performance engineers, parallel programming is time consuming, error-prone, and often requires tedious hand-tuning.
 
-In the meantime, recent advancement in Large Language Models (LLMs) has shown great potential in AI-based software engineering tasks, e.g., code generation and code completion, such as AlphaCode, Starcoder, WizardCoder, Magicoder, Code llama, MetaGPT and DeepSeek-Coder. However, existing AI code models are focused on writing sequential code, while parallel programming (PP) is an arguably more challenging task, as it requires the code to be not only *correct* but also *efficient* on complex parallel computer systems. Unfortunately, the development of LLM for PP is severely hindered by the scarcity of high-quality, publicly accessible parallel code datasets. Specifically, the lack of adequate datasets prevents effective fine-tuning of LLMs, a critical method for equipping them with PP domain knowledge and mitigating their limited exposure to PP-specific data during pretraining. This shortage thus significantly impedes progress in LLM-based parallel code generation.
+In the meantime, recent advancement in Large Language Models (LLMs) has shown great potential in AI-based software engineering tasks, e.g., code generation and code completion, such as AlphaCode, Starcoder, WizardCoder, Magicoder, CodeLlama, MetaGPT and DeepSeek-Coder. However, existing AI code models are focused on writing sequential code, while parallel programming is an arguably more challenging task, as it requires the code to be not only correct but also efficient on complex parallel computer systems. 
 
-This contest aims to harness community efforts to **develop an open-source, large-scale, and high-quality dataset for parallel code generation**, igniting an ImageNet-like revolution in LLM-based parallel code generation. To achieve this goal, we encourage participants to gather data samples and develop innovative data cleaning and labeling techniques that can effectively enhance the scale and quality of datasets for parallel code generation.
+This contest aims to harness community efforts to shape the ways on how to leverage LLMs for parallel programming. To achieve this goal, we ask participants to teach and utilize LLMs to solve parallel programming problems. Given a set of programming problems, the participants are encouraged to explore prompting and fine-tuning techniques to enhance existing code models, e.g., CodeLlama, to solve the problems. The solutions will be evaluated based on their correctness and running time performance. If you have any questions, please feel free to contact us at [fastcode.programming.challenge@gmail.com](mailto:fastcode.programming.challenge@gmail.com).
 
-**The detailed description of the contest problem can be found at [Problem](https://docs.google.com/document/d/1f8fpG1-no19tJraLUOvOLqqC-7jit4CtBplDzGz4S6Q/edit?usp=sharing) page.**
+## Problems
 
-**If there are any questions that are not addressed in the [FAQ](https://SpeedCodeOrg.github.io/LLM4PP/faq.html) page, please feel free to contact us at [llm4pp@groups.mit.edu](https://nvlabs.github.io/LLM4HWDesign/llm4hwdesign@groups.gatech.edu).**
+### Problem I: Dollar-constrained Workflow Design
 
-# Tentative Schedule
+The participants are asked to develop a prompting workflow using LLM APIs, such as [OpenAI API](https://platform.openai.com/docs/overview), to teach LLMs to solve parallel programming problems. Each participant will need to submit a workflow script, which will be evaluated by running inference on solving a set of parallel programming problems from our in-house benchmarks. We suggest participants test their solutions on the [ParEval benchmark suite](https://github.com/parallelcodefoundry/ParEval) before submission. We will include sample inference/evaluation scripts in [the starting toolkit](https://github.com/SpeedCodeOrg/LLM4PP/). **To make the comparison fair, the cost from API usage incurred by the inference/evaluation script will be constrained to a specific amount e.g., 5 dollars and this will be determined at a later date.** 
 
-| ▪ Contest Release Date: | *Nov.18, 2024* |
+### Problem II: Memory-constrained Model Fine-tuning
+
+The participants are asked to optimize parallel programming problems by teaching (e.g., prompting and/or fine-tuning) and utilizing open-source models, such as CodeLlama or Deepseek Coder. The model will be evaluated by running inference to solve a set of parallel programming problems from our in-house benchmarks. Participants can use the [ParEval benchmark suite](https://github.com/parallelcodefoundry/ParEval) for their own testing and evaluation before submission. A suggested strategy is to finetune an open-source LLM on a dataset that the participants collect or generate. We will include a sample fine-tuning script, a suggested data example format, as well as sample inference/evaluation scripts in [the starting toolkit](https://github.com/SpeedCodeOrg/LLM4PP/). **To make the comparison fair, the inference/evaluation will be constrained to a specific GPU memory budget, e.g., 24GB, and this will be determined at a later date.**
+
+## News
+- **\[12/01\]** The starting toolkit for Problem II is incoming
+- **\[11/25\]** The starting toolkit for Problem I is incoming
+- **\[11/22\]** Our website is online!
+
+## Rules & Scoring
+
+We will release the detailed rules with our [starting toolkit](https://github.com/SpeedCodeOrg/LLM4PP/) and please stay tuned! Meanwhile, please fill out the signup form [here](https://docs.google.com/forms/d/1PkDMD6WdLzZcWlwzIrPJ68bfcDYlQ93nOfQhFUL7NTM), which will help us better understand participants’ needs. Note that participants are encouraged, but not necessarily, to solve both problems. We have prizes for each of the problems, and also for the best overall performance in both problems. 
+
+## Tentative Awards
+
+- Best Workflow Award: US $200 
+- Best Model Award: US $300
+- Best Overall Solution Award: US $500 
+- Honorable Mention: Top three teams in each problem
+
+## Tentative Schedule
+
+| Contest Start Date: | Nov.22, 2024 |
 | :---- | ----: |
-| **▪ Registration Deadline:** | ***Dec. 30, 2024*** |
-| **▪ Phase I \- Beta Solution:** | ***Nov. 18, 2024 \~ Jan. 15, 2024*** |
-| **▪ Phase I Submission Deadline:** | ***11:59:59 PM AoE, Jan. 15, 2024*** |
-| **▪ Phase II \- Final Solution:** | ***Jan. 16, 2024 \~ Feb. 01, 2024*** |
-| **▪ Phase II Submission Deadline:** | ***11:59:59 PM AoE, Feb. 01, 2024*** |
-| **▪ Top Three Teams Notified:** | ***Feb. 15, 2024*** |
-| **▪ Winner Announced:** | ***To be announced during PPoPP*** |
-
-# Tentative Awards
-
-| ▪ 1st Place Award: | *US $2000 per team* |
-| :---- | ----: |
-| **▪ 2nd Place Award:** | ***US $1000 per team*** |
-| **▪ 3rd Place Award:** | ***US $500 per team*** |
-| **▪ Honorable Mention:** | ***Top three teams in each phase*** |
-
-# Sponsors
-
-IBM, Citadel, NVIDIA, Intel, AMD? … 
-
-# Contest Organizers
-
-* Xuhao Chen, MIT  
-* Ryan Deng, MIT  
-* Xiaojun Dong, UC Riverside  
-* Yan Gu, UC Riverside  
-* Bruce Hoppe, MIT  
-* Tim Kaler, MIT  
-* Youzhe Liu, UC Riverside  
-* Roberto Palmieri, Lehigh University  
-* Yihan Sun, UC Riverside  
-* Lewis Tseng, UMass Lowell  
-* Brian Wheatman, University of Chicago
-
-If you have any questions, you can send an email to Yihan Sun ([yihans@cs.ucr.edu](mailto:yihans@cs.ucr.edu))
-
-# To-do List
-
-- [ ] Upload code data format on HuggingFace, like this [one](https://huggingface.co/datasets/GaTech-EIC/MG-Verilog) for [LLM4HWDesign](https://nvlabs.github.io/LLM4HWDesign/problem.html).  
-      - [ ] Ask Tim and Brian for the Track-1 problem evaluation   
-      - [ ] Update the [LLM4PP-starting-toolkit](https://github.com/SpeedCodeOrg/LLM4PP) repository, similar to [this one](https://github.com/GATECH-EIC/LLM4HWDesign_Starting_Toolkit).  
-      - [ ] Do we need a base dataset or not?   
-      - [ ] What is the base model? [CodeLlama-7B-Instruct](https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf)?   
-      - [ ] Figure out how the participants are gonna do their finetuning and testing before they submit their datasets.
+| Problem I Release Date: | Nov. 25, 2024 |
+| Problem II Release Date | Dec. 01, 2024 |
+| Solution Submission Deadline | Jan. 24, 2025 |
+| Results Notification | Feb. 05, 2025 |
+| Winners Announced | To be announced during PPoPP |

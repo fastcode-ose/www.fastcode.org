@@ -18,9 +18,9 @@ tags:
 
 ### Quick Links: 
 
-**Track 1 (SPE4IC):** [[Description]](./spe4ic/) [[Link to the SSSP Problem]](https://speedcode.org/SPE4IC_SSSP) [[Link to the BFS Problem]](https://speedcode.org/SPE4IC_BFS) 
+**Track 1 (SPE4IC):** [[Description]](./spe4ic/) [[Registration]](https://forms.gle/DUJUwocnFDgRmMa26) [[Link to the SSSP Problem]](https://speedcode.org/SPE4IC_SSSP) [[Link to the BFS Problem]](https://speedcode.org/SPE4IC_BFS) 
 
-**Track 2 (LLM4PP):** [[Description]](./llm4pp/) [[Link to the GitHub Page]](https://github.com/SpeedCodeOrg/LLM4PP/)
+**Track 2 (LLM4PP):** [[Description]](./llm4pp/) [[Registration]](https://docs.google.com/forms/d/1PkDMD6WdLzZcWlwzIrPJ68bfcDYlQ93nOfQhFUL7NTM) [[Link to the GitHub Page]](https://github.com/SpeedCodeOrg/LLM4PP/)
 
 [[Speedcode Instruction]](https://speedcode.org/pages/SPE4IC25.html)
 
@@ -63,7 +63,7 @@ Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel 
 
 ## Registration
 
-You can register at [https://forms.gle/DUJUwocnFDgRmMa26](https://forms.gle/DUJUwocnFDgRmMa26) 
+[Track 1 Registration](https://forms.gle/DUJUwocnFDgRmMa26)  [[Track 2 Registration]](https://docs.google.com/forms/d/1PkDMD6WdLzZcWlwzIrPJ68bfcDYlQ93nOfQhFUL7NTM)
 
 You can join as a team with at most two members. 
 
@@ -83,19 +83,19 @@ We understand that there is a short time between the final notification and the 
 ## Awards and Prizes <a id='awards'></a>
 
 
-There will be a best paper and best presentation award for the entire workshop, which will be evaluated based on the quality of the paper and presentation.
-
-For Track 2 and each problem in Track 1, the top three teams will be awarded prizes (First, Second and Third Prizes). 
+There will be a best paper and best presentation award for the entire workshop, which will be evaluated based on the quality of the paper and presentation. 
 
 **Each track has a total of $1000 in the prize pool.** We are seeking more sponsors with prize money added to the pools. The prize will be allocated among the prize winners based on their relative performance and the quality of paper submissions. 
 
-For Track 1, a contestant may choose to participate in one or two problems (SSSP and BFS). The winners of the two problems can be different teams, and the prize money will also be allocated accordingly based on the quality of the papers and the relative performance to other submissions. 
+For Track 1, a contestant may choose to participate in one or two problems (SSSP and BFS). Top three winners for each problem will get First, Second and Third Prizes. The prize money will also be allocated accordingly based on the quality of the papers and the relative performance to other submissions. 
+
+For Track 2, we have prizes for the Best Workflow, Best Model Award, and Best Overall Solution. You can find more information [here](./llm4pp/#tentative-awards). 
 
 ### Honorable Mentions
 
 - Best Undergraduate Submission (if applicable; all team members must be undergraduate students or younger, one team for each track)
 - Track 1: Best team for each problem or each test set (sparse/dense test set), if different from the final prize winners. 
-- Track 2: Top three teams in each phase, if different from the final prize winners
+- Track 2: Top three teams in each problem, if different from the prize winners.
 
 The prizes and honorable mentions will be based on the performance of the submissions. 
 

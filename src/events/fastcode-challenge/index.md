@@ -63,7 +63,8 @@ Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel 
 
 ## Registration
 
-[Track 1 Registration](https://forms.gle/DUJUwocnFDgRmMa26)  [[Track 2 Registration]](https://docs.google.com/forms/d/1PkDMD6WdLzZcWlwzIrPJ68bfcDYlQ93nOfQhFUL7NTM)
+### [[Track 1 Registration]](https://forms.gle/DUJUwocnFDgRmMa26)  
+### [[Track 2 Registration]](https://docs.google.com/forms/d/1PkDMD6WdLzZcWlwzIrPJ68bfcDYlQ93nOfQhFUL7NTM)
 
 You can join as a team with at most two members. 
 

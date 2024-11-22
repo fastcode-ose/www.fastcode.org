@@ -14,8 +14,8 @@ tags:
 
 ## Attention all student programmers
 
-We are happy to announce the first [**Fastcode Challenge**](/events/fastcode-challenge/) at PPoPP 2025. Fastcode Challenge is a student programming competition, and a subsequent workshop at PPoPP to invite participants with outstanding submissions to submit papers and give invited talks. There will also be invited talks from keynote speakers. 
+We are happy to announce the first [**Fastcode Challenge**](/events/fastcode-challenge/) at PPoPP 2025. Fastcode Challenge is a student programming competition, and a subsequent workshop at PPoPP to invite participants with outstanding submissions to submit papers and give invited talks. 
 
-The goal of the competition is to engage more students in learning parallel algorithms and programming, offering them resources and support to enhance their skills, and cultivating students' interests in writing fast code. We hope these efforts will inspire more students to study parallel programming and parallel computing research, thereby making a positive impact on their future careers. We encourage students from all levels to participate, including K-12 students, undergraduate students, Master's students, and Ph.D. students.
+The goal of the competition is to engage more students in learning parallel algorithms and programming, offering them resources and support to enhance their skills, and cultivating students' interests in writing fast code. We hope these efforts will inspire more students to study parallel programming and parallel computing research, thereby making a positive impact on their future careers. We encourage students from all levels to participate.
 
 [<h3>Learn more</h3>](/events/fastcode-challenge/)

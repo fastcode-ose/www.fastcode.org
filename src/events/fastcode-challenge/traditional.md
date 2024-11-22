@@ -17,9 +17,9 @@ This competition emphasizes **software performance engineering** on multicore ar
 
 You can submit your solutions on speedcode using the links below:
 
-* [SSSP](https://speedcode.org/ide/contest.html?ppopp_test_sssp_v1)
+* [SSSP](https://speedcode.org/SPE4IC_SSSP)
 
-* [BFS](https://speedcode.org/ide/contest.html?ppopp_test_bfs_v1)
+* [BFS](https://speedcode.org/SPE4IC_BFS)
 
 After you login to speedcode you may be redirected to the home page, if you follow the link again you should be taken directly to the problem page. 
 

@@ -88,7 +88,7 @@ There will be a best paper and best presentation award for the entire workshop, 
 
 **Each track has a total of $1000 in the prize pool.** We are seeking more sponsors with prize money added to the pools. The prize will be allocated among the prize winners based on their relative performance and the quality of paper submissions. 
 
-For Track 1, a contestant may choose to participate in one or two problems (SSSP and BFS). Top three winners for each problem will get First, Second and Third Prizes. The prize money will also be allocated accordingly based on the quality of the papers and the relative performance to other submissions. 
+For Track 1, a contestant may choose to participate in one or two problems (SSSP and BFS). Top three winners with the best performance for each problem will get First, Second and Third Prizes. The prize money will also be allocated accordingly based on the quality of the papers and the relative performance to other submissions. 
 
 For Track 2, we have prizes for the Best Workflow, Best Model Award, and Best Overall Solution. You can find more information [here](./llm4pp/#tentative-awards). 
 

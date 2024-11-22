@@ -18,7 +18,7 @@ tags:
 
 ### Quick Links: 
 
-**Track 1 (SPE4IC):** [[Description]](./spe4ic/) [[Link to the SSSP Problem]](https://speedcode.org/ide/contest.html?ppopp_test_sssp_v1) [[Link to the BFS Problem]](https://speedcode.org/ide/contest.html?ppopp_test_bfs_v1) 
+**Track 1 (SPE4IC):** [[Description]](./spe4ic/) [[Link to the SSSP Problem]](https://speedcode.org/SPE4IC_SSSP) [[Link to the BFS Problem]](https://speedcode.org/SPE4IC_BFS) 
 
 **Track 2 (LLM4PP):** [[Description]](./llm4pp/) [[Link to the GitHub Page]](https://github.com/SpeedCodeOrg/LLM4PP/)
 

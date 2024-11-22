@@ -182,3 +182,33 @@ Existing open-source parallel implementations for SSSP and BFS:
 
 You can find relevant publications on their websites. 
 
+## Writting Parallel Code
+
+If you are new to writing parallel codes - no worries. [Speedcode](https://speedcode.org) supports many libraries that you can directly use to write parallel codes. We will use OpenCilk as an example to give you basic instructions here to use fork-join parallelism.
+
+In general, the only thing you need to consider in addition to writing sequential codes is to specify some parts of your code to run in parallel. As an entry-level attempt, you can just consider two semantics:
+
+### `cilk_scope/cilk_spawn`
+
+A `cilk_spawn` can be inserted before a function call to allow that call to execute in parallel with its continuation. A `cilk_scope` defines a lexical scope in which all spawned subcomputations must complete before program execution leaves the scope. An example is shown below:
+
+```
+cilk_scope {
+  x = cilk_spawn fib(n-1);
+  y = fib(n-2);
+}
+return x+y;
+```
+
+The code above will use two threads to work on two tasks `x = fib(n-1)` and `y = fib(n-2)` in parallel. When they both finish, the next statement outside `cilk_scope` will be executed and return `x+y`. 
+
+### `cilk_for`
+
+You can replace `for` with a `cilk_for` to enable a parallel for-loop: all loop iterations will be executed in parallel. 
+
+Some useful documentations about using OpenCilk are available here:
+
+https://github.com/OpenCilk/opencilk-project?tab=readme-ov-file#a-brief-introduction-to-cilk-programming (by Tao B. Schardl)
+https://www.opencilk.org/doc/ (official documents from OpenCilk)
+
+When writing parallel codes, you may need to be careful about concurrent write to the same memory location - in the real execution, the threads are highly asynchronous, and this may cause errors if their relative order to write to the memory location is different. A common way to deal with concurrent writes is to use atomic operations such as compare\_and\_swap. You can use it to implement a write\_min (atomically update the value of a memory location iff the new value is smaller) operation which is useful for both BFS and SSSP. 

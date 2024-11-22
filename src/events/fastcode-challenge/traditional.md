@@ -23,7 +23,7 @@ You can submit your solutions on speedcode using the links below:
 
 After you login to speedcode you may be redirected to the home page, if you follow the link again you should be taken directly to the problem page. 
 
-You can find instructions to use speedcode [here](https://speedcode.org/fcpc25).
+You can find instructions to use speedcode [here](https://speedcode.org/pages/SPE4IC25.html).
 
 
 ## Time & Location

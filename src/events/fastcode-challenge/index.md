@@ -39,7 +39,7 @@ Track 1 (the *human track*) selects two highly challenging problems for parallel
 
 ### [Track 2: Large Language Model for Parallel Programming (LLM4PP)](./llm4pp/)
 
-Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel code. Recent advancements in Large Language Models (LLMs) have shown great potential in AI-based code generation/completion. However, writing fast, parallel code remains a big challenge for these LLMs. Specifically, the lack of adequate parallel code datasets prevents effective training of LLMs, which thus significantly impedes progress in LLM-based parallel code generation. This AI track contest aims to harness community efforts to **develop an open-source, large-scale, and high-quality dataset for parallel code generation**, igniting an ImageNet-like revolution in LLM-based parallel code generation.
+Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel code. As Moore’s Law diminishes, software performance engineering (SPE) becomes a key technology for programmers to continue scaling computer system performance. However, SPE, especially parallel programming, has been notoriously difficult for average programmers. Meanwhile, recent advancements in Large Language Models (LLMs) have shown great potential in AI-based code generation/completion. In this contest, we explore the opportunities to leverage LLMs for parallel programming. We ask participants to teach and utilize LLMs to solve parallel programming problems, via prompting and model fine-tuning. We also encourage participants to gather training data samples to enhance code models for parallel programming.
 
 
 ## Problem Descriptions

@@ -4,6 +4,11 @@ sidebar: toc
 title: Software Performance Engineering for Irregular Computation (SPE4IC) at FCPC25
 #tagline: Tagline.
 permalink: /events/fastcode-challenge/traditional/
+eleventyComputed:
+  eleventyNavigation:
+    parent: SPE4IC
+    key: Track 1
+    order: 99
 redirect_to: https://fastcode.org/events/fastcode-challenge/spe4ic/
 ---
 

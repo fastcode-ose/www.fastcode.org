@@ -6,6 +6,7 @@ author: Bruce Hoppe
 event_date: November 17-22, 2024
 image: /img/sc-24.png
 tags:
+  - events
   - news
   - conference
 featured: false

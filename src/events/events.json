@@ -7,8 +7,5 @@
     "eleventyNavigation": {
         "parent": "Get involved"
     },
-    "comments": false,
-    "tags": [
-        "events"
-    ]
+    "comments": false
 }

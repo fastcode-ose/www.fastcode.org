@@ -1,0 +1,10 @@
+{
+    "layout": "layouts/page.njk",
+    "stylesheet": "none",
+    "sidebar": "toc",
+    "background": "bg-white",
+    "comments": false,
+    "tags": [
+        "instructors"
+    ]
+}

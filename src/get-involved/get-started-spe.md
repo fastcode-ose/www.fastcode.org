@@ -47,6 +47,7 @@ We are actively maintaining the following list of resources to help you learn SP
 
 #### Parallel programming
 
+* [Parallel Programming for Science and Engineering](https://theartofhpc.com/pcse.html) (2024) by Victor Eijkhout. This book is Vol. 2 of [The Art of HPC](https://theartofhpc.com/index.html).
 * [Parallel C++: Efficient and Scalable High-Performance Parallel Programming Using HPX](https://link.springer.com/book/10.1007/978-3-031-54369-2) (2024) by Patrick Diehl, Steven R. Brandt, and Hartmut Kaiser
 * [Structured Parallel Programming: Patterns for Efficient Computation](https://www.amazon.com/Structured-Parallel-Programming-Efficient-Computation/dp/0124159931) (2012) by Michael McCool, James Reinders, and Arch Robison
 * [Patterns of Parallel Programming with .NET](https://download.microsoft.com/download/3/4/D/34D13993-2132-4E04-AE48-53D3150057BD/Patterns_of_Parallel_Programming_CSharp.pdf) (2010) by Stephen Toub

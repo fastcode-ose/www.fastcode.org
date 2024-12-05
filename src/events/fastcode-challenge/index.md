@@ -20,7 +20,7 @@ tags:
 
 **Track 1 (SPE4IC):** [[Description]](./spe4ic/) [[Registration]](https://forms.gle/DUJUwocnFDgRmMa26) [[Link to the SSSP Problem]](https://speedcode.org/SPE4IC_SSSP) [[Link to the BFS Problem]](https://speedcode.org/SPE4IC_BFS) 
 
-**Track 2 (LLM4PP):** [[Description]](./llm4pp/) [[Registration]](https://docs.google.com/forms/d/1PkDMD6WdLzZcWlwzIrPJ68bfcDYlQ93nOfQhFUL7NTM) [[Link to the GitHub Page]](https://github.com/SpeedCodeOrg/LLM4PP/) (this link will be released soon)
+**Track 2 (LLM4PP):** [[Description]](./llm4pp/) [[Registration]](https://docs.google.com/forms/d/1PkDMD6WdLzZcWlwzIrPJ68bfcDYlQ93nOfQhFUL7NTM) [[Link to the GitHub Page]](https://github.com/SpeedCodeOrg/LLM4PP/)
 
 [[Speedcode Instruction]](https://speedcode.org/pages/SPE4IC25.html)
 

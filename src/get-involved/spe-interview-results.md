@@ -4,12 +4,13 @@ stylesheet: None
 background: bg-white
 sidebar: toc
 title: SPE interview results
-description: Summarizing 60 interviews about why SPE matters and where it's going 
+tagline: Summarizing 60 interviews about why SPE matters and where it's going 
 eleventyNavigation:
   key: SPE interview results
-  parent: About
-  order: 2
-date: 2022-12-10T16:59:41.487Z
+  parent: Get involved
+  order: 97
+tags:
+  get_involved
 ---
  
 The Fastcode team interviewed 60 individuals across academia, industry, and government about software performance engineering. We asked them, “Why is SPE important and where is it headed?” This document summarizes what we heard.

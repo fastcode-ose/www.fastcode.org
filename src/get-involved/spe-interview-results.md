@@ -19,7 +19,7 @@ The Fastcode team interviewed 60 individuals across academia, industry, and gove
 
 Many people related a few common themes that are especially relevant for community action:
 - A desire to compare notes with other professors who are teaching SPE
-- A desire for workshops that bring together "the scattered tribes of SPE"
+- A desire for events and activities that bring together "the scattered tribes of SPE"
 - A desire for improved tools that make it easier for all programmers to do SPE.
 
 If you're interested in connecting with others around the above topics (or any other topics), please [let us know](../contact/).
@@ -31,8 +31,8 @@ With the demise of Moore's Law, SPE is increasingly vital for making the most of
 * **Innovation:** Performance engineering unlocks the potential to solve problems that were previously intractable.  
 * **Competitive advantage:** Performance engineering differentiates winners from losers in businesses like finance and technology, where firms provide time-critical software platforms where every microsecond matters (e.g. an operating system, web browser, or financial trading system).
 * **Cost savings and environmental benefits:** Performance engineering reduces the usage of resources such as CPU time, memory, and energy.
-* **Scalability:** Performance engineering enables software to handle increased load.
-* **User experience** Performance engineering improves software responsiveness for the person using the program.
+* **Scalability:** Performance engineering enables software to handle increased load gracefully.
+* **User experience** Performance engineering improves software responsiveness for the people using the program.
 
 ## Where is SPE going?
 

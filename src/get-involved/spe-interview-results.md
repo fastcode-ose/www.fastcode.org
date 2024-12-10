@@ -46,12 +46,6 @@ Many interviewees expressed a desire to see SPE principles and practices applied
 
 Communication gaps are a key challenge for SPE. The gaps sometimes mirror the heterogeneity of the systems we are studying. They are fueled by reward systems that prioritize discovering new things over composing existing things. They are also exacerbated by the rapidly evolving technical landscape.
 
-The future of SPE will be shaped by emerging trends and challenges, including the emergence of new hardware architectures, the increasing importance of energy efficiency, and the rise of AI. For example:
-
-* There are tremendous opportunities to improve our ability to use heterogeneous hardware architectures and to develop systems for in-memory computation.  
-* Some large technology companies are now measuring performance in terms of megawatts saved. How might this approach be adopted elsewhere?  
-* The energy consumption of AI presents big opportunities for applying SPE, but at the same time, the dominance of AI casts a shadow that might diminish the priority given to SPE.
-
 The interviews underscore the growing importance of SPE in a world increasingly reliant on software and constrained by limited resources. We are looking towards a future where SPE plays a more central role in computer science education, research, and practice. 
 
 What do you think about this vision and the role of your work and the Fastcode community? We welcome your thoughts, questions, and feedback. Please [join us](../join-us/).

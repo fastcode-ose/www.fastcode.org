@@ -4,7 +4,7 @@ stylesheet: None
 background: bg-white
 sidebar: toc
 title: SPE interview results
-tagline: Summarizing 60 interviews about why SPE matters and where it's going 
+tagline: We interviewed 60 people about why SPE matters and where it's going.
 eleventyNavigation:
   key: SPE interview results
   parent: Get involved
@@ -13,30 +13,28 @@ tags:
   get_involved
 ---
  
-The Fastcode team interviewed 60 individuals across academia, industry, and government about software performance engineering. We asked them, “Why is SPE important and where is it headed?” This document summarizes what we heard.
+The Fastcode team interviewed 60 individuals across academia, industry, and government about software performance engineering. We asked, “Why is software performance engineering important, and where is it headed?” Here's what we heard.
 
-## Practicing SPE
+## Opportunities for community
 
-Doing SPE includes many different activities. For example:
+Many people related a few common themes that are especially relevant for community action:
+- A desire to compare notes with other professors who are teaching SPE
+- A desire for workshops that bring together "the scattered tribes of SPE"
+- A desire for improved tools that make it easier for all programmers to do SPE.
 
-* Identifying and analyzing performance bottlenecks  
-* Selecting appropriate algorithms and data structures  
-* Optimizing code for specific hardware platforms  
-* Utilizing parallel programming techniques  
-* Monitoring and measuring performance  
-* Collaborating with different stakeholders to achieve optimal performance outcomes.
+If you're interested in connecting with others around the above topics (or any other topics), please [let us know](../contact/).
 
-## Importance and Relevance of SPE
+## Why is SPE important?
 
-The demise of Moore's Law signals the end of the traditional reliance on hardware improvements for performance gains. SPE is increasingly vital for making the most of existing hardware resources. The results matter for a variety of reasons, including:
+With the demise of Moore's Law, SPE is increasingly vital for making the most of existing hardware resources. The results matter for a variety of reasons, including:
 
-* Innovations when performance improvements unlock the potential to solve problems that were previously intractable  
-* Competitive advantage for businesses providing a time-critical software platform (e.g. an operating system, web browser, or financial trading system)  
-* Cost savings and environmental benefits thanks to consuming fewer resources, such as CPU time, memory, and energy  
-* Scalability when software is engineered to handle increased load  
-* Improved responsiveness for a person using the program.
+* **Innovation:** Performance engineering unlocks the potential to solve problems that were previously intractable.  
+* **Competitive advantage:** Performance engineering differentiates winners from losers in businesses like finance and technology, where firms provide time-critical software platforms where every microsecond matters (e.g. an operating system, web browser, or financial trading system).
+* **Cost savings and environmental benefits:** Performance engineering reduces the usage of resources such as CPU time, memory, and energy.
+* **Scalability:** Performance engineering enables software to handle increased load.
+* **User experience** Performance engineering improves software responsiveness for the person using the program.
 
-## Future Directions and Goals
+## Where is SPE going?
 
 We heard about important SPE work happening in areas such as compilers, domain-specific languages, parallel programming, performance modeling and analysis, and hardware/software co-design.
 
@@ -50,10 +48,10 @@ Communication gaps are a key challenge for SPE. The gaps sometimes mirror the he
 
 The future of SPE will be shaped by emerging trends and challenges, including the emergence of new hardware architectures, the increasing importance of energy efficiency, and the rise of AI. For example:
 
-* There are tremendous opportunities to improve our ability to use heterogeneous hardware architectures and to do in-memory computation.  
+* There are tremendous opportunities to improve our ability to use heterogeneous hardware architectures and to develop systems for in-memory computation.  
 * Some large technology companies are now measuring performance in terms of megawatts saved. How might this approach be adopted elsewhere?  
 * The energy consumption of AI presents big opportunities for applying SPE, but at the same time, the dominance of AI casts a shadow that might diminish the priority given to SPE.
 
-The interviews underscore the growing importance of SPE in a world increasingly reliant on software and constrained by limited resources. The insights shared by these individuals point towards a future where SPE plays a more central role in computer science education, research, and practice. 
+The interviews underscore the growing importance of SPE in a world increasingly reliant on software and constrained by limited resources. We are looking towards a future where SPE plays a more central role in computer science education, research, and practice. 
 
-What do you think about this vision and the role of your work and the Fastcode community? We welcome your thoughts, questions, and feedback. Please contact us.
+What do you think about this vision and the role of your work and the Fastcode community? We welcome your thoughts, questions, and feedback. Please [join us](../join-us/).

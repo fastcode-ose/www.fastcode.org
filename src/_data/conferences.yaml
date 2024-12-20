@@ -1,8 +1,8 @@
 
 - shortName: PACT
-  url: https://pact2024.github.io/
-  date: October 13-16, 2024
-  start: 2024-10-13
+  url: http://www.wikicfp.com/cfp/program?id=2291
+  date: October 2025
+  start: 2025-10-13
 - shortName: SPAA
   url: https://spaa.acm.org/
   date: July 28 - August 1, 2025
@@ -45,17 +45,21 @@
   start: 2025-07-30
 - shortName: HPEC
   url: https://ieee-hpec.org/
-  date: September 23-27, 2024
-  start: 2024-09-23
+  date: September 2025
+  start: 2025-09-23
 - shortName: ESA
-  url: https://algo-conference.org//2024/esa/
-  date: September 2-4, 2024
-  start: 2024-09-02
+  url: https://algo-conference.org//2025
+  date: September 15-19, 2025
+  start: 2025-09-15
 - shortName: SC
-  url: https://sc24.supercomputing.org/
-  date: November 17-22, 2024
-  start: 2024-11-17
+  url: https://sc25.supercomputing.org/
+  date: November 16-21, 2024
+  start: 2025-11-16
 - shortName: JuliaCon
-  url: https://discourse.julialang.org/t/call-for-hosts-for-juliacon-2025/116686
-  date: TBD
-  start: 2025-08-01
+  url: https://juliacon.org/2025/
+  date: July 21-26, 2025
+  start: 2025-07-21
+- shortName: SIGCSE
+  url: https://sigcse2025.sigcse.org/
+  date: February 26 - March 1, 2025
+  start: 2025-02-26

@@ -70,13 +70,12 @@ Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel 
 
 ## Important Dates
 
-- Nov. 20, 2024: Registration and competition starts  
-- Dec. 20: Scoreboard available. The first round of large-scale testing results become available.  
-- Jan. 17, 2025: Scoreboard freezes. The second round of large-scale testing results become available.  
+- Nov. 20, 2024: Registration and competition starts
+- Jan. 17, 2025: Scoreboard freezes. 
 - Jan. 24, 2025: Competition ends (AoE)  
 - Feb. 1, 2025: paper submission due (AoE)  
 - Feb. 5, 2025: Competition results notification  
-- Feb. 15, 2025: paper final notification  
+- Feb. 20, 2025: paper final notification  
 - Mar. 2, 2025: Workshop
 
 We understand that there is a short time between the final notification and the workshop date. If there is unexpected issues such that authors cannot participate in person (e.g., visa delay), we allow the authors to give talks online. 

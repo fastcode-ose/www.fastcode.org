@@ -71,7 +71,7 @@ Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel 
 ## Important Dates
 
 - Nov. 20, 2024: Registration and competition starts
-- Jan. 17, 2025: Scoreboard freezes. 
+- Jan. 20, 2025: Scoreboard freezes 
 - Jan. 24, 2025: Competition ends (AoE)  
 - Feb. 1, 2025: paper submission due (AoE)  
 - Feb. 5, 2025: Competition results notification  

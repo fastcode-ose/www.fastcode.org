@@ -112,6 +112,12 @@ This course teaches hands-on practical performance engineering on high-performan
 #### [EN 601.420/620](http://parallel.cs.jhu.edu/schedule2024.html) Parallel Computing for Data Science
 This course studies parallelism in data science, drawing examples from data analytics, statistical programming, and machine learning. It focuses mostly on the Python programming ecosystem, but we will use C/C++ to accelerate Python and Java to explore shared-memory threading. It explores parallelism at all levels, including instruction level parallelism (pipelining and vectorization), shared-memory multicore, and distributed computing. Concepts from computer architecture and operating systems will be developed in support of parallelism, including Moore’s law, the memory hierarchy, caching, processes/threads, and concurrency control. The course will cover modern data-parallel programming frameworks, including Dask, Spark, Hadoop!, and Ray. The course will not cover GPU deep-learning frameworks nor CUDA. The course is suitable for second-year undergraduate CS majors and graduate students from other science and engineering disciplines that have prior programming experience.
 
+## Michigan State
+#### [CSE 491](https://software-performance-engineering.github.io/spring25/) Software Performance Engineering
+This course provides a hands-on, project-based introduction to building scalable and high-performance software systems. We aim to convey both:
+* First-principles understanding: why do modern computer architectures look the way they do?
+* Hands-on experience: how do we write fast code for these platforms in practice?
+
 ## MIT 
 #### [6.106](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/) Performance Engineering of Software Systems
 6.106 (formerly 6.172) is an 18-unit class that provides a hands-on, project-based introduction to building scalable and high-performance software systems. Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, caching optimizations, parallel programming, and building scalable systems. The course programming language is C. Links to lectures are below.

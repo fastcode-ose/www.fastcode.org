@@ -27,7 +27,7 @@ FCPC'25 will be held at PPoPP'25 in Las Vegas. This workshop includes talks on o
 
 **9:00-9:15** Parallel Breadth-First Search Optimization Strategies (Online)<br>**Team RGBSM**, Track 1 - BFS<br>Marati Bhaskar and Raghavendra Kanakagiri
 
-**9:15-9:30** Cache-optimized BFS on multi-core CPUs (Online)<br>**Team Cache me if you can**, Track 1 - BFS<br>Cache-optimized BFS on multi-core CPUs
+**9:15-9:30** Cache-optimized BFS on multi-core CPUs (Online)<br>**Team Cache me if you can**, Track 1 - BFS<br>Salvatore D. Andaloro, Thomas Pasquali and Flavio Vella
 
 **9:30-9:45** Optimized Parallel Breadth-First Search with Adaptive Strategies<br>**Team LoneStar Graph UTA**, Track 1 - BFS<br>Chaoqun Li, Runbang Hu, Xiaojiang Du and Yuede Ji
 

@@ -1,5 +1,5 @@
 ---
-title: Fastcode Challenge
+title: Fastcode Programming Challenge 2025
 tagline: A new programming competition at PPoPP 2025
 featuredEvent: true
 author: Yihan Sun
@@ -23,6 +23,12 @@ tags:
 **Track 2 (LLM4PP):** [[Description]](./llm4pp/) [[Registration]](https://docs.google.com/forms/d/1PkDMD6WdLzZcWlwzIrPJ68bfcDYlQ93nOfQhFUL7NTM) [[Link to the GitHub Page]](https://github.com/SpeedCodeOrg/LLM4PP/)
 
 [[Speedcode Instruction]](https://speedcode.org/pages/SPE4IC25.html)
+
+**[[Workshop Program]](./fcpc25-workshop/)**
+
+## Workshop Program
+
+The workshop program is now available [here](./fcpc25-workshop/)!
 
 ## Introduction
 
@@ -72,10 +78,9 @@ Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel 
 
 - Nov. 20, 2024: Registration and competition starts
 - Jan. 20, 2025: Scoreboard freezes 
-- Jan. 24, 2025: Competition ends (AoE)  
-- Feb. 1, 2025: paper submission due (AoE)  
-- Feb. 5, 2025: Competition results notification  
-- Feb. 20, 2025: paper final notification  
+- Jan. 26, 2025: Competition ends (AoE)  
+- Feb. 3, 2025: paper submission due (AoE)  
+- Feb. 21, 2025: Competition results and paper notification
 - Mar. 2, 2025: Workshop
 
 We understand that there is a short time between the final notification and the workshop date. If there is unexpected issues such that authors cannot participate in person (e.g., visa delay), we allow the authors to give talks online. 
@@ -85,7 +90,7 @@ We understand that there is a short time between the final notification and the 
 
 There will be a best paper and best presentation award for the entire workshop, which will be evaluated based on the quality of the paper and presentation. 
 
-**Each track has a total of $1000 in the prize pool.** We are seeking more sponsors with prize money added to the pools. The prize will be allocated among the prize winners based on their relative performance and the quality of paper submissions. 
+**We have a total of $2000 prize pool for all tracks and problems.** The prize will be allocated among the prize winners based on their relative performance and the quality of paper submissions. 
 
 For Track 1, a contestant may choose to participate in one or two problems (SSSP and BFS). Top three winners with the best performance for each problem will get First, Second and Third Prizes. The prize money will also be allocated accordingly based on the quality of the papers and the relative performance to other submissions. 
 
@@ -167,10 +172,15 @@ The student travel grants are supported by NSF.
 #### Paper Review and Publication
 
 - Roberto Palmieri (Chair), Lehigh University
-
 - Lewis Tseng (Chair), UMass Lowell
-
-More members TBD
+- Nairen Cao, New York University
+- Ahmed Hassan, Lehigh University
+- Shang-En Huang, National Taiwan University
+- Depaul Miller, Lehigh University
+- Kamesh Madduri, The Pennsylvania State University
+- Ajay Singh, Indian Institute of Technology Hyderabad
+- Helen Xu, Georgia Tech
+- Amir Yazdanbakhsh, University of Tehran
 
 
 If you have any questions about the problems, please contact [fastcode.programming.challenge@gmail.com](mailto:fastcode.programming.challenge@gmail.com).

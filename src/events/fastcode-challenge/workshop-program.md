@@ -46,5 +46,6 @@ FCPC'25 will be held at PPoPP'25 in Las Vegas. This workshop includes talks on o
 **11:25-11:35** Track 2 Problem Setting<br> Xuhao Chen
 
 **11:35-11:50** ParaCoder: Parallel Code Generation with Large Language Model<br>Track 2
+Xiaowen Huang, Renjie Mao, Xu Zhang, Lvfang Tao, Nan Zhou, Wenxi Zhu, Minwen Deng, Jintao Meng, Yanjie Wei, Amelie Chi Zhou, Bingqiang Wang and Shengzhong Feng
 
 **11:50-12:00** Fastcode Programming Challenge 25: Winners and more<br>Winners Announcements<br>Yihan Sun

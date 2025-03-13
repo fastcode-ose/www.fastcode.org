@@ -3,13 +3,12 @@ layout: layouts/page.njk
 sidebar: toc
 title: Software Performance Engineering for Irregular Computation (SPE4IC) at FCPC25
 #tagline: Tagline.
-permalink: /events/fastcode-challenge/traditional/
+#permalink: /events/fcpc25/spe4ic/
 eleventyComputed:
   eleventyNavigation:
-    parent: SPE4IC
-    key: Track 1
+    parent: FCPC25
+    key: SPE4IC
     order: 99
-redirect_to: https://fastcode.org/events/fastcode-challenge/spe4ic/
 ---
 
 The **FastCode Programming Challenge** aims to push participants to optimize multicore code for high-performance computing applications. Participants will solve two fundamental problems—**Breadth-First Search (BFS)** and **Single Source Shortest Path (SSSP)**—designed to test skills in developing efficient, cache-friendly, and scalable algorithms. 

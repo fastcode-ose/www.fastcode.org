@@ -3,11 +3,11 @@ layout: layouts/page.njk
 sidebar: toc
 title: Software Performance Engineering for Irregular Computation (SPE4IC) at FCPC25
 #tagline: Tagline.
-permalink: /events/fastcode-challenge/spe4ic/
+#permalink: /events/fcpc25/traditional/
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Challenge
-    key: SPE4IC
+    parent: SPE4IC
+    key: Track 1
     order: 99
 ---
 

@@ -3,10 +3,10 @@ layout: layouts/page.njk
 sidebar: toc
 title: Large Language Model for Parallel Programming (LLM4PP) at FCPC25
 #tagline: Tagline.
-permalink: /events/fastcode-challenge/llm4pp/
+#permalink: /events/fcpc25/llm4pp/
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Challenge
+    parent: FCPC25
     key: LLM4PP
     order: 100
 ---

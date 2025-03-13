@@ -7,7 +7,7 @@ event_date: March 1, 2025
 image: /img/random-work-steal.png
 eleventyComputed:
   eleventyNavigation:
-    key: FCPC at PPoPP25
+    key: FCPC25
     parent: Events
     order: 4
 tags:
@@ -22,11 +22,11 @@ tags:
 
 [[Speedcode Instruction]](https://speedcode.org/pages/SPE4IC25.html)
 
-**[[Workshop Program]](./fcpc25-workshop/)**
+**[[Workshop Program]](./workshop-program/)**
 
 ## Workshop Program
 
-The workshop program is now available [here](./fcpc25-workshop/)!
+The workshop program is now available [here](./workshop-program/)!
 
 ## Introduction
 

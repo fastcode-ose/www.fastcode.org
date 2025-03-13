@@ -1,6 +1,6 @@
 ---
-title: Fastcode Programming Challenge 2025
-tagline: Congratulations to all participants in this programming competition at PPoPP 2025
+title: Fastcode Programming Challenge
+tagline: Congratulations to all participants in our inaugural programming competition at PPoPP 2025
 featuredEvent: true
 author: Yihan Sun
 event_date: March 1, 2025
@@ -18,7 +18,7 @@ tags:
 
 ## Summary
 
-The inaugural Fastcode Programming Challenge (FCPC) was a grand success. Congratulations to the participating teams, and heartfelt thanks to the volunteers who helped organize the event. The FCPC @ PPoPP25 guidelines are [here](/events/ppopp25-info/). We will organize more programming competitions soon! Sign up [here](/get-involved/join-us/) to stay informed. 
+The inaugural Fastcode Programming Challenge (FCPC) was a grand success. Congratulations to the participating teams, and heartfelt thanks to the volunteers who helped organize the event. The FCPC @ PPoPP25 guidelines are [here](/events/fcpc25/). We will organize more programming competitions soon! Sign up [here](/get-involved/join-us/) to stay informed. 
 
 ### Results
 

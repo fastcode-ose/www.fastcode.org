@@ -1,8 +1,0 @@
-{
-    "layout": "layouts/page.njk",
-    "stylesheet": "none",
-    "sidebar": "toc",
-    "background": "bg-white",
-    "permalink": "/events/{{ page.fileSlug | slugify }}/", 
-    "comments": false
-}

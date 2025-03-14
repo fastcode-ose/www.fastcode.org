@@ -3,12 +3,12 @@ layout: layouts/page.njk
 sidebar: toc
 title: FCPC'25 Workshop
 #tagline: Tagline.
-#permalink: /events/fcpc25/workshop-program/
+#permalink: /events/fastcode-challenge/workshop-program/
 eleventyComputed:
   eleventyNavigation:
-    parent: FCPC25
+    parent: Fastcode Challenge
     key: Workshop
-    order: 99
+    order: 3
 ---
 
 ## Introduction

@@ -3,5 +3,6 @@
     "stylesheet": "none",
     "sidebar": "toc",
     "background": "bg-white",
+    "permalink": "/events/fastcode-challenge/{{ page.fileSlug | slugify }}/", 
     "comments": false
 }

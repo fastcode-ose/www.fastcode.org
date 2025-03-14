@@ -1,10 +1,9 @@
 ---
 title: Fastcode Programming Challenge 2025
-tagline: A new programming competition at PPoPP 2025
-featuredEvent: true
+tagline: Congratulations to all participants in our inaugural programming competition at PPoPP
 author: Yihan Sun
 event_date: March 1, 2025
-reg_deadline: January 10, 2025
+#reg_deadline: January 10, 2025
 image: /img/random-work-steal.png
 eleventyComputed:
   eleventyNavigation:
@@ -16,6 +15,10 @@ tags:
   - competition
 ---
 
+{% alert "note", "Congratulations, competitors!" %}
+The inaugural Fastcode Programming Challenge (FCPC) was a grand success. Results are [here](../fcpc25-results). Congratulations to the participating teams, and heartfelt thanks to the volunteers who helped organize the event. We will organize more programming competitions soon! Sign up [here](/get-involved/join-us/) to stay informed.
+{% endalert %}
+
 ### Quick Links: 
 
 **Track 1 (SPE4IC):** [[Description]](./spe4ic/) [[Registration]](https://forms.gle/DUJUwocnFDgRmMa26) [[Link to the SSSP Problem]](https://speedcode.org/SPE4IC_SSSP) [[Link to the BFS Problem]](https://speedcode.org/SPE4IC_BFS) 
@@ -24,11 +27,9 @@ tags:
 
 [[Speedcode Instruction]](https://speedcode.org/pages/SPE4IC25.html)
 
-**[[Workshop Program]](./fcpc25-workshop/)**
+**[[Workshop Program]](./workshop-program)**
 
-## Workshop Program
-
-The workshop program is now available [here](./fcpc25-workshop/)!
+**[[FCPC25 Results]](./fcpc25-results)**
 
 ## Introduction
 

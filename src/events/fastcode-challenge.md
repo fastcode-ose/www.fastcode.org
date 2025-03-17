@@ -16,14 +16,14 @@ tags:
 ---
 
 {% alert "note", "Congratulations, competitors!" %}
-The inaugural Fastcode Programming Challenge (FCPC) was a grand success. Results are [here](../fcpc25-results). Congratulations to the participating teams, and heartfelt thanks to the volunteers who helped organize the event. We will organize more programming competitions soon! Sign up [here](/get-involved/join-us/) to stay informed.
+The inaugural Fastcode Programming Challenge (FCPC) was a grand success. Results are [here](./fcpc25-results). Congratulations to the participating teams, and heartfelt thanks to the volunteers who helped organize the event. We will organize more programming competitions soon! Sign up [here](/get-involved/join-us/) to stay informed.
 {% endalert %}
 
 ### Quick Links: 
 
-**Track 1 (SPE4IC):** [[Description]](./spe4ic/) [[Registration]](https://forms.gle/DUJUwocnFDgRmMa26) [[Link to the SSSP Problem]](https://speedcode.org/SPE4IC_SSSP) [[Link to the BFS Problem]](https://speedcode.org/SPE4IC_BFS) 
+**Track 1 (SPE4IC):** [[Description]](./spe4ic/) [[Registration]](./#registration) [[Link to the SSSP Problem]](https://speedcode.org/SPE4IC_SSSP) [[Link to the BFS Problem]](https://speedcode.org/SPE4IC_BFS) 
 
-**Track 2 (LLM4PP):** [[Description]](./llm4pp/) [[Registration]](https://docs.google.com/forms/d/1PkDMD6WdLzZcWlwzIrPJ68bfcDYlQ93nOfQhFUL7NTM) [[Link to the GitHub Page]](https://github.com/SpeedCodeOrg/LLM4PP/)
+**Track 2 (LLM4PP):** [[Description]](./llm4pp/) [[Registration]](./#registration) [[Link to the GitHub Page]](https://github.com/SpeedCodeOrg/LLM4PP/)
 
 [[Speedcode Instruction]](https://speedcode.org/pages/SPE4IC25.html)
 
@@ -70,8 +70,8 @@ Track 2 (the *AI track*) focuses on leveraging AI models to write fast parallel 
 
 ## Registration
 
-### [[Track 1 Registration]](https://forms.gle/DUJUwocnFDgRmMa26)  
-### [[Track 2 Registration]](https://docs.google.com/forms/d/1PkDMD6WdLzZcWlwzIrPJ68bfcDYlQ93nOfQhFUL7NTM)
+### [[Track 1 Registration (closed)]](./#registration)  
+### [[Track 2 Registration (closed)]](./#registration)
 
 **You can join as a team with at most two members. There can be more authors for the workshop paper (e.g., a faculty mentor or someone helping with writing the paper).** 
 

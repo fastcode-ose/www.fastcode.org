@@ -1,28 +1,28 @@
 
 - shortName: PACT
-  url: http://www.wikicfp.com/cfp/program?id=2291
-  date: October 2025
-  start: 2025-10-13
+  url: https://pact2025.github.io/
+  date: November 3-6, 2025
+  start: 2025-11-03
 - shortName: SPAA
   url: https://spaa.acm.org/
   date: July 28 - August 1, 2025
   start: 2025-07-28
 - shortName: PPoPP
   url: https://ppopp25.sigplan.org/
-  date: March 1-5, 2025
-  start: 2025-03-01
+  date: March 2026
+  start: 2026-03-01
 - shortName: IPDPS
   url: https://www.ipdps.org/
   date: June 3-7, 2025
   start: 2025-06-03
 - shortName: SODA
-  url: https://www.siam.org/conferences/cm/conference/soda25
-  date: January 12-15, 2025
-  start: 2025-01-12
+  url: https://www.siam.org/conferences/cm/conference/soda26
+  date: January 11-14, 2026
+  start: 2026-01-11
 - shortName: ALENEX
-  url: https://www.siam.org/conferences/cm/conference/alenex25
-  date: January 12-15, 2025
-  start: 2025-01-12
+  url: https://www.siam.org/conferences/cm/conference/alenex26
+  date: January 11-12, 2026
+  start: 2026-01-11
 - shortName: PLDI
   url: https://conf.researchr.org/home/pldi-2022
   date: June 16-20, 2025
@@ -36,9 +36,9 @@
   date: May 5-9, 2025
   start: 2025-05-05
 - shortName: SIAM-CSE
-  url: https://www.siam.org/conferences-events/siam-conferences/cse25/
-  date: March 3-7, 2025
-  start: 2025-03-03
+  url: https://www.siam.org/conferences-events/siam-conferences/cse27/
+  date: Feb 22-26, 2027
+  start: 2027-02-22
 - shortName: ACDA
   url: https://siam.org/conferences-events/siam-conferences/acda25/
   date: July 30 - August 1, 2025
@@ -53,7 +53,7 @@
   start: 2025-09-15
 - shortName: SC
   url: https://sc25.supercomputing.org/
-  date: November 16-21, 2024
+  date: November 16-21, 2025
   start: 2025-11-16
 - shortName: JuliaCon
   url: https://juliacon.org/2025/
@@ -61,5 +61,17 @@
   start: 2025-07-21
 - shortName: SIGCSE
   url: https://sigcse2025.sigcse.org/
-  date: February 26 - March 1, 2025
-  start: 2025-02-26
+  date: February 2026
+  start: 2026-02-26
+- shortName: CGO
+  url: https://conf.researchr.org/series/cgo
+  date: March 2026
+  start: 2026-03-02
+- shortName: ICS
+  url: https://hpcrl.github.io/ICS2025-webpage/
+  date: June 8-11, 2025
+  start: 2025-06-08
+- shortName: ASPLOS
+  url: https://www.asplos-conference.org/asplos2025/
+  date: March 30 - April 3, 2025
+  start: 2025-03-30

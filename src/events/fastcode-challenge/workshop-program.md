@@ -3,17 +3,17 @@ layout: layouts/page.njk
 sidebar: toc
 title: FCPC'25 Workshop
 #tagline: Tagline.
-permalink: /events/fastcode-challenge/fcpc25-workshop/
+#permalink: /events/fastcode-challenge/workshop-program/
 eleventyComputed:
   eleventyNavigation:
     parent: Fastcode Challenge
     key: Workshop
-    order: 99
+    order: 3
 ---
 
 ## Introduction
 
-FCPC'25 will be held at PPoPP'25 in Las Vegas. This workshop includes talks on outstanding submissions for the [Fastcode Programming Challenge 2025](https://fastcode.org/events/fastcode-challenge/).
+FCPC'25 will be held at PPoPP'25 in Las Vegas. This workshop includes talks on outstanding submissions for the [Fastcode Programming Challenge 2025](/events/fcpc25/).
 
 ## Program
 

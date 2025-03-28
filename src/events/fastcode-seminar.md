@@ -1,11 +1,11 @@
 ---
-layout: layouts/page.njk
+layout: layouts/seminar-home.njk
 title: Fastcode Seminar
 tagline: Algorithms, Compilers, Accelerators, and Whatever It Takes
 author: Bruce Hoppe
 event_date: Monthly
 #reg_deadline: January 10, 2025
-image: /img/random-work-steal.png
+image: /img/speed-limit.png
 eleventyComputed:
   eleventyNavigation:
     key: Fastcode Seminar
@@ -15,7 +15,9 @@ tags:
   - events
 ---
 
-## Description
+{% img "/img/fastcode-banner.png", "600px" %}
+
+## Algorithms, Compilers, Accelerators, and Whatever It Takes
 
 The Fastcode Seminar covers the latest research topics in the theory and practice of performance engineering. Topics of interest include, but are not limited to, algorithm design and implementation; techniques for improving parallelism and locality; high-performance programming languages and frameworks; compilers for parallel code; tools for analyzing performance; hardware techniques for improving performance; parallel and concurrent data structures; models and algorithms for emerging technologies; high-performance solutions for databases, operating systems, networking, and artificial intelligence; and just plain clever hacks. 
 

@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-page
+---
+{% if not hero.image %}
+  <h1>{{ title }}</h1>
+{% endif %}
+
+<div>
+    {%- for tag in tags | filterTagList -%}
+      {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+    {%- endfor %}
+
+    {% if attribution %}
+      <small><div class="breadcrumb-item active">{{ metadata.attribution.cilkplus }}</div></small>
+    {% endif %}
+
+    <div style="margin-top: 0.5em;">
+        {{ content | safe }}
+    </div>
+</div>

@@ -3,7 +3,7 @@ layout: layouts/seminar-home.njk
 title: Fastcode Seminar
 tagline: Algorithms, Compilers, Accelerators, and Whatever It Takes
 author: Bruce Hoppe
-event_date: Monthly
+event_date: A monthly series of virtual talks
 #reg_deadline: January 10, 2025
 image: /img/speed-limit.png
 eleventyComputed:

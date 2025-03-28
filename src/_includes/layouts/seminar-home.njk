@@ -7,6 +7,10 @@ templateClass: tmpl-page
 {% endif %}
 
 <div>
+    {% if event_date %}
+    <div><em>{{ event_date }}</em></div>
+    {% endif %}
+
     {%- for tag in tags | filterTagList -%}
       {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
       <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>

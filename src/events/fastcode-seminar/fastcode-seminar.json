@@ -1,0 +1,7 @@
+{
+    "layout": "layouts/seminar.njk",
+    "stylesheet": "none",
+    "sidebar": "toc",
+    "background": "bg-white",
+    "comments": false
+}

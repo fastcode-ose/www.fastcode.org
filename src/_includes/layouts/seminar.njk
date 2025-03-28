@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-page
+---
+{% if not hero.image %}
+  <h1>{{ title }}</h1>
+{% endif %}
+
+<div>
+    {% if tagline %}
+    <div><em>{{ tagline }}</em></div>
+    {% endif %}
+
+    {%- for tag in tags | filterTagList -%}
+      {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+    {%- endfor %}
+
+    {% if author %}
+      <h2>{{ author }}</h2>
+    {% endif %}
+
+    {% if zoomreg %}
+    <div class="admonition note"><p class="admonition-title">Zoom registration required:</p>
+      <p><a href="{{ zoomreg | url }}">{{ zoomreg }}</a></p>
+    </div>
+    {% endif %}
+
+    <div style="margin-top: 0.5em;">
+        {{ content | safe }}
+    </div>
+</div>

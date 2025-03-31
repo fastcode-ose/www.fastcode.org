@@ -40,17 +40,18 @@ The Fastcode Seminar covers the latest research topics in the theory and practic
 
 <div class="container">
 {% for item in previous_seminars %}
-  <div class="row p-2 no-gutters border rounded overflow-hidden flex-md-row mb-2 shadow-sm h-md-250 position-relative" style="background-color: var(--pst-color-surface);">
+  <div class="row py-2 px-2 no-gutters border rounded overflow-hidden flex-md-row mb-2 shadow-sm h-md-250 position-relative" style="background-color: var(--pst-color-surface);">
     <div class="col-2">{{ item.datetime }}</div><div class="col-4">{{ item.speaker }},<br>{{ item.organization }}</div><div class="col-6">{{ item.title }}</div>
   </div>
 {% endfor %}
 </div>
 
-## Organizers
+## Organizing Committee
 
+* Bruce Hoppe (co-chair)
 * [Jakub Łącki](https://research.google/people/105517/?&type=google)
 * [Roberto Palmieri](https://www.cse.lehigh.edu/~palmieri/)
 * [Christian Schulz](https://schulzchristian.github.io/)
-* [Julian Shun](https://people.csail.mit.edu/jshun) (lead organizer)
+* [Julian Shun](https://people.csail.mit.edu/jshun) (co-chair)
 * [Yihan Sun](https://www.cs.ucr.edu/~yihans/)
  

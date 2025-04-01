@@ -1,3 +1,11 @@
+- datetime: Wed Feb 19, 2025
+  speaker: Yihan Sun
+  organization: University of California-Riverside
+  title: Scalable Parallel Algorithms
+- datetime: Tue Feb 4, 2025
+  speaker: Asaf Cidon
+  organization: Columbia University
+  title: Customizing the OS Storage and Memory Stacks with eBPF
 - datetime: Fri May 24, 2024
   speaker: Ike Nassi
   organization: University of California-Santa Cruz 

@@ -32,7 +32,7 @@ Fastcode activity is loosely organized by four "pillars":
 The Fastcode [managing organization](https://new.nsf.gov/funding/initiatives/pathways-enable-open-source-ecosystems/about-pose) is responsible for catalyzing distributed, community-driven development and growth of the Fastcode open-source ecosystem.
 
 * Dorothy Curtis (MIT)
-* Bruce Hoppe
+* [Bruce Hoppe](https://fastcode.substack.com/about#§bruce-hoppe)
 * [Tim Kaler](https://www.csail.mit.edu/person/timothy-kaler) (MIT)
 * [Charles Leiserson](https://people.csail.mit.edu/cel/) (MIT)
 * [John Owens](https://www.ece.ucdavis.edu/~jowens/) (UCD)

@@ -48,7 +48,7 @@ The Fastcode Seminar covers the latest research topics in the theory and practic
 
 ## Organizing Committee
 
-* Bruce Hoppe (co-chair)
+* [Bruce Hoppe](https://fastcode.substack.com/about#§bruce-hoppe) (co-chair)
 * [Jakub Łącki](https://research.google/people/105517/?&type=google)
 * [Roberto Palmieri](https://www.cse.lehigh.edu/~palmieri/)
 * [Christian Schulz](https://schulzchristian.github.io/)

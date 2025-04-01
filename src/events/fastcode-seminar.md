@@ -19,7 +19,7 @@ tags:
 
 ## Algorithms, Compilers, Accelerators, and Whatever It Takes
 
-The Fastcode Seminar covers the latest research topics in the theory and practice of performance engineering. Topics of interest include, but are not limited to, algorithm design and implementation; techniques for improving parallelism and locality; high-performance programming languages and frameworks; compilers for parallel code; tools for analyzing performance; hardware techniques for improving performance; parallel and concurrent data structures; models and algorithms for emerging technologies; high-performance solutions for databases, operating systems, networking, and artificial intelligence; and just plain clever hacks. 
+The Fastcode Seminar covers the latest research topics in the theory, practice, and teaching of performance engineering. Topics of interest include, but are not limited to, algorithm design and implementation; techniques for improving parallelism and locality; high-performance programming languages and frameworks; compilers for parallel code; tools for analyzing performance; hardware techniques for improving performance; parallel and concurrent data structures; models and algorithms for emerging technologies; high-performance solutions for databases, operating systems, networking, and artificial intelligence; and just plain clever hacks. 
 
 {% alert "note", "To receive seminar announcements" %}
 [Sign up here](/get-involved/instructors/join/)!
@@ -54,4 +54,7 @@ The Fastcode Seminar covers the latest research topics in the theory and practic
 * [Christian Schulz](https://schulzchristian.github.io/)
 * [Julian Shun](https://people.csail.mit.edu/jshun) (co-chair)
 * [Yihan Sun](https://www.cs.ucr.edu/~yihans/)
- 
+
+{% alert "note", "To nominate a speaker for the Fastcode Seminar" %}
+[Let us know](https://forms.gle/ED6dAHumrzJddqSTA)!
+{% endalert %}

@@ -1,0 +1,268 @@
+- datetime: Wed Feb 19, 2025
+  speaker: Yihan Sun
+  organization: University of California-Riverside
+  title: Scalable Parallel Algorithms
+- datetime: Tue Feb 4, 2025
+  speaker: Asaf Cidon
+  organization: Columbia University
+  title: Customizing the OS Storage and Memory Stacks with eBPF
+- datetime: Fri May 24, 2024
+  speaker: Ike Nassi
+  organization: University of California-Santa Cruz 
+  title: Dynamic Adaptive Optimization—Recovering from Hardware Errors and Software Crashes in a Distributed Virtual Machine  
+- datetime: Fri Apr 19, 2024
+  speaker: Magdalen Dobson Manohar
+  organization: Carnegie Mellon University
+  title: ParlayANN—Scalable and Deterministic Parallel Graph-Based Approximate Nearest Neighbor Search Algorithms 
+- datetime: Tue Apr 9, 2024
+  speaker: Vahab Mirrokni
+  organization: Google Research
+  title: Graph Mining and Data Efficiency@Scale—From scalability to ML applications 
+- datetime: Tue Dec 5, 2023
+  speaker: Nishil Talati
+  organization: University of Michigan
+  title: High-Performance GPU Code Generation for Mining Motifs in Temporal Graphs 
+- datetime: Tue Oct 17, 2023
+  speaker: Rohan Yadav
+  organization: Stanford University
+  title: Distributed Sparse Computing in Python 
+- datetime: Thu May 11, 2023
+  speaker: Gal Sela
+  organization: Technion - Israel Institute of Technology
+  title: Size Operation for Concurrent Data Structures
+- datetime: Thu Apr 20, 2023
+  speaker: Jialin Li
+  organization: National University of Singapore
+  title: The Case for Network Ordering in Distributed Systems Design 
+- datetime: Wed Oct 5, 2022
+  speaker: Rezaul Chowdhury
+  organization: Stony Brook University
+  title: Fast Stencil Computations using FFT and Gaussian Approximations 
+- datetime: Wed Sep 28, 2022
+  speaker: Harsha Simhadri
+  organization: Microsoft Research
+  title: Approximate Nearest Neighbor Search algorithms for web-scale search and recommendation
+- datetime: Wed Sep 14, 2022
+  speaker: David Tench
+  organization: Rutgers University
+  title: Dynamic Graph Connectivity—To Infinity And Beyond
+- datetime: Wed Jun 1, 2022
+  speaker: Hans Vandierendonck
+  organization: Queen's University Belfast
+  title: Memory Locality Optimisations for Graph Processing 
+- datetime: Wed Apr 20, 2022
+  speaker: Jessica Shi
+  organization: MIT
+  title: Bridging Theory and Practice in Parallel Subgraph Computations 
+- datetime: Wed Apr 6, 2022
+  speaker: Neil Thompson
+  organization: MIT
+  title: How close are algorithms to being optimal? 
+- datetime: Wed Feb 16, 2022
+  speaker: William Kuszmaul
+  organization: MIT
+  title: Linear Probing Revisited—Tombstones Mark the Demise of Primary Clustering 
+- datetime: Wed Dec 8, 2021
+  speaker: Yuanhao Wei
+  organization: CMU
+  title: Multi-point Queries on Concurrent Data Structures  
+- datetime: Wed Nov 17, 2021
+  speaker: Naama Ben-David
+  organization: VMware Research
+  title: Algorithms for Practical Distributed Agreement 
+- datetime: Wed Nov 3, 2021
+  speaker: Irene Zhang
+  organization: Microsoft Research
+  title: The Demikernel Datapath OS Architecture for Microsecond-scale Datacenter Systems  
+- datetime: Wed Oct 13, 2021
+  speaker: Jan Vitek
+  organization: Northeastern University
+  title: Productivity and Performance Reconciled—The Julia Story 
+- datetime: Wed May 12, 2021
+  speaker: Daniel Lemire
+  organization: University of Quebec
+  title: Parsing numbers at a gigabyte per second 
+- datetime: Wed Apr 28, 2021
+  speaker: Xuhao Chen
+  organization: MIT
+  title: Software and Hardware Systems for Emerging Graph Algorithms 
+- datetime: Wed Apr 7, 2021
+  speaker: Helen Xu
+  organization: MIT
+  title: Data Structure Design for Skewed Dynamic Graph Processing 
+- datetime: Wed Mar 31, 2021
+  speaker: Tim Davis
+  organization: Texas A&M
+  title: SuiteSparse:GraphBLAS—graph algorithms in the language of sparse linear algebra 
+- datetime: Wed Mar 24, 2021
+  speaker: Martin Farach-Colton
+  organization: Rutgers University
+  title: The Algorithmics of Address Translation
+- datetime: Wed Mar 17, 2021
+  speaker: Maryam Mehri Dehnavi
+  organization: University of Toronto
+  title: Inspecting Irregular Computation Patterns to Generate Fast Code 
+- datetime: Wed Mar 10, 2021
+  speaker: Sam Westrick
+  organization: CMU
+  title: Disentanglement—Provably Efficient Parallel Functional Programming (Slides) 
+- datetime: Wed Feb 24, 2021
+  speaker: Edgar Solomonik
+  organization: UIUC
+  title: Scalable Algorithms for Tensor Computations (Slides) 
+- datetime: Mon Jan 25, 2021 
+  speaker: Ariful Azad
+  organization: Indiana University
+  title: Computational Building Blocks for Machine Learning on Graphs (Slides) 
+- datetime: Mon Jan 11, 2021
+  speaker: Xuehai Qian
+  organization: USC
+  title: High Performance Graph Mining Systems (Slides) 
+- datetime: Mon Dec 7, 2020
+  speaker: Yuanming Hu
+  organization: MIT
+  title: Taichi—A Language for High-Performance Computation on Spatially Sparse Data Structures 
+- datetime: Mon Nov 30, 2020
+  speaker: Scott Beamer
+  organization: UC Santa Cruz
+  title: Efficiently Exploiting Low-Activity Factors to Accelerate RTL Simulation 
+- datetime: Mon Nov 9, 2020
+  speaker: Bradley Kuszmaul
+  organization: Google
+  title: Everyone Loves File—File Storage Service (FSS) in Oracle Cloud Infrastructure 
+- datetime: Mon Nov 2, 2020
+  speaker: Michael Bender
+  organization: Stony Brook University
+  title: Filters 
+- datetime: Mon Oct 26, 2020
+  speaker: Alex Pothen
+  organization: Purdue University
+  title: Approximation—A Paradigm for Designing Parallel Graph Algorithms 
+- datetime: Mon Oct 19, 2020
+  speaker: Rezaul Chowdhury
+  organization: Stony Brook University
+  title: Automatic Derivation of Efficient Parallel Recursive Divide-&-Conquer Algorithms for Dynamic Programs 
+- datetime: Mon Sep 28, 2020
+  speaker: Michael Mahoney
+  organization: ICSI and UC Berkeley
+  title: ADAHESSIAN—An Adaptive Second Order Optimizer for Machine Learning  
+- datetime: Mon Sep 21, 2020
+  speaker: Franz Franchetti
+  organization: Carnegie Mellon University
+  title: SPIRAL's Operator Language—From Textbook Math to High Performance—With Correctness Guarantees  
+- datetime: Mon Aug 10, 2020
+  speaker: James Demmel
+  organization: UC Berkeley
+  title: Communication-avoiding algorithms for linear algebra, machine learning and beyond  
+- datetime: Mon Aug 3, 2020
+  speaker: Kathy Yelick
+  organization: UC Berkeley/ Lawrence Berkeley National Lab
+  title: Genomic Analysis and Learning at Scale—Mapping Irregular Computations to Advanced Architectures  
+- datetime: Mon Jul 27, 2020
+  speaker: Larry Rudolph and Steven Martin
+  organization: Two Sigma Investments, LP/ MIT CSAIL
+  title: QuickQuery—GPU-Based Approximate Query Processing for Sub-Second Exploration at Scale 
+- datetime: Mon Jul 20, 2020
+  speaker: Stephen Chou
+  organization: MIT
+  title: Format Abstractions for Sparse Tensor Algebra Compilation  
+- datetime: Mon Jul 13, 2020
+  speaker: Michael Axtmann and Peter Sanders
+  organization: Karlsruhe Institute of Technology
+  title: Engineering Scalable Parallel Sorting Algorithms  
+- datetime: Mon Jun 29, 2020
+  speaker: Umit Catalyurek
+  organization: Georgia Tech
+  title: Fast graph analytics on heterogenous and deep-memory architectures 
+- datetime: Mon Jun 22, 2020
+  speaker: Aydin Buluc
+  organization: Lawrence Berkeley National Lab/UC Berkeley
+  title: Sparse Matrices Beyond Solvers—Graphs, Biology, and Machine Learning (Slides) 
+- datetime: Mon Jun 15, 2020
+  speaker: Wen-Mei Hwu
+  organization: UIUC
+  title: Fast GPU Code for Graphs (Slides) 
+- datetime: Mon Jun 8, 2020
+  speaker: David Bader
+  organization: New Jersey Institute of Technology
+  title: Solving Global Grand Challenges with High Performance Data Analytics  
+- datetime: Mon Jun 1, 2020
+  speaker: John Owens
+  organization: UC Davis
+  title: Dynamic Data Structures on the GPU  
+- datetime: Mon May 11, 2020
+  speaker: Alex Aiken
+  organization: Stanford
+  title: Program Optimization for Machine Learning  
+- datetime: Mon May 4, 2020
+  speaker: Ariya Shajii
+  organization: MIT
+  title: Seq—a high-performance language for bioinformatics 
+- datetime: Mon Apr 20, 2020
+  speaker: Neil Thompson & Yash Sherry
+  organization: MIT
+  title: How fast are Algorithms Improving? 
+- datetime: Tue Feb 18, 2020
+  speaker: S. Tucker Taft
+  organization: AdaCore
+  title: Safe Parallel Programming -- ParaSail, Ada 202X, OpenMP, and Rust 
+- datetime: Mon Nov 25, 2019
+  speaker: Bruce Maggs
+  organization: Duke University and Emerald Innovations
+  title: A Speed-of-Light Internet Service Provider  
+- datetime: Mon Nov 18, 2019
+  speaker: Charith Mendis
+  organization: MIT
+  title: How to Modernize Compiler Technology 
+- datetime: Mon Nov 4, 2019
+  speaker: Yunming Zhang
+  organization: MIT
+  title: GraphIt—A Domain-Specific Language for Writing High-Performance Graph Applications  
+- datetime: Mon Oct 21, 2019
+  speaker: Alex Conway
+  organization: Rutgers University
+  title: SplinterDB—Closing the Bandwidth Gap on NVMe  
+- datetime: Mon Sep 30, 2019
+  speaker: Valentin Churavy
+  organization: MIT
+  title: Julia—Making dynamic programs run fast  
+- datetime: Mon Sep 23, 2019
+  speaker: Riyadh Baghdadi
+  organization: MIT
+  title: Tiramisu—A Polyhedral Compiler for Dense and Sparse Deep Learning  
+- datetime: Mon Sep 16, 2019
+  speaker: Bill Dally
+  organization: NVIDIA Corporation and Stanford University
+  title: Domain-Specific Accelerators 
+- datetime: Tue Aug 27, 2019
+  speaker: Laxman Dhulipala
+  organization: Carnegie Mellon University
+  title: Algorithms and Systems for Processing Massive Static and Evolving Graphs 
+- datetime: Tue Aug 20, 2019
+  speaker: Tao B. Schardl
+  organization: MIT
+  title: Tapir—Embedding Recursive Fork-Join Parallelism into LLVM's Intermediate Representation 
+- datetime: Tue Aug 6, 2019
+  speaker: Jeremy Kepner
+  organization: MIT Lincoln Laboratory Supercomputing Center
+  title: Optimal system settings—How to not lose before you begin  
+- datetime: Tue Jul 30, 2019
+  speaker: I-Ting Angelina Lee
+  organization: Washington University in St. Louis
+  title: Advances in Determinacy Race Detection for Task-Parallel Code  
+- datetime: Tue Jul 23, 2019
+  speaker: Maurice Herlihy
+  organization: Brown University
+  title: Speculative Concurrency for Ethereum Smart Contracts 
+- datetime: Tue Jul 16, 2019
+  speaker: Song Han
+  organization: MIT
+  title: AutoML for Efficiently Designing Efficient Neural Network Architectures 
+- datetime: Tue Jul 9, 2019
+  speaker: Fredrik Kjolstad
+  organization: MIT
+  title: The Sparse Tensor Algebra Compiler 
+- datetime: Tue Jun 11, 2019
+  speaker: Charles Leiserson
+  organization: MIT
+  title: The Resurgence of Software Performance Engineering

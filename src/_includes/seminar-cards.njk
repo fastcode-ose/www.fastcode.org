@@ -1,0 +1,14 @@
+{% for post in postslist %}
+
+  <div class="col-12">
+    <div class="row p-2 no-gutters border rounded overflow-hidden flex-md-row mb-2 shadow-sm h-md-250 position-relative" style="background-color: var(--pst-color-surface);">
+      <div class="col-12 d-flex flex-column position-static">
+        <a href="{% if post.data.ext_url %}{{ post.data.ext_url | url }}{% else %}{{ post.url | url }}{% endif %}"><h3 class="mt-0 mb-0">{{ post.data.title }}</h3></a>
+        <p class="mb-0">{{ post.data.author }}</p>
+        <p class="mb-0">{{ post.data.tagline }}</p>
+      </div>
+    </div>
+  </div>
+
+{% endfor %}
+

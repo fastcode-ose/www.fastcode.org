@@ -128,7 +128,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection('glossary', (collection) => {
     return collection
-        .getFilteredByGlob("./src/doc/reference/glossary/*.md")
+        .getFilteredByGlob("./src/about/spe-glossary/*.md")
         // Sort content alphabetically by title
         .sort((a, b) => {
           const titleA = a.data.title.toUpperCase()
@@ -204,7 +204,7 @@ module.exports = function(eleventyConfig) {
       // `collections` and `page` variables from within our shortcode.
       const { collections, page } = this.ctx;
       const slug = slugifyFn(term);
-      const glossaryUrl = `/doc/reference/glossary/#${slug}`;
+      const glossaryUrl = `/about/spe-glossary/#${slug}`;
       // If our `collections.defnTerms` does NOT include the current slug, it's likely a bad link/defn.
       if (!Object.keys(collections.defnTerms).includes(slug)) {
         console.error(`[${page.url}] Unknown term: "${term}" => ${glossaryUrl}`);

@@ -9,8 +9,8 @@ eleventyNavigation:
   parent: About
   order: 1
 ---
-{% alert "note", "Software performance engineering (SPE):" %}
-Making software run fast or otherwise consume few resources such as time, storage, energy, network bandwidth, etc.
+{% alert "note", "From the <a href='../spe-glossary/'>SPE Glossary</a>:" %}
+{% defn "Software performance engineering", "Software performance engineering (SPE):" %} making software run fast or otherwise consume few resources such as time, storage, energy, network bandwidth, etc.
 {% endalert %}
 
 ## A field whose time has come (again)

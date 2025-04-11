@@ -1,10 +1,11 @@
 ---
-title: Share your research
+title: Share your SPE story
 tagline: Let Fastcode promote your work in performance engineering.
 author: Bruce Hoppe
 image: /img/eagle-and-owl.png
 eleventyNavigation:
-  key: Share your research
+  key: Share your SPE story
+  parent: Get involved
   order: 4
 tags:
   get_involved
@@ -14,9 +15,7 @@ tags:
 
 Would you like to publish a short article that helps a broad audience to get curious about something you're into?
 
-The Fastcode blog is currently collecting stories and will start publishing in winter 24/25.
-
-Tell us your story (or story idea) and let the Fastcode blog promote your work and interests in SPE. 
+Tell us your story (or story idea) and let the [Fastcode blog](/blog/read-fastcode) promote your work and interests in SPE. 
 
 ## Making SPE more accessible
 

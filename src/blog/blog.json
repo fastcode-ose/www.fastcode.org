@@ -1,0 +1,8 @@
+{
+    "layout": "layouts/page.njk",
+    "stylesheet": "none",
+    "sidebar": "toc",
+    "background": "bg-white",
+    "permalink": "/blog/{{ page.fileSlug | slugify }}/", 
+    "comments": false
+}

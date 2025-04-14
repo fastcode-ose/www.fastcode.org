@@ -1,22 +1,23 @@
 ---
-title: Share your research
-tagline: Let Fastcode promote your work in performance engineering.
+title: Share your performance-engineering story
+tagline: Let Fastcode promote your work and interests in SPE.
 author: Bruce Hoppe
 image: /img/eagle-and-owl.png
 eleventyNavigation:
-  key: Share your research
+  key: Share your SPE story
+  parent: Get involved
   order: 4
 tags:
   get_involved
 ---
 
-## Help wanted
+<a href="https://fastcode.substack.com"><img src="/img/help-wanted.png" width="800pt"></img></a>
 
-Would you like to publish a short article that helps a broad audience to get curious about something you're into?
+Would you like to promote software performance engineering to a broad audience and get people curious about something you're into?
 
-The Fastcode blog is currently collecting stories and will start publishing in winter 24/25.
-
-Tell us your story (or story idea) and let the Fastcode blog promote your work and interests in SPE. 
+{% alert "note", "Let the <a href='/blog/read-fastcode'>Fastcode blog</a> promote your work and interests in SPE." %}
+Contact [Bruce Hoppe](mailto:behoppe@mit.edu) to learn more.
+{% endalert %}
 
 ## Making SPE more accessible
 
@@ -32,5 +33,5 @@ Stories we'd love to hear about include
 * how you see the interface between HPC (or field `x`) and SPE
 * why you use language `x` or tool `y` for SPE
 
-Contact [Bruce Hoppe](mailto:behoppe@mit.edu) to learn more.
+
  

@@ -7,11 +7,9 @@ zoomreg: https://mit.zoom.us/meeting/register/rQq4CXn4Q4q98h4THV3qgw
 date: 2025-04-14
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Seminar
+    parent: Seminar Archive
     key: Saman Amarasinghe on BuildIt
-    order: 1
-tags:
- - seminar
+    order: 99
 ---
 
 ## Abstract

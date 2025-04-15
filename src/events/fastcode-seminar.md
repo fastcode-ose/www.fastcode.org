@@ -22,7 +22,7 @@ tags:
 The Fastcode Seminar covers the latest research topics in the theory, practice, and teaching of performance engineering. Topics of interest include, but are not limited to, algorithm design and implementation; techniques for improving parallelism and locality; high-performance programming languages and frameworks; compilers for parallel code; tools for analyzing performance; hardware techniques for improving performance; parallel and concurrent data structures; models and algorithms for emerging technologies; high-performance solutions for databases, operating systems, networking, and artificial intelligence; and just plain clever hacks. 
 
 {% alert "note", "To receive seminar announcements" %}
-[Sign up here](/get-involved/instructors/join/)!
+[Sign up here](/get-involved/join-us/)!
 {% endalert %}
 
 ## Upcoming Schedule

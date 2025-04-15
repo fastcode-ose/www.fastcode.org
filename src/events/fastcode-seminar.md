@@ -41,7 +41,7 @@ The Fastcode Seminar covers the latest research topics in the theory, practice, 
 <div class="container">
 {% for item in previous_seminars %}
   <div class="row py-2 px-2 no-gutters border rounded overflow-hidden flex-md-row mb-2 shadow-sm h-md-250 position-relative" style="background-color: var(--pst-color-surface);">
-    <div class="col-2">{{ item.datetime }}</div><div class="col-4">{{ item.speaker }},<br>{{ item.organization }}</div><div class="col-6">{{ item.title }}</div>
+    <div class="col-2">{{ item.datetime }}</div><div class="col-4">{{ item.speaker }},<br>{{ item.organization }}</div><div class="col-6">{% if item.recording %}<a href='{{ item.recording | url }}'>{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</div>
   </div>
 {% endfor %}
 </div>

@@ -1,0 +1,8 @@
+{
+    "layout": "layouts/seminar.njk",
+    "stylesheet": "none",
+    "sidebar": "toc",
+    "background": "bg-white",
+    "permalink": "/events/fastcode-seminar/{{ page.fileSlug | slugify }}/", 
+    "comments": false
+}

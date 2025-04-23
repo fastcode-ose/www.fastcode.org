@@ -19,7 +19,7 @@ tags:
 ## Top teams for Track 1: BFS
 1. Team RGBSM: Marati Bhaskar and Raghavendra Kanakagiri (IIT Tirupati)
 1. Team TD-Badger: TW Huang and Pao-I Chen (University of Wisconsin at Madison)
-1. Team TuT: Xinmiao Zhang, Xiaorong Qin, Lei Zhang, and Cheng Lei (Institute of Computing Technology, Chinese Academy of Sciences)
+1. Team TuT: Xinmiao Zhang, Xiaorong Qin, Lei Zhang, and Cheng Liu (Institute of Computing Technology, Chinese Academy of Sciences)
 
 ## Top teams for Track 1: SSSP
 1. Team RELAXed Traversers: Marco D'Antonio, Thai Son Mai, and Hans Vandierendonck (Queen's University Belfast); Kåre von Geijer and  Philippas Tsigas (Chalmers University of Technology and University of Gothenburg)

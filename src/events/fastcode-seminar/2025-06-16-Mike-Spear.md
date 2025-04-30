@@ -1,6 +1,6 @@
 ---
 sidebar: toc
-title: TBA
+title: Mike Spear (title TBA)
 author: Mike Spear, Lehigh University
 tagline: Monday, June 16, 2025 4PM EDT
 zoomreg: https://mit.zoom.us/meeting/register/jsjIZv1HTmSW5Pp02Zxf0g

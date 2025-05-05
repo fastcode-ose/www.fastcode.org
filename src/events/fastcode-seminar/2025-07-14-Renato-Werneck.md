@@ -1,6 +1,6 @@
 ---
 sidebar: toc
-title: Renato Werneck (title TBA)
+title: Last mile deliveries at Amazon
 author: Renato Werneck, Amazon
 tagline: Monday, July 14, 2025 12PM EDT
 zoomreg: https://mit.zoom.us/meeting/register/w3GPQcalQH20uiME1EPjGw

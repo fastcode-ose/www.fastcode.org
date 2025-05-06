@@ -9,9 +9,8 @@ eleventyComputed:
   eleventyNavigation:
     key: Fastcode Challenge
     parent: Events
-    order: 1
+    order: 3
 tags:
-  - events
   - competition
 ---
 

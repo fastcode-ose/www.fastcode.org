@@ -54,3 +54,7 @@ We are actively maintaining the following list of resources to help you learn SP
 * [Patterns for Parallel Programming](https://www.amazon.com/Patterns-Parallel-Programming-Software-ebook/dp/B001UG3IQQ) (2004) by Timothy Mattson, Beverly Sanders, and Berna Massingill
 * [Introduction to Parallel Computing](https://www.amazon.com/Introduction-Parallel-Computing-Ananth-Grama/dp/0201648652) (2003) by by Ananth Grama, Anshul Gupta, George Karypis, and Vipin Kumar
 * [Our Pattern Language](https://patterns.eecs.berkeley.edu/) by UC Berkeley
+
+### Classes on SPE
+
+Check out [this list of classes on SPE](/get-involved/instructors/#list-of-classes-and-workshops).

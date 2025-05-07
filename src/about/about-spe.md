@@ -7,7 +7,7 @@ title: About software performance engineering (SPE)
 eleventyNavigation:
   key: About SPE
   parent: About
-  order: 1
+  order: 0
 ---
 {% alert "note", "From the <a href='../spe-glossary/'>SPE Glossary</a>:" %}
 {% defn "Software performance engineering", "Software performance engineering (SPE):" %} making software run fast or otherwise consume few resources such as time, storage, energy, network bandwidth, etc.

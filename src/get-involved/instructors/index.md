@@ -14,7 +14,7 @@ tags:
 
 # Welcome
 
-{% img "/img/cel-learn-spe.png", "550px" %}
+{% img "/img/cel-learn-spe.png", "500px" %}
 
 Whether you're curious about teaching your first-ever performance-engineering module or wanting to share the success of an existing SPE class, you are welcome to join Fastcode's SPE instructors community.
 
@@ -22,7 +22,11 @@ Whether you're curious about teaching your first-ever performance-engineering mo
 
 ### For starters
 
-Take a look at this post by John Owens, "[My experience teaching software performance engineering](https://fastcode.substack.com/p/my-experience-teaching-software-performance)," about adapting [MIT 6.106](#mit) to create his own [SPE class at UC Davis](#uc-davis). John also coauthored this paper, "[Helping faculty teach software performance engineering](https://escholarship.org/uc/item/2fj7x89s)," published at [EduPar-24](https://tcpp.cs.gsu.edu/curriculum/?q=edupar24). EduPar and its sibling workshop EduHPC (held annualy at IPDPS and SC, respectively) are organized through [CDER](https://tcpp.cs.gsu.edu/curriculum/?q=node/21183), which develops and curates many useful resources for teaching parallel and distributed computing. See also [Get started with SPE](/get-involved/get-started-spe).
+Take a look at this post by John Owens, "[My experience teaching software performance engineering](https://fastcode.substack.com/p/my-experience-teaching-software-performance)," about adapting [MIT 6.106](#mit) to create his own [SPE class at UC Davis](#uc-davis). John also coauthored this paper, "[Helping faculty teach software performance engineering](https://escholarship.org/uc/item/2fj7x89s)," published at [EduPar-24](https://tcpp.cs.gsu.edu/curriculum/?q=edupar24). EduPar and its sibling workshop EduHPC (held annualy at IPDPS and SC, respectively) are organized through [CDER](https://tcpp.cs.gsu.edu/curriculum/?q=node/21183), which develops and curates many useful resources for teaching parallel and distributed computing. 
+
+{% alert "note", "Check it out!" %}
+The [Get started with SPE](/get-involved/get-started-spe) page includes lots of resources to help you learn, do, and teach SPE.
+{% endalert %}
 
 To help you develop your own course or module on SPE, below is an incomplete list of relevant classes and workshops. Each listing includes links to lecture PDFs and sometimes videos.
 

@@ -7,7 +7,7 @@ title: About software performance engineering (SPE)
 eleventyNavigation:
   key: About SPE
   parent: About
-  order: 1
+  order: 0
 ---
 {% alert "note", "From the <a href='../spe-glossary/'>SPE Glossary</a>:" %}
 {% defn "Software performance engineering", "Software performance engineering (SPE):" %} making software run fast or otherwise consume few resources such as time, storage, energy, network bandwidth, etc.
@@ -45,3 +45,7 @@ The **theoretical foundations of SPE** include task-parallel scheduling, work/sp
 
 * [The future of computing beyond Moore's Law](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2019.0061), *Phil. Trans. of the Royal Soc.*, Jan 2020.
 * [There's plenty of room at the top: What will drive computer performance after Moore's Law?](https://www.science.org/doi/10.1126/science.aam9744), *Science*, June 2020.
+
+## Getting started with SPE
+
+Check out [this page of resources](/get-involved/get-started-spe/) to help you learn, do, and teach SPE.

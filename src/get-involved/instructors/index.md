@@ -14,7 +14,7 @@ tags:
 
 # Welcome
 
-{% img "/img/cel-learn-spe.png", "550px" %}
+{% img "/img/cel-learn-spe.png", "500px" %}
 
 Whether you're curious about teaching your first-ever performance-engineering module or wanting to share the success of an existing SPE class, you are welcome to join Fastcode's SPE instructors community.
 

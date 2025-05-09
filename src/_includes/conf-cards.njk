@@ -5,7 +5,11 @@
       <div class="col-9 d-flex flex-column position-static">
         <a href="{{ post.url | url }}"><h3 class="font-weight-bold mt-0 mb-0">{{ post.shortName }}</h3></a>
         {% if post.date %}
-          <p style="margin-bottom: 6pt;"><strong>{{ post.date }}</strong></p>
+          <p style="margin-bottom: 6pt;"><strong>{{ post.date }}</strong> 
+            {% if post.submit %}
+              <i class="font-weight-light" style="font-size:smaller;"> (Submit {{ post.submit }})</i>
+            {% endif %}
+          </p>
         {% endif %}
         {% if post.tagline %}
           <p style="margin-bottom: 12pt;">{{ post.tagline }}</p>

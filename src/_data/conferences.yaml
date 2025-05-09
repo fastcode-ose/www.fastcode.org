@@ -1,4 +1,3 @@
-
 - shortName: PACT
   url: https://pact2025.github.io/
   date: November 3-6, 2025
@@ -78,17 +77,17 @@
   url: https://conf.researchr.org/series/cgo
   date: March 2026
   start: 2026-03-02
-  submit: late May (R1); mid Sept (R2)
+  submit: late May (R1), mid Sept (R2)
 - shortName: ICS
   url: https://hpcrl.github.io/ICS2025-webpage/
   date: June 8-11, 2025
   start: 2025-06-08
-  submit: mid Jan (R1); late Feb (R2)
+  submit: mid Jan (R1), late Feb (R2)
 - shortName: ASPLOS
   url: https://www.asplos-conference.org/asplos2026/cfp/
   date: April 2026
   start: 2026-04-02
-  submit: mid Mar (R1); mid Aug (R2)
+  submit: mid Mar (R1), mid Aug (R2)
 - shortName: MLSys
   url: https://mlsys.org/
   date: May 12-15, 2025
@@ -113,4 +112,4 @@
   url: https://eurosys.org/
   date: April 13-16, 2026
   start: 2026-04-13
-  submit: mid May (R1); mid Sept (R2)
+  submit: mid May (R1), mid Sept (R2)

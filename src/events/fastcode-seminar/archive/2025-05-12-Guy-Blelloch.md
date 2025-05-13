@@ -7,11 +7,9 @@ zoomreg: https://mit.zoom.us/meeting/register/d9elcUhCS-eV-xC8Kw6jaA
 date: 2025-05-12
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Seminar
+    parent: Seminar Archive
     key: Guy Blelloch on concurrent algorithms
-    order: 2
-tags:
- - seminar
+    order: 98
 ---
 
 ## Abstract

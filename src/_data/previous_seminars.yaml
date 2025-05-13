@@ -1,3 +1,8 @@
+- datetime: Mon May 12, 2025
+  speaker: Guy Blelloch
+  organization: Carnegie Mellon University
+  title: Two general techniques for simple and efficient concurrent data structures
+  recording: https://mit.zoom.us/rec/share/bM0o10fxScLhJC8aLfyVWs11CtXmUprVyqOwSvobrK-P7shT4EMY_XKuP_z26Gbc.ptr-UAjPEpomZ0em
 - datetime: Mon Apr 14, 2025
   speaker: Saman Amarasinghe
   organization: MIT

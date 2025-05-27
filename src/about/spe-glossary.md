@@ -5,7 +5,7 @@ attribution: true
 eleventyNavigation:
   key: SPE Glossary
   parent: About
-  order: 2
+  order: 3
 ---
 
 {% for entry in collections.glossary %}

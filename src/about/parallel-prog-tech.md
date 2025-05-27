@@ -7,7 +7,7 @@ title: Comparing task-parallel programming platforms for SPE
 eleventyNavigation:
   key: Comparing SPE platforms
   parent: About
-  order: 3
+  order: 2
 ---
 
 A good task-parallel programming platform will make it easier for you to do software performance engineering.
@@ -25,7 +25,7 @@ The following table is based on [A taxonomy of task-based parallel programming t
   <thead>
     <tr>
       <td scope="col"></td>
-      <th scope="col" colspan="12" style="background-color: var(--pst-color-surface);"><h3>API</h3></th>
+      <th scope="col" colspan="12" style="background-color: var(--pst-color-surface);"><h3>API Features</h3></th>
       <th scope="col" colspan="3"><h3>Runtime</h3></th>
     <tr>
     <tr>
@@ -79,5 +79,10 @@ The following table is based on [A taxonomy of task-based parallel programming t
 * **auto** = the platform does this automatically
 * **m** = you can manually do this with the platform
 * **a/m** = both automatic and manual
+* **ctfg**
 * **ws** = work stealing
 * **mult** = multiple (including work stealing)
+* **off** = offline use of monitoring data
+* **on** = online use of monitoring data
+
+Technological readiness is measured according to [this scale](https://en.wikipedia.org/wiki/Technology_readiness_level).

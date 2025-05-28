@@ -8,7 +8,7 @@ date: 2025-07-14
 eleventyComputed:
   eleventyNavigation:
     parent: Fastcode Seminar
-    key: Renato Werneck on SPE
+    key: Renato Werneck on Amazon's "last mile"
     order: 4
 tags:
  - seminar

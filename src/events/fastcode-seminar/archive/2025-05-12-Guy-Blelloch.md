@@ -3,7 +3,7 @@ sidebar: toc
 title: Two general techniques for simple and efficient concurrent data structures
 author: Guy Blelloch, Carnegie Mellon University
 tagline: Monday, May 12, 2025 4PM EDT
-zoomreg: https://mit.zoom.us/meeting/register/d9elcUhCS-eV-xC8Kw6jaA
+zoomreg: 
 date: 2025-05-12
 eleventyComputed:
   eleventyNavigation:
@@ -15,6 +15,10 @@ eleventyComputed:
 ## Abstract
 
 Concurrent data structures are becoming increasingly important with ever growing number of cores.    The design of concurrent data structures, however, often requires a tradeoff between efficiency and simplicity.    In this talk I will cover two general techniques we have developed to bridge this gap: lock-free-locks and big-atomics.    Lock-free locks allow one to run lock-based code so that it is technically lock-free (i.e., no thread can block another and there is a guarantee of system-wide progress).    This can make a data structure significantly more efficient in environments where threads often get interrupted and swapped out (e.g., when there are more user threads than hardware threads) while keeping the simple design of lock-based code.     Big atomics is an approach for efficiently implementing atomic reads, writes and other operations on objects consisting of multiple adjacent words.     Such multiword atomic operations can simplify the design of concurrent algorithms.   Our approach avoids a level of indirection while still supporting lock-free operations, making them efficient and robust.
+
+## Recording
+
+https://mit.zoom.us/rec/share/bM0o10fxScLhJC8aLfyVWs11CtXmUprVyqOwSvobrK-P7shT4EMY_XKuP_z26Gbc.ptr-UAjPEpomZ0em
 
 ## Bio
 

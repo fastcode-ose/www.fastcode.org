@@ -10,6 +10,9 @@ eleventyNavigation:
   order: 2
 ---
 
+
+## INCOMPLETE ROUGH DRAFT
+
 A good task-parallel programming platform will make it easier for you to do software performance engineering.
 
 See this blog post for 6 questions to ask yourself when choosing a platform.

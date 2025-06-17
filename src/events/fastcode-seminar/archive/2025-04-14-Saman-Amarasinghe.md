@@ -3,7 +3,6 @@ sidebar: toc
 title: Transforming High-Performance Libraries to Domain-Specific Languages and Optimizing Compilers with BuildIt
 author: Saman Amarasinghe, MIT
 tagline: Monday, April 14, 2025 4PM EDT
-zoomreg: https://mit.zoom.us/meeting/register/rQq4CXn4Q4q98h4THV3qgw
 date: 2025-04-14
 eleventyComputed:
   eleventyNavigation:
@@ -17,6 +16,10 @@ eleventyComputed:
 There are countless high-performance library implementations available for various domains and hardware platforms, yet Domain-Specific Languages (DSLs) and compilers remain rare. A well-designed DSL can express a far broader range of programs within a domain compared to even the most comprehensive library while also enabling domain-specific, global optimizations that go beyond hand-optimized kernels. The scarcity of high-performance DSLs stems from the complexity of building DSL compilers, which are typically large, intricate systems developed by experts.
 
 In this talk, I will introduce **BuildIt**, a C++ framework designed for the rapid prototyping of high-performance DSLs. **BuildIt** uses a multi-stage programming approach to combine the flexibility of libraries with the performance and specialization of code generation. With **BuildIt**, domain experts can transform existing libraries into efficient, specialized compilers simply by modifying types of the variables. Moreover, it allows them to implement analyses and transformations without needing to write traditional compiler code. Currently, **BuildIt** supports code generation for multi-core CPUs and GPUs, with FPGA support coming soon. I will also showcase four DSLs created with **BuildIt** to highlight its power and ease of use: a reimplementation of the **GraphIt** graph computing language, the **BREeze** DSL for regular expressions, **StreamIt** a DSL for stream computing including PyTorch, and **NetBlocks**, a DSL for custom network protocol development. More information on **BuildIt** can be found at [https://buildit.so/](https://buildit.so/).
+
+## Recording
+
+https://mit.zoom.us/rec/share/W2i3StHGfhHeF0TvOgQ8Qe301jWXB9FS7NORT_KOKvlX4VmxeeE3nmvLtNi5lStE.BnPuCd1MQSSpzwOI
 
 ## Bio
 

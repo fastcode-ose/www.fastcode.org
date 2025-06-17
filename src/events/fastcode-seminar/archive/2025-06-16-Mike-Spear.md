@@ -3,15 +3,12 @@ sidebar: toc
 title: A renewed focus on the *structure* of concurrent data structures
 author: Mike Spear, Lehigh University
 tagline: Monday, June 16, 2025 4PM EDT
-zoomreg: https://mit.zoom.us/meeting/register/jsjIZv1HTmSW5Pp02Zxf0g
 date: 2025-06-16
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Seminar
+    parent: Seminar Archive
     key: Mike Spear on structure for concurrency
-    order: 3
-tags:
- - seminar
+    order: 97
 ---
 
 ## Abstract
@@ -31,6 +28,11 @@ transactions, while retaining the ability for low-level optimization.
 I will then describe the [Skip Hash](https://arxiv.org/html/2410.07466v1), a shockingly simple and easy-to-verify
 concurrent ordered map that uses exoTM's composability and novel atomicity
 features to reduce many operations' complexity to O(1).
+
+## Recording
+
+https://mit.zoom.us/rec/share/BqpJetp94Wa_9IpDcvtn0ks_jHYTnFwcVtEGkpBzYUch7MU2zNvZPDVm1HwO1zSr.6xx59Jgtlr-T5soC
+
 
 ## Bio
 

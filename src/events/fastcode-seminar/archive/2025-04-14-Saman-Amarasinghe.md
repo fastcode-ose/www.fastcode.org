@@ -3,7 +3,6 @@ sidebar: toc
 title: Transforming High-Performance Libraries to Domain-Specific Languages and Optimizing Compilers with BuildIt
 author: Saman Amarasinghe, MIT
 tagline: Monday, April 14, 2025 4PM EDT
-zoomreg: https://mit.zoom.us/meeting/register/rQq4CXn4Q4q98h4THV3qgw
 date: 2025-04-14
 eleventyComputed:
   eleventyNavigation:

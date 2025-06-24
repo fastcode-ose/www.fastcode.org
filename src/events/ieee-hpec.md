@@ -1,6 +1,6 @@
 ---
 title: IEEE HPEC 2025
-tagline: A special session on task-parallel technology for SPE
+tagline: A special session on task-parallel technology for software performance engineering
 author: Bruce Hoppe
 event_date: September 2025
 #reg_deadline: January 10, 2025
@@ -37,7 +37,7 @@ Task-parallel programming (TPP) technology is increasingly adopted by the comput
 
 * [TW Huang, Chief Architect of Taskflow](./taskflow/)
 * [Hartmut Kaiser, Chief Architect of HPX](./hpx/)
-* [TBD1, OpenCilk](#)
+* [Angelina Lee, Runtime Architect of OpenCilk](./opencilk/)
 * [TBD2?, Nanos/OmpSs?](#)
 
 

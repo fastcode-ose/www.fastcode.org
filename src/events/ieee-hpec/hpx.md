@@ -11,6 +11,8 @@ eleventyComputed:
     order: 3
 ---
 
+## Hartmut Kaiser, LSU
+
 ## Abstract
 
 ## Bio

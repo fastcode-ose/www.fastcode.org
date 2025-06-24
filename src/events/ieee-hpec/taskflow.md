@@ -6,7 +6,7 @@ title: Taskflow -- A General-Purpose Task-Parallel Programming System
 #permalink: /events/fastcode-challenge/llm4pp/
 eleventyComputed:
   eleventyNavigation:
-    parent: Task-Parallel Tech for SPE
+    parent: IEEE HPEC '25
     key: Taskflow
     order: 2
 ---

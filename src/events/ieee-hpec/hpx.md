@@ -6,7 +6,7 @@ title: HPX
 #permalink: /events/fastcode-challenge/workshop-program/
 eleventyComputed:
   eleventyNavigation:
-    parent: Task-Parallel Tech for SPE
+    parent: IEEE HPEC '25
     key: HPX
     order: 3
 ---

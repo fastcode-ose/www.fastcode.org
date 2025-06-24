@@ -3,12 +3,12 @@ layout: layouts/page.njk
 stylesheet: None
 background: bg-white
 sidebar: toc
-title: Comparing task-parallel programming platforms for SPE
+title: Task-parallel technology for SPE
 eleventyComputed:
   eleventyNavigation:
-    key: Comparing SPE platforms
-    parent: Task-Parallel Tech for SPE
-    order: 1
+    key: Task-parallel tech for SPE
+    parent: About
+    order: 3
 ---
 
 

@@ -1,13 +1,13 @@
 ---
-title: Task-parallel technology for SPE
-tagline: A special session of IEEE HPEC 2025
+title: IEEE HPEC 2025
+tagline: A special session on task-parallel technology for SPE
 author: Bruce Hoppe
 event_date: September 2025
 #reg_deadline: January 10, 2025
 image: /img/HPEC-logo.jpg
 eleventyComputed:
   eleventyNavigation:
-    key: Task-Parallel Tech for SPE
+    key: IEEE HPEC '25
     parent: Events
     order: 3
 tags:
@@ -18,6 +18,7 @@ tags:
 
 **This page is for internal review and discussion.**
 
+{% img "/img/HPEC-logo.jpg", "180px" %}
 
 {% alert "primary", "To sign up for this event" %}
 Please register for [IEEE HPEC 2025](https://ieee-hpec.org/).
@@ -41,7 +42,7 @@ Task-parallel programming (TPP) technology is increasingly adopted by the comput
 
 
 {% alert "success" %}
-See this [taxonomy](./taxonomy/) for a concise table comparing features of notable TPP platforms.
+See this [taxonomy](/about/task-parallel-tech/) for a concise table comparing features of notable TPP platforms.
 {% endalert %}
 
 ## Lightning Talks?

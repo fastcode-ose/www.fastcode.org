@@ -52,7 +52,7 @@ The following table is based on [A taxonomy of task-based parallel programming t
       <th scope="col" style="background-color: var(--pst-color-on-surface); writing-mode: sideways-lr;"><h4>Performance Monitoring</h4></th>
     </tr>
   </thead>
-{% for item in parallel_prog_tech %}
+{% for item in task_parallel_tech %}
   <tr>
     <th scope="row">{% if item.url %}<h5><a href="{{ item.url }}">{{ item.name }}</a></h5>{% else %}<h5>{{ item.name }}</h5>{% endif %}</th>
     <td><p>{{ item.comm_model }}</p></td>

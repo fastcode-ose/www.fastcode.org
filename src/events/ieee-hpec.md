@@ -14,11 +14,7 @@ tags:
   - events
 ---
 
-## DRAFT
-
-**This page is for internal review and discussion.**
-
-{% img "/img/HPEC-logo.jpg", "180px" %}
+{% imgLeft "/img/HPEC-logo.jpg", "180px" %}
 
 {% alert "primary", "To sign up for this event" %}
 Please register for [IEEE HPEC 2025](https://ieee-hpec.org/).
@@ -38,13 +34,12 @@ Task-parallel programming (TPP) technology is increasingly adopted by the comput
 * [TW Huang, Chief Architect of Taskflow](./taskflow/)
 * [Hartmut Kaiser, Chief Architect of HPX](./hpx/)
 * [Angelina Lee, Runtime Architect of OpenCilk](./opencilk/)
-* [TBD2?, Nanos/OmpSs?](#)
 
 
 {% alert "success" %}
 See this [taxonomy](/about/task-parallel-tech/) for a concise table comparing features of notable TPP platforms.
 {% endalert %}
 
-## Lightning Talks?
+## Tell us how you're using TPP technology
 
-Depending on how many featured speakers we have, or how much Q&A we expect, we might also seek 3-5 minute “lightning talks” from programmers (students?) who talk about how they’ve used any of the featured platforms.
+Would you like to share about your experience using task-parallel programming technology? We welcome 3-5 minute “lightning talks” from students, software engineers, and others who will talk about how they’ve used TPP technology. To learn more, [contact Bruce Hoppe](mailto:behoppe@mit.edu).

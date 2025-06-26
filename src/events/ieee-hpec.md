@@ -14,7 +14,7 @@ tags:
   - events
 ---
 
-{% imgLeft "/img/HPEC-logo.jpg", "180px" %}
+{% imgLeft "/img/fastcode-at-hpec.png", "600px" %}
 
 {% alert "primary", "To sign up for this event" %}
 Please register for [IEEE HPEC 2025](https://ieee-hpec.org/).

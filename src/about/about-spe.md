@@ -48,4 +48,4 @@ The **theoretical foundations of SPE** include task-parallel scheduling, work/sp
 
 ## Getting started with SPE
 
-Check out [this page of resources](/get-involved/get-started-spe/) to help you learn, do, and teach SPE.
+Check out [this page of resources](/about/get-started-spe/) to help you learn, do, and teach SPE.

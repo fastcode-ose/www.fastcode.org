@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 sidebar: toc
-title: OpenCilk
+title: OpenCilk -- a modular and extensible software infrastructure for fast task-parallel code
 #tagline: Tagline.
 eleventyComputed:
   eleventyNavigation:

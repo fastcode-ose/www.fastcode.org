@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
 sidebar: toc
-title: HPX
+title: HPX -- a C++ library for parallelism and concurrency
 #tagline: Tagline.
-#permalink: /events/fastcode-challenge/workshop-program/
 eleventyComputed:
   eleventyNavigation:
     parent: IEEE HPEC '25
@@ -14,6 +13,12 @@ eleventyComputed:
 ## Hartmut Kaiser, LSU
 
 ## Abstract
+
+With the advent of modern computer architectures characterized by -- amongst other things -- many-core nodes, deep and complex memory hierarchies, heterogeneous subsystems, and power-aware components, it is becoming increasingly difficult to achieve best possible application scalability and satisfactory parallel efficiency. The community is experimenting with new programming models that rely on finer-grain parallelism, and flexible and lightweight synchronization, combined with work-queue-based, message-driven computation. The recently growing interest in the C++ programming language in industry and in the wider community increases the demand for libraries implementing those programming models for the language.
+
+In this talk, we present HPX -- A C++ Standards Library for Parallelism and Concurrency that is built around lightweight tasks and mechanisms to orchestrate massively parallel (and -- if needed -- distributed) execution. We also implement a full set of standard parallel algorithms and related asynchronous extensions to those. The library enables an asynchronous execution model that uses the concept of (Standard C++) futures to make data dependencies explicit, employs explicit and implicit asynchrony to hide latencies and to improve utilization, and manages finer-grain parallelism with a work-stealing scheduling system enabling automatic load balancing of tasks. Lately we have been experimenting with the new sender/receiver model that is currently being discussed as part of the C++ standardization process.
+
+HPX is a C++ library exposing a higher-level parallelism API that is fully conforming to the existing C++11/14/17/20 standards and is aligned with the ongoing standardization work. This API and programming model has shown to enable writing highly efficient parallel applications for heterogeneous resources with excellent performance and scaling characteristics. This talk will highlight the implemented extensions to the C++ standard parallel algorithms and shows recent performance results.
 
 ## Bio
 

@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
 sidebar: toc
-title: Taskflow -- A General-Purpose Task-Parallel Programming System
+title: Taskflow -- a general-purpose task-parallel programming system
 #tagline: Tagline.
-#permalink: /events/fastcode-challenge/llm4pp/
 eleventyComputed:
   eleventyNavigation:
     parent: IEEE HPEC '25

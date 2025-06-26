@@ -12,7 +12,7 @@
    work_map: a/m
    synchro: m
    tech_ready: 9
-   imp_type: Lib.
+   imp_type: lib.
    target_arch: ""
    data_dist: ""
    scheduling: ""
@@ -25,13 +25,13 @@
    graph: tree
    task_part: #N/A
    result_hand: auto
-   task_cancel: Yes
+   task_cancel: ✓
    worker_mgmt: auto
    resilience: #N/A
    work_map: auto
    synchro: auto
    tech_ready: 8
-   imp_type: Lib.
+   imp_type: lib.
    target_arch: sm
    data_dist: #N/A
    scheduling: ws
@@ -44,13 +44,13 @@
    graph: dag
    task_part: #N/A
    result_hand: auto
-   task_cancel: Yes
+   task_cancel: ✓
    worker_mgmt: m
    resilience: #N/A
    work_map: auto
    synchro: a/m
    tech_ready: 9
-   imp_type: Ext.
+   imp_type: ext.
    target_arch: sm
    data_dist: #N/A
    scheduling:  mult
@@ -65,11 +65,11 @@
    result_hand: auto
    task_cancel: #N/A
    worker_mgmt: auto
-   resilience: Yes
+   resilience: ✓
    work_map: auto
    synchro: a/m
    tech_ready: 5
-   imp_type: Ext.
+   imp_type: ext.
    target_arch: d
    data_dist: auto
    scheduling:  mult
@@ -80,7 +80,7 @@
    dist_mem: #N/A
    hetero: #N/A
    graph: dag
-   task_part: Yes
+   task_part: ✓
    result_hand: auto
    task_cancel: #N/A
    worker_mgmt: auto
@@ -88,7 +88,7 @@
    work_map: auto
    synchro: a/m
    tech_ready: 8
-   imp_type: Lang.
+   imp_type: lang.
    target_arch: sm
    data_dist: #N/A
    scheduling: ws
@@ -98,16 +98,16 @@
    comm_model: sm
    dist_mem: auto
    hetero: m
-   graph: ctfg
+   graph: dag
    task_part: #N/A
    result_hand: auto
-   task_cancel: Yes
+   task_cancel: ✓
    worker_mgmt: auto
    resilience: #N/A
    work_map: auto
    synchro: a/m
-   tech_ready: 9
-   imp_type: Lib.
+   tech_ready: 8
+   imp_type: lib.
    target_arch: sm
    data_dist: #N/A
    scheduling: ws
@@ -118,15 +118,15 @@
    dist_mem: auto
    hetero: m
    graph: dag
-   task_part: Yes
+   task_part: ✓
    result_hand: m
-   task_cancel: Yes
+   task_cancel: ✓
    worker_mgmt: a/m
    resilience: #N/A
    work_map: a/m
    synchro: m
    tech_ready: 6
-   imp_type: Lib.
+   imp_type: lib.
    target_arch: d
    data_dist: auto
    scheduling:  mult
@@ -137,7 +137,7 @@
    dist_mem: auto
    hetero: m
    graph: tree
-   task_part: Yes
+   task_part: ✓
    result_hand: m
    task_cancel: #N/A
    worker_mgmt: auto
@@ -145,7 +145,7 @@
    work_map: a/m
    synchro: m
    tech_ready: 4
-   imp_type: Lib.
+   imp_type: lib.
    target_arch: d
    data_dist: auto
    scheduling: ws
@@ -158,13 +158,13 @@
    graph: dag
    task_part: #N/A
    result_hand: m
-   task_cancel: Yes
+   task_cancel: ✓
    worker_mgmt: auto
-   resilience: Yes
+   resilience: ✓
    work_map: a/m
    synchro: auto
    tech_ready: 4
-   imp_type: Lib.
+   imp_type: lib.
    target_arch: d
    data_dist: m
    scheduling:  mult
@@ -175,15 +175,15 @@
    dist_mem: auto
    hetero: m
    graph: dag
-   task_part: Yes
+   task_part: ✓
    result_hand: a/m
    task_cancel: #N/A
    worker_mgmt: auto
-   resilience: Yes
+   resilience: ✓
    work_map: a/m
    synchro: m
    tech_ready: 6
-   imp_type: Ext.
+   imp_type: ext.
    target_arch: d
    data_dist: auto
    scheduling:  mult
@@ -194,15 +194,15 @@
    dist_mem: auto
    hetero: auto
    graph: dag
-   task_part: Yes
+   task_part: ✓
    result_hand: a/m
    task_cancel: #N/A
    worker_mgmt: auto
-   resilience: Yes
+   resilience: ✓
    work_map: auto
    synchro: a/m
    tech_ready: 3
-   imp_type: Ext.
+   imp_type: ext.
    target_arch: d
    data_dist: auto
    scheduling: ws
@@ -213,7 +213,7 @@
    dist_mem: m
    hetero: m
    graph: dag
-   task_part: Yes
+   task_part: ✓
    result_hand: auto
    task_cancel: #N/A
    worker_mgmt: auto
@@ -221,7 +221,7 @@
    work_map: a/m
    synchro: m
    tech_ready: 5
-   imp_type: Ext.
+   imp_type: ext.
    target_arch: sm
    data_dist: m
    scheduling:  mult
@@ -232,7 +232,7 @@
    dist_mem: auto
    hetero: auto
    graph: dag
-   task_part: Yes
+   task_part: ✓
    result_hand: auto
    task_cancel: #N/A
    worker_mgmt: auto
@@ -240,7 +240,7 @@
    work_map: a/m
    synchro: m
    tech_ready: 5
-   imp_type: Lang.
+   imp_type: lang.
    target_arch: d
    data_dist: auto
    scheduling: ws
@@ -251,15 +251,15 @@
    dist_mem: auto
    hetero: auto
    graph: dag
-   task_part: Yes
+   task_part: ✓
    result_hand: auto
    task_cancel: #N/A
    worker_mgmt: auto
-   resilience: Yes
+   resilience: ✓
    work_map: a/m
    synchro: m
    tech_ready: 5
-   imp_type: Lang.
+   imp_type: lang.
    target_arch: d
    data_dist: auto
    scheduling: ws

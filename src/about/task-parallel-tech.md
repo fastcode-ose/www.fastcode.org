@@ -12,14 +12,13 @@ eleventyComputed:
 ---
 
 
-## INCOMPLETE ROUGH DRAFT
-
 A good task-parallel programming platform will make it easier for you to do software performance engineering.
 
-See this blog post for 6 questions to ask yourself when choosing a platform.
+{% alert "primary", "To learn more about comparing platforms" %}
+Please check out our [special session on task-parallel technology](/events/ieee-hpec/) (part of IEEE HPEC 2025).
+{% endalert %}
 
-
-## Feature comparison
+## Feature comparison table
 
 
 The following table is based on [A taxonomy of task-based parallel programming technologies for high-performance computing](https://link.springer.com/article/10.1007/s11227-018-2238-4) by Thoman et al. With the authors' permission, we present an updated version of their classification, slightly abridged to focus on shared memory architecture. Our table adds two platforms: OpenCilk and Taskflow. (OpenCilk replaces Cilk Plus in their classification, and Taskflow is new.)

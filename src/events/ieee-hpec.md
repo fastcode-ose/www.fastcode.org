@@ -34,6 +34,7 @@ Task-parallel programming (TPP) technology is increasingly adopted by the comput
 * Tsung-Wei Huang (U. Wisconsin): [Taskflow -- a general-purpose task-parallel programming system](./taskflow/)
 * Hartmut Kaiser (LSU): [HPX -- a C++ library for parallelism and concurrency](./hpx/)
 * I-Ting Angelina Lee (WUSTL): [OpenCilk -- a modular and extensible software infrastructure for fast task-parallel code](./opencilk/)
+* Tim Mattson: [Multithreaded parallel Python through OpenMP support in Numba](./openmp/)
 
 
 {% alert "success" %}

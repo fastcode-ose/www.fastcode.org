@@ -17,7 +17,7 @@ tags:
 {% imgLeft "/img/fastcode-at-hpec.png", "600px" %}
 
 {% alert "primary", "To sign up for this event" %}
-Please register for [IEEE HPEC 2025](https://ieee-hpec.org/).
+Please register for [IEEE HPEC 2025](https://ieee-hpec.org/), a virtual conference occurring September 15-19, 2025.
 {% endalert %}
 
 

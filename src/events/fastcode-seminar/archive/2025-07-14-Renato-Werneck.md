@@ -3,20 +3,21 @@ sidebar: toc
 title: Last mile deliveries at Amazon
 author: Renato Werneck, Amazon
 tagline: Monday, July 14, 2025 12PM EDT
-zoomreg: https://mit.zoom.us/meeting/register/w3GPQcalQH20uiME1EPjGw
 date: 2025-07-14
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Seminar
+    parent: Seminar Archive
     key: Renato Werneck on Amazon's "last mile"
-    order: 4
-tags:
- - seminar
+    order: 96
 ---
 
 ## Abstract
 
 Amazon delivers tens of millions of shipments worldwide on a daily basis. Planning the last-mile routes that reach final customers requires solving massive combinatorial optimization problems at scale. This talk discusses the many challenges associated with planning these routes, including the crucial role played by performance optimization.
+
+## Recording
+
+https://mit.zoom.us/rec/share/qv6J8d7OeAuR_kFLxdf5ww2KgfKXv4bXphF4bJGIyGmnyT1jdLzfJFxfQj4vrgoi.8XUEOK90XbNN9rrE
 
 ## Bio
 

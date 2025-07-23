@@ -15,8 +15,8 @@
   submit: mid August
 - shortName: IPDPS
   url: https://www.ipdps.org/
-  date: June 3-7, 2025
-  start: 2025-06-03
+  date: May 25-29, 2026
+  start: 2026-05-25
   submit: early October
 - shortName: SODA
   url: https://www.siam.org/conferences-events/siam-conferences/soda26/
@@ -29,14 +29,14 @@
   start: 2026-01-11
   submit: mid July
 - shortName: PLDI
-  url: https://pldi25.sigplan.org/
-  date: June 16-20, 2025
-  start: 2025-06-16
+  url: https://pldi26.sigplan.org/
+  date: June 15-19, 2026
+  start: 2026-06-15
   submit: mid November
 - shortName: ICCS
   url: https://www.iccs-meeting.org/iccs2025/
-  date: July 7-9, 2025
-  start: 2025-07-07
+  date: June 29 - July 1, 2026
+  start: 2026-06-29
   submit: mid February
 - shortName: ICPE
   url: https://icpe2025.spec.org/
@@ -79,9 +79,9 @@
   start: 2026-03-02
   submit: late May (R1), mid Sept (R2)
 - shortName: ICS
-  url: https://hpcrl.github.io/ICS2025-webpage/
-  date: June 8-11, 2025
-  start: 2025-06-08
+  url: https://www.ics-conference.org/
+  date: June 2026
+  start: 2026-06-08
   submit: mid Jan (R1), late Feb (R2)
 - shortName: ASPLOS
   url: https://www.asplos-conference.org/asplos2026/cfp/
@@ -90,8 +90,8 @@
   submit: mid Mar (R1), mid Aug (R2)
 - shortName: MLSys
   url: https://mlsys.org/
-  date: May 12-15, 2025
-  start: 2025-05-12
+  date: May 2026
+  start: 2026-05-12
   submit: late October
 - shortName: VLDB
   url: https://vldb.org
@@ -100,8 +100,8 @@
   submit: montly until March
 - shortName: SIGMOD
   url: https://sigmod.org/
-  date: June 22-27, 2025
-  start: 2025-06-22
+  date: May 31 - June 5, 2026
+  start: 2026-05-31
   submit: Jan, Apr, Jul, Oct
 - shortName: ICPP
   url: https://icpp2025.sdsc.edu/

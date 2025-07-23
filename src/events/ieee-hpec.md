@@ -1,5 +1,5 @@
 ---
-title: IEEE HPEC 2025
+title: Fastcode @ HPEC 2025
 tagline: A special session on task-parallel technology for software performance engineering
 author: Bruce Hoppe
 event_date: September 15, 2025

@@ -171,4 +171,6 @@ Originally created in 2018 as a single full-day class, this workshop includes an
 #### [CSE 539](https://www.cse.wustl.edu/~angelee/cse539/index.html) Concepts in Multicore Computing
 Nowadays, the vast majority of computer systems are built using multicore processor chips. This fundamental shift in hardware design impacts all areas of computer science -- one must write parallel programs in order to unlock the computational power provided by modern hardware. The goal of this course is to study concepts in multicore computing. We will examine the implications of the multicore hardware design, discuss challenges in writing high performance software, and study emerging technologies relevant to developing software for multicore systems. Topics include memory hierarchy, cache coherence protocol, memory models, scheduling, high-level parallel language models, concurrent programming (synchronization and concurrent data structures), algorithms for debugging parallel software, and performance analysis.
 
-[Join the Fastcode instructors community](/get-involved/instructors/join/) for access to editable slide decks.
+{% alert "note", "For access to editable slide decks" %}
+[Join the Fastcode instructors community](/get-involved/instructors/join/).
+{% endalert %}

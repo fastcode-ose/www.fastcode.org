@@ -126,6 +126,10 @@ This course provides a hands-on, project-based introduction to building scalable
 #### [6.106](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/) Performance Engineering of Software Systems
 6.106 (formerly 6.172) is an 18-unit class that provides a hands-on, project-based introduction to building scalable and high-performance software systems. Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, caching optimizations, parallel programming, and building scalable systems. The course programming language is C. Links to lectures are below.
 
+{% alert "note" %}
+See [Modern Algorithms Workshop](#modern-algorithms-workshop:-parallel-algorithms) for a one-day workshop by the some of the key people behind MIT 6.106.
+{% endalert %}
+
 1. Introduction & Matrix Multiplication ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec1/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-1-intro-and-matrix-multiplication/))
 1. Bentley Rules for Optimizing Work ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec2/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-2-bentley-rules-for-optimizing-work/))
 1. Bit Hacks ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec3/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-3-bit-hacks/))
@@ -150,8 +154,7 @@ This course provides a hands-on, project-based introduction to building scalable
 1. Graph Optimization ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec22/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-22-graph-optimization/))
 1. High Performance in Dynamic Languages ([PDF](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec23/), [video](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-23-high-performance-in-dynamic-languages/))
 
-## Modern algorithms workshop: parallel algorithms
-
+#### Modern Algorithms Workshop: Parallel Algorithms
 Originally created in 2018 as a single full-day class, this workshop includes an introduction and 8 separate modules listed below.
 
 - Introduction ([PDF](https://ucdavis.box.com/s/8fhamacjnflkrlf8zfpkd2w6k8y9nh1n))
@@ -164,4 +167,10 @@ Originally created in 2018 as a single full-day class, this workshop includes an
 - Case study: Jaccard similarity ([PDF](https://ucdavis.box.com/s/1dtmh0m6w080f4tcnial1qdfgla73udg))
 - Post-Moore software ([PDF](https://ucdavis.box.com/s/35umq7ysmjjl1pq4u39zf7nhrlpsb43x))
 
-[Join the Fastcode instructors community](/get-involved/instructors/join/) for access to editable slide decks.
+## WashU
+#### [CSE 539](https://www.cse.wustl.edu/~angelee/cse539/index.html) Concepts in Multicore Computing
+Nowadays, the vast majority of computer systems are built using multicore processor chips. This fundamental shift in hardware design impacts all areas of computer science -- one must write parallel programs in order to unlock the computational power provided by modern hardware. The goal of this course is to study concepts in multicore computing. We will examine the implications of the multicore hardware design, discuss challenges in writing high performance software, and study emerging technologies relevant to developing software for multicore systems. Topics include memory hierarchy, cache coherence protocol, memory models, scheduling, high-level parallel language models, concurrent programming (synchronization and concurrent data structures), algorithms for debugging parallel software, and performance analysis.
+
+{% alert "note", "For access to editable slide decks" %}
+[Join the Fastcode instructors community](/get-involved/instructors/join/).
+{% endalert %}

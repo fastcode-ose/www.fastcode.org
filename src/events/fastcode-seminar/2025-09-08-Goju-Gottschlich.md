@@ -14,4 +14,4 @@ tags:
  - seminar
 ---
 
-The Fastcode Seminar features Justin "Goju" Gottschlich at 4PM September 8, 2025. More details will be announced soon.
+The Fastcode Seminar features Justin "Goju" Gottschlich at 4PM September 8, 2025. More details will be announced very soon.

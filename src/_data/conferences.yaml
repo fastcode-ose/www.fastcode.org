@@ -5,8 +5,8 @@
   submit: late April
 - shortName: SPAA
   url: https://spaa.acm.org/
-  date: July 28 - August 1, 2025
-  start: 2025-07-28
+  date: July 6-10, 2026
+  start: 2026-06-10
   submit: late February
 - shortName: PPoPP
   url: https://ppopp25.sigplan.org/
@@ -49,9 +49,9 @@
   start: 2027-02-22
   submit:
 - shortName: ACDA
-  url: https://siam.org/conferences-events/siam-conferences/acda25/
-  date: July 30 - August 1, 2025
-  start: 2025-07-30
+  url: https://siam.org/conferences-events/siam-conferences/
+  date: July 2026
+  start: 2026-06-11
   submit: mid February
 - shortName: HPEC
   url: https://ieee-hpec.org/

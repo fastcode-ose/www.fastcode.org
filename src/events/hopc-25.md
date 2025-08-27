@@ -11,8 +11,6 @@ eleventyComputed:
     key: HOPC '25
     parent: Events
     order: 2
-tags:
-  - events
 ---
 
 

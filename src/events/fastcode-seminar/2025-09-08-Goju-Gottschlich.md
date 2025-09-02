@@ -1,7 +1,7 @@
 ---
 sidebar: toc
 title: A speedy tour of machine programming
-author: Justin "Goju" Gottschlich, Merly.ai
+author: Justin "Goju" Gottschlich, Merly.ai and Stanford University
 tagline: Monday, September 8, 2025 4PM EDT
 zoomreg: https://mit.zoom.us/meeting/register/5w3d1jiKQb6E5euZtScGqg
 date: 2025-09-08

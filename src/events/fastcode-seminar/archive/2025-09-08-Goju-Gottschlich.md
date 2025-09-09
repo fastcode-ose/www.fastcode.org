@@ -3,15 +3,12 @@ sidebar: toc
 title: A speedy tour of machine programming
 author: Justin "Goju" Gottschlich, Merly.ai and Stanford University
 tagline: Monday, September 8, 2025 4PM EDT
-zoomreg: https://mit.zoom.us/meeting/register/5w3d1jiKQb6E5euZtScGqg
 date: 2025-09-08
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Seminar
-    key: Justin "Goju" Gottschlich
-    order: 5
-tags:
- - seminar
+    parent: Seminar Archive
+    key: Goju Gottschlich on machine programming
+    order: 95
 ---
 
 ## Abstract
@@ -19,6 +16,10 @@ tags:
 In this talk, we present ***machine programming*** (MP), a field that aims to improve the rate and quality in which we develop software. The first part of this talk will explore the fundamentals of MP. We will cover *(i)* the three pillars of MP, *(ii)* four domains that MP deeply intersects with, and *(iii)* the importance of separation of concerns in MP research and engineering.  
    
 The second part of this talk will explore future directions of MP, with a specific concentration on aspects related to performance. Our discussion will cover performance considerations of MP systems, themselves, as well as reasoning about the performance characteristics of code that MP systems generate and refine.
+
+## Recording
+
+https://mit.zoom.us/rec/share/R6cicgQJRTsh6oMVEV7vBCzpo4M14hcUF1vGxsGwYftcMGw1ibh6kSXLz0V1AQKs.MZfnuP_JR7kKU5Ec
 
 ## Bio
 

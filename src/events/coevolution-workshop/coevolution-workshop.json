@@ -3,6 +3,6 @@
     "stylesheet": "none",
     "sidebar": "toc",
     "background": "bg-white",
-    "permalink": "/events/co-evolution-workshop/{{ page.fileSlug | slugify }}/", 
+    "permalink": "/events/coevolution-workshop/{{ page.fileSlug | slugify }}/", 
     "comments": false
 }

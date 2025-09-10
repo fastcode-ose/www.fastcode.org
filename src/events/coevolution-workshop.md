@@ -68,35 +68,20 @@ co-located conferences.
 # Organizing Team
 
 -   J Nelson Amaral (University of Alberta),
-    [jamaral@ualberta.ca](jamaral@ualberta.ca){.uri}
--   Bruce Hoppe (MIT), [behoppe@mit.edu](behoppe@mit.edu){.uri}
+    [jamaral@ualberta.ca](jamaral@ualberta.ca)
+-   Bruce Hoppe (MIT), [behoppe@mit.edu](behoppe@mit.edu)
 -   Yihan Sun (University of California, Riverside),
-    [yihans@cs.ucr.edu](yihans@cs.ucr.edu){.uri}
+    [yihans@cs.ucr.edu](yihans@cs.ucr.edu)
 
 # Proposed Program Committee (Pending)
 
 We propose the following list of program committee members. We expect
-the review workload to be relatively low, which is around 3--5 talk
-abstracts per PC member.
+the review workload to be relatively low, which is around 3-5 talk
+abstracts per committee member.
 
 -   Peng Wu (Meta)
 -   Charles Leiserson (MIT)
 -   John Regehr (University of Utah)
 -   Maryam Mehri Dehnavi (University of Toronto)
 -   Angelina Lee (Washington University in St. Louis)
--   Fredrik Kjolstad (Standord University)
-
-(Bruce and Nelson, if you want to include anyone in addition, please
-feel free to directly change the list.)
-
-# Proposed Timeline
-
-(A rough timeline. We can make small changes later)
-
--   Oct. 17th, 2025: Proposal submission
--   Oct. 20th, 2025: PC member and speaker invitation
--   Oct. 31st, 2025: Program committee formation
--   Nov. 10th, 2025: Call for participation and talk proposal
--   Dec. 15th, 2025: Talk submission deadline
--   Jan. 10th, 2026: Accepted talk notification
--   Jan. 31st/Feb. 1st, 2026: Workshop
+-   Fredrik Kjolstad (Stanford University)

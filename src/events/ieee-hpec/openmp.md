@@ -12,6 +12,10 @@ eleventyComputed:
 
 ## Tim Mattson
 
+{% alert "primary", "Slides from the talk" %}
+* Tim Mattson (Merly.ai): [Multithreaded parallel Python through OpenMP support in Numba](/img/HPEC25_Tasking_and_PyOMP.pdf)
+{% endalert %}
+
 ## Abstract
 
 A modern CPU delivers performance through parallelism. A program

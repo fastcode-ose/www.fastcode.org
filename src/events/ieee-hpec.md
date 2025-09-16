@@ -34,7 +34,7 @@ Task-parallel programming (TPP) technology is increasingly adopted by the comput
 
 (15 minutes per speaker)
 
-* Bruce Hoppe: [Fastcode -- an open-source community ]
+* Bruce Hoppe: [Fastcode -- an open-source community for making software performance engineering easy and fun](/img/HPEC25-Fastcode.pdf).
 * Tsung-Wei Huang (U. Wisconsin): [Taskflow -- a general-purpose task-parallel programming system](./taskflow/)
 * I-Ting Angelina Lee (WashU): [OpenCilk -- a modular and extensible software infrastructure for fast task-parallel code](./opencilk/)
 * Tim Mattson (Merly.ai): [Multithreaded parallel Python through OpenMP support in Numba](./openmp/)
@@ -57,5 +57,5 @@ Possible questions we might discuss include
 * Are there commercial software products (not just research projects) that use tasking systems?  In other words, with our work on tasking, are we having an impact that reaches the general public?  Or are we just supporting some really nice academic research?
 
 {% alert "success" %}
-Please [contact Bruce Hoppe](mailto:behoppe@mit.edu) and let us know what you're interested in discussing.
+Thanks to the HPEC organizers and all who attended our special session!
 {% endalert %}

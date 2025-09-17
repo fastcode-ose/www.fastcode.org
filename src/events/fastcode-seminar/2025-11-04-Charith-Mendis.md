@@ -14,4 +14,8 @@ tags:
  - seminar
 ---
 
-The Fastcode Seminar features Charith Mendis, 2PM ET Tuesday November 4, 2025. More details will be announced soon.
+The Fastcode Seminar features Charith Mendis, 2PM ET Tuesday November 4, 2025. 
+
+The talk will be hybrid with the in-person seminar in room 32-G575 (MIT).
+
+More details will be announced soon.

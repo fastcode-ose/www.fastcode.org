@@ -1,6 +1,6 @@
 ---
 title: Workshop on Co-evolution of Algorithms, Compilers, and Hardware for Performance
-tagline: A proposed Fastcode workshop for PPoPP-26
+tagline: A Fastcode workshop at PPoPP-26
 author: J. Nelson Amaral
 event_date: February 2026
 #reg_deadline: January 10, 2025
@@ -14,41 +14,17 @@ tags:
   - events
 ---
 
-{% imgLeft "/img/fastcode-banner.png", "600px" %}
+{% imgLeft "/img/fastcode-coevolution.png", "600px" %}
 
-The central idea behind Fastcode is that performance and efficient use
-of resources must remain a core focus of computing. Achieving these
-goals requires advances not only in algorithm design, but also in
-programming models, software construction, compilers, and hardware.
-Progress in one of these areas often influences and reshapes the others.
+The central idea behind Fastcode is that performance and efficient use of resources must remain a core focus of computing. Achieving these goals requires advances not only in algorithm design, but also in programming models, software construction, compilers, and hardware. Progress in one of these areas often influences and reshapes the others.  
 
-For example, a new code pattern may first appear as a hand-crafted
-optimization by an expert programmer, then evolve into a portable
-compiler transformation, and eventually inspire changes in hardware
-architecture or system design. Such cross-pollination drives innovation,
-yet opportunities for the communities to engage in joint discussion
-remain limited.
+For example, a new code pattern may first appear as a hand-crafted optimization by an expert programmer, then evolve into a portable compiler transformation, and eventually inspire changes in hardware architecture or system design. Such cross-pollination drives innovation, yet opportunities for the communities to engage in joint discussion remain limited.  
 
-The Fastcode workshop aims to bring together researchers and
-practitioners to explore this co-evolution of algorithms, compilers, and
-hardware. We will focus on sharing insights across domains, identifying
-open problems, and fostering collaborations that advance performance
-engineering as a discipline.
+The Fastcode workshop aims to bring together researchers and practitioners to explore this co-evolution of algorithms, compilers, and hardware. We will focus on sharing insights across domains, identifying open problems, and fostering collaborations that advance performance engineering as a discipline.  
 
-The workshop will be organized as a half-day event (approximately four
-hours). It will feature a mix of invited and contributed talks,
-complemented by a panel discussion. Talks will highlight recent advances
-as well as challenges that could shape the next generation of research.
-Importantly, the workshop emphasizes idea exchange rather than
-publication, so it does not require proceedings.
+The workshop will be organized as a half-day event (approximately four hours). It will feature a mix of invited and contributed talks, complemented by a panel discussion. Talks will highlight recent advances as well as challenges that could shape the next generation of research. Importantly, the workshop emphasizes idea exchange rather than publication, so it does not require proceedings.  
 
-PPoPP provides the ideal venue for this workshop. Parallel
-programming---the heart of PPoPP---is a driving force behind modern
-compiler and hardware research. Moreover, the co-location with CGO and
-HPCA naturally connects all three dimensions of the ecosystem that
-Fastcode seeks to address. We believe the workshop will be of strong
-interest not only to the PPoPP community but also to participants of the
-co-located conferences.
+PPoPP provides the ideal venue for this workshop. Parallel programming—the heart of PPoPP—is a driving force behind modern compiler and hardware research. Moreover, the co-location with CGO and HPCA naturally connects all three dimensions of the ecosystem that Fastcode seeks to address. We believe the workshop will be of strong interest not only to the PPoPP community but also to participants of the co-located conferences.  
 
 # Proposed Activities
 
@@ -73,15 +49,11 @@ co-located conferences.
 -   Yihan Sun (University of California, Riverside),
     [yihans@cs.ucr.edu](yihans@cs.ucr.edu)
 
-# Proposed Program Committee (Pending)
+# Program Committee
 
-We propose the following list of program committee members. We expect
-the review workload to be relatively low, which is around 3-5 talk
-abstracts per committee member.
+Submitted talk abstracts will be reviewed by the workshop's program committee.
 
--   Peng Wu (Meta)
--   Charles Leiserson (MIT)
--   John Regehr (University of Utah)
--   Maryam Mehri Dehnavi (University of Toronto)
--   Angelina Lee (Washington University in St. Louis)
--   Fredrik Kjolstad (Stanford University)
+-   [Maryam Mehri Dehnavi](https://www.cs.toronto.edu/~mmehride/) (University of Toronto)
+-   [Fredrik Kjolstad](https://fredrikbk.com/) (Stanford University)
+-   [I-Ting Angelina Lee](https://www.cse.wustl.edu/~angelee/home_page/) (Washington University in St. Louis)
+-   [John Regehr](https://users.cs.utah.edu/~regehr/) (University of Utah)

@@ -2,7 +2,7 @@
 title: Fastcode @ HPEC 2025
 tagline: A special session on task-parallel technology for software performance engineering
 author: Bruce Hoppe
-event_date: September 15, 2025
+event_date: Speakers' slides now available
 #reg_deadline: January 10, 2025
 image: /img/HPEC-logo.jpg
 eleventyComputed:
@@ -16,8 +16,11 @@ tags:
 
 {% imgLeft "/img/fastcode-at-hpec.png", "600px" %}
 
-{% alert "primary", "3:45-5:15PM EDT Monday September 15" %}
-To sign up for this event, please register for the [IEEE HPEC 2025](https://ieee-hpec.org/) virtual conference.
+{% alert "primary", "Slides from our session" %}
+* Bruce Hoppe (Fastcode): [Fastcode -- an open-source community for making software performance engineering easy and fun](/img/HPEC25-Fastcode.pdf)
+* TW Huang (U. Wisconsin): [Taskflow -- a general-purpose task-parallel programming system](/img/HPEC25-taskflow.pdf)
+* Angelina Lee (WashU) : [OpenCilk -- a modular and extensible software infrastructure for fast task-parallel code](/img/HPEC25-opencilk.pdf)
+* Tim Mattson (Merly.ai): [Multithreaded parallel Python through OpenMP support in Numba](/img/HPEC25_Tasking_and_PyOMP.pdf)
 {% endalert %}
 
 
@@ -31,10 +34,10 @@ Task-parallel programming (TPP) technology is increasingly adopted by the comput
 
 (15 minutes per speaker)
 
+* Bruce Hoppe: [Fastcode -- an open-source community for making software performance engineering easy and fun](/img/HPEC25-Fastcode.pdf).
 * Tsung-Wei Huang (U. Wisconsin): [Taskflow -- a general-purpose task-parallel programming system](./taskflow/)
-* Hartmut Kaiser (LSU): [HPX -- a C++ library for parallelism and concurrency](./hpx/)
-* I-Ting Angelina Lee (WUSTL): [OpenCilk -- a modular and extensible software infrastructure for fast task-parallel code](./opencilk/)
-* Tim Mattson: [Multithreaded parallel Python through OpenMP support in Numba](./openmp/)
+* I-Ting Angelina Lee (WashU): [OpenCilk -- a modular and extensible software infrastructure for fast task-parallel code](./opencilk/)
+* Tim Mattson (Merly.ai): [Multithreaded parallel Python through OpenMP support in Numba](./openmp/)
 
 
 {% alert "success" %}
@@ -54,5 +57,5 @@ Possible questions we might discuss include
 * Are there commercial software products (not just research projects) that use tasking systems?  In other words, with our work on tasking, are we having an impact that reaches the general public?  Or are we just supporting some really nice academic research?
 
 {% alert "success" %}
-Please [contact Bruce Hoppe](mailto:behoppe@mit.edu) and let us know what you're interested in discussing.
+Thanks to the HPEC organizers and all who attended our special session!
 {% endalert %}

@@ -63,7 +63,7 @@ CS 5220 is an introduction to performance tuning and parallelization, particular
 
 ## CMU
 
-#### [15-418/15-618](https://www.cs.cmu.edu/~15418/schedule.html): Parallel Computer Architecture and Programming
+#### [15-418/15-618](https://www.cs.cmu.edu/~418/): Parallel Computer Architecture and Programming
 
  From smart phones, to multi-core CPUs and GPUs, to the world's largest supercomputers, parallel processing is ubiquitous in modern computing. The goal of this course is to provide a deep understanding of the fundamental principles and engineering trade-offs involved in designing modern parallel computing systems as well as to teach parallel programming techniques necessary to effectively utilize these machines. Because writing good parallel programs requires an understanding of key machine performance characteristics, this course will cover hardware design and how that affects software design.
 

@@ -12,6 +12,10 @@ eleventyComputed:
 
 ## I-Ting Angelina Lee, Washington University in St. Louis
 
+{% alert "primary", "Slides from the talk" %}
+* Angelina Lee (WashU) : [OpenCilk -- a modular and extensible software infrastructure for fast task-parallel code](/img/HPEC25-opencilk.pdf)
+{% endalert %}
+
 ## Abstract
 
 OpenCilk is an open-source software infrastructure for task-parallel programming

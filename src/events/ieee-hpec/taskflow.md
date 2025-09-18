@@ -12,6 +12,10 @@ eleventyComputed:
 
 ## TW Huang, University of Wisconsin
 
+{% alert "primary", "Slides from the talk" %}
+* TW Huang (U. Wisconsin): [Taskflow -- a general-purpose task-parallel programming system](/img/HPEC25-taskflow.pdf)
+{% endalert %}
+
 ## Abstract
 
 The Taskflow project addresses the long-standing challenge: "How can we make it easier for C++ developers to write complex parallel algorithms?" Taskflow introduces a simple yet powerful task graph programming model that enables efficient implementations of parallel decomposition strategies. Our model supports both static and dynamic task graph construction, allowing developers to express a wide range of computational patterns with ease. Taskflow also features an efficient work-stealing scheduler that dynamically balances workloads while effectively utilizing available workers. We have applied Taskflow to accelerate performance-critical applications such as computer-aided design, machine learning, and quantum computing. Example users include AMD Xilinx, Nvidia GameWorks, Tesseract Robotics, and ModuleWorks. Taskflow is available at: https://taskflow.github.io/.

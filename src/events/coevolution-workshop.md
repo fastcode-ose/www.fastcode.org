@@ -41,6 +41,16 @@ PPoPP provides the ideal venue for this workshop. Parallel programming—the hea
     session where speakers and participants can discuss open challenges,
     research directions, and opportunities for collaboration.
 
+# Registration
+
+Instructions for submitting a proposed talk abstract will be posted here soon.
+
+# Important Dates
+
+-   Dec. 15th, 2025: Talk submission deadline
+-   Jan. 10th, 2026: Accepted talk notification
+-   Jan. 31st/Feb. 1st, 2026: Workshop
+
 # Organizing Team
 
 -   J Nelson Amaral (University of Alberta),
@@ -53,7 +63,9 @@ PPoPP provides the ideal venue for this workshop. Parallel programming—the hea
 
 Submitted talk abstracts will be reviewed by the workshop's program committee.
 
+-   [J Nelson Amaral](https://webdocs.cs.ualberta.ca/~amaral/) (University of Alberta)
 -   [Maryam Mehri Dehnavi](https://www.cs.toronto.edu/~mmehride/) (University of Toronto)
 -   [Fredrik Kjolstad](https://fredrikbk.com/) (Stanford University)
 -   [I-Ting Angelina Lee](https://www.cse.wustl.edu/~angelee/home_page/) (Washington University in St. Louis)
 -   [John Regehr](https://users.cs.utah.edu/~regehr/) (University of Utah)
+-   [Yihan Sun](https://www.cs.ucr.edu/~yihans/) (University of California, Riverside)

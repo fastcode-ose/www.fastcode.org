@@ -43,7 +43,7 @@ PPoPP provides the ideal venue for this workshop. Parallel programming—the hea
 
 # Registration
 
-Instructions for submitting a proposed talk abstract will be posted here soon.
+Submit your talk abstract at https://easychair.org/my/conference?conf=cachp26.
 
 # Important Dates
 

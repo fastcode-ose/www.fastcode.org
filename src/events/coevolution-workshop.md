@@ -43,7 +43,9 @@ PPoPP provides the ideal venue for this workshop. Parallel programming—the hea
 
 # Registration
 
+{% alert "note" %}
 Submit your talk abstract at https://easychair.org/my/conference?conf=cachp26.
+{% endalert %}
 
 # Important Dates
 
@@ -67,5 +69,6 @@ Submitted talk abstracts will be reviewed by the workshop's program committee.
 -   [Maryam Mehri Dehnavi](https://www.cs.toronto.edu/~mmehride/) (University of Toronto)
 -   [Fredrik Kjolstad](https://fredrikbk.com/) (Stanford University)
 -   [I-Ting Angelina Lee](https://www.cse.wustl.edu/~angelee/home_page/) (Washington University in St. Louis)
+-   [Charles Leiserson](https://people.csail.mit.edu/cel/) (MIT)
 -   [John Regehr](https://users.cs.utah.edu/~regehr/) (University of Utah)
 -   [Yihan Sun](https://www.cs.ucr.edu/~yihans/) (University of California, Riverside)

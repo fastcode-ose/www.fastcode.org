@@ -9,7 +9,7 @@ eleventyComputed:
   eleventyNavigation:
     key: Co-evolution Workshop
     parent: Events
-    order: 4
+    order: 3
 tags:
   - events
 ---

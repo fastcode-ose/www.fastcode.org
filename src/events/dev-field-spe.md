@@ -9,7 +9,7 @@ eleventyComputed:
   eleventyNavigation:
     key: Developing the field of SPE
     parent: Events
-    order: 4
+    order: 2
 tags:
   events
 ---

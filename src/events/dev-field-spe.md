@@ -2,7 +2,7 @@
 title: Developing the field of SPE
 tagline: SciCOMP at Durham University hosts Bruce Hoppe for a talk about Fastcode
 author: Bruce Hoppe
-event_date: Oct 29, 2025
+event_date: October 29, 2025
 #reg_deadline: January 10, 2025
 image: /img/FC-bg.png
 eleventyComputed:

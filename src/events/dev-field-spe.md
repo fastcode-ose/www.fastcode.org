@@ -16,7 +16,7 @@ tags:
 
 
 {% alert "primary" %}
-This free virtual seminar is 4PM UK (12PM Eastern) Wednesday October 29, 2025. You can add it to your calendar or join directly at the appointed time.<ul><li>Click <a href="https://mit.zoom.us/meeting/tJIvdeqhqT8qGtNKQdhlkExTm7heU85HXuGM/calendar/google/add">here</a> to add the Zoom link to your Google calendar,</li><li>Or use <a href="https://mit.zoom.us/j/96223974007">this link</a> to join us on Zoom directly at 4PM UK (12PM Eastern) Oct 29.</li></ul>
+This free virtual seminar is 4PM UK (12PM Eastern) Wednesday October 29, 2025. You can add it to your calendar or join directly at the appointed time.<ul><li>Click <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MWZlMDg4bG9sOHRqdGxkdGllaGQ5dGt0NWkgNjc4MDM2NjNmYWU2MmYxZGMwOGNmYzE1MTI0YTU4NGY5Y2IzNzU0NTIzYTdkN2JlNzQ2M2Q3MDhkZDhiYzA5YkBn&amp;tmsrc=67803663fae62f1dc08cfc15124a584f9cb3754523a7d7be7463d708dd8bc09b%40group.calendar.google.com"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a> to add the Zoom link to your Google calendar,</li><li>Or use <a href="https://mit.zoom.us/j/96223974007">this link</a> to join us on Zoom directly at 4PM UK (12PM Eastern) Oct 29.</li></ul>
 {% endalert %}
 
 

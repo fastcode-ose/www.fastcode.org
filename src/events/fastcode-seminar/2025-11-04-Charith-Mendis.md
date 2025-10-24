@@ -3,7 +3,6 @@ sidebar: toc
 title: Agile and evolvable software construction in the era of rapidly evolving hardware accelerator designs
 author: Charith Mendis, UIUC
 tagline: Tuesday, November 4, 2025 2PM ET
-zoomreg: https://mit.zoom.us/meeting/register/usEVbrerRu2bWr599mFBxQ
 date: 2025-11-04
 eleventyComputed:
   eleventyNavigation:
@@ -13,6 +12,10 @@ eleventyComputed:
 tags:
  - seminar
 ---
+
+{% alert "note", "Special hybrid event:" %}
+<ul><li>Virtual: Zoom registration required at <a href="https://mit.zoom.us/meeting/register/usEVbrerRu2bWr599mFBxQ">https://mit.zoom.us/meeting/register/usEVbrerRu2bWr599mFBxQ</a> </li><li>Face-to-face: <a href="https://www.csail.mit.edu/event/fast-code-seminar-agile-and-evolvable-software-construction-era-rapidly-evolving-hardware">MIT 32-G575</a></li></ul>
+{% endalert %}
 
 ## Abstract
 

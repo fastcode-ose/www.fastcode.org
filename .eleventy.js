@@ -8,6 +8,7 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const pluginTOC = require("eleventy-plugin-toc");
 const mathjax3 = require('markdown-it-mathjax3');
+const embedYouTube = require("eleventy-plugin-youtube-embed");
 const slugify = str =>
 str
   .toLowerCase()
@@ -50,6 +51,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/browserconfig.xml");
 
   // Add plugins
+  eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight,
     { showLineNumbers: false });

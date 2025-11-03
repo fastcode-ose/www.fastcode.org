@@ -14,10 +14,11 @@ tags:
   events
 ---
 
-
 {% alert "primary" %}
-This free virtual seminar is 4PM UK (12PM Eastern) Wednesday October 29, 2025. You can add it to your calendar or join directly at the appointed time.<ul><li>Click <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MWZlMDg4bG9sOHRqdGxkdGllaGQ5dGt0NWkgNjc4MDM2NjNmYWU2MmYxZGMwOGNmYzE1MTI0YTU4NGY5Y2IzNzU0NTIzYTdkN2JlNzQ2M2Q3MDhkZDhiYzA5YkBn&amp;tmsrc=67803663fae62f1dc08cfc15124a584f9cb3754523a7d7be7463d708dd8bc09b%40group.calendar.google.com"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a> to add the Zoom link to your Google calendar,</li><li>Or use <a href="https://mit.zoom.us/j/96223974007">this link</a> to join us on Zoom directly at 4PM UK (12PM Eastern) Oct 29.</li></ul>
+This seminar was hosted October 29, 2025, by the [SciCOMP series at Durham University](https://scicomp.webspace.durham.ac.uk/events/seminar_series/).
 {% endalert %}
+
+https://www.youtube.com/watch?v=OiRgB8VEklI
 
 
 ## Abstract
@@ -29,7 +30,3 @@ With the recent demise of Moore’s Law, software developers can no longer depen
 ## Bio
 
 Dr. Bruce Hoppe is the Community Manager for Fastcode, an NSF-funded open-source ecosystem dedicated to software performance engineering. Dr. Hoppe founded Connective Associates in 2005, and for twenty years he has helped organizations to catalyze networks for learning and impact. Dr. Hoppe has published award-winning academic papers on network optimization algorithms, fault-tolerant distributed systems, and evaluating leadership networks. He loves to create space for great things to happen, and his favorite ways of creating space include meditating, writing, and jazz drumming. He founded Arlington Porchfest, a grassroots music festival, in 2016. He received his PhD from the Computer Science Department at Cornell University in 1995.
-
-{% alert "primary" %}
-This seminar is hosted by the [SciCOMP series at Durham University](https://scicomp.webspace.durham.ac.uk/events/seminar_series/).
-{% endalert %}

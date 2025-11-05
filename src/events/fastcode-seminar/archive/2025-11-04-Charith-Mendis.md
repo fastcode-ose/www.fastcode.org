@@ -6,16 +6,10 @@ tagline: Tuesday, November 4, 2025 2PM ET
 date: 2025-11-04
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Seminar
-    key: Charith Mendis
-    order: 2
-tags:
- - seminar
+    parent: Seminar Archive
+    key: Charith Mendis on agile software construction
+    order: 93
 ---
-
-{% alert "note", "Special hybrid event:" %}
-<ul><li>Virtual: Zoom registration required at <a href="https://mit.zoom.us/meeting/register/usEVbrerRu2bWr599mFBxQ">https://mit.zoom.us/meeting/register/usEVbrerRu2bWr599mFBxQ</a> </li><li>Face-to-face: <a href="https://www.csail.mit.edu/event/fast-code-seminar-agile-and-evolvable-software-construction-era-rapidly-evolving-hardware">MIT 32-G575</a></li></ul>
-{% endalert %}
 
 ## Abstract
 

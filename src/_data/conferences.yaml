@@ -1,7 +1,7 @@
 - shortName: PACT
   url: https://pact2025.github.io/
-  date: November 3-6, 2025
-  start: 2025-11-03
+  date: October 2026
+  start: 2026-10-13
   submit: late April
 - shortName: SPAA
   url: https://spaa.acm.org/
@@ -55,13 +55,13 @@
   submit: mid February
 - shortName: HPEC
   url: https://ieee-hpec.org/
-  date: September 2025
-  start: 2025-09-23
+  date: September 2026
+  start: 2026-09-14
   submit: early July
 - shortName: ESA
-  url: https://algo-conference.org//2025
-  date: September 15-19, 2025
-  start: 2025-09-15
+  url: https://algo-conference.org/2025
+  date: September 2026
+  start: 2026-09-15
   submit: mid April
 - shortName: SC
   url: https://sc25.supercomputing.org/
@@ -105,8 +105,8 @@
   submit: Jan, Apr, Jul, Oct
 - shortName: ICPP
   url: https://icpp2025.sdsc.edu/
-  date: September 8-11, 2025
-  start: 2025-09-08
+  date: Aug/Sep 2026
+  start: 2026-08-20
   submit: early May
 - shortName: EuroSys
   url: https://eurosys.org/

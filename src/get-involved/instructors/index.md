@@ -171,6 +171,17 @@ Originally created in 2018 as a single full-day class, this workshop includes an
 #### [CSE 539](https://www.cse.wustl.edu/~angelee/cse539/index.html) Concepts in Multicore Computing
 Nowadays, the vast majority of computer systems are built using multicore processor chips. This fundamental shift in hardware design impacts all areas of computer science -- one must write parallel programs in order to unlock the computational power provided by modern hardware. The goal of this course is to study concepts in multicore computing. We will examine the implications of the multicore hardware design, discuss challenges in writing high performance software, and study emerging technologies relevant to developing software for multicore systems. Topics include memory hierarchy, cache coherence protocol, memory models, scheduling, high-level parallel language models, concurrent programming (synchronization and concurrent data structures), algorithms for debugging parallel software, and performance analysis.
 
+## Yale
+#### CPSC 424 Parallel Programming Techniques
+The ever-increasing scale of modern datasets and the rise of multi-core processors demand efficient parallelprogramming techniques. This course equips students with the fundamental knowledge and practical skills to design, implement, and analyze parallel algorithms for diverse applications. We will explore various parallel programming paradigms, including but not limited to: threading, synchronization primitives, techniques for minimizing race conditions and deadlocks, concurrency, and optimizing for cache performance. 
+
+Beyond algorithmic foundations, the course will delve into:
+* **Performance analysis and optimization:** Identifying bottlenecks, measuring speedup, and optimizing parallel code.
+* **Parallel programming tools and libraries:** Hands-on experience with OpenMP, MPI, and newer frameworks such as CMU parlaylib.
+* **Real-world applications:** Case studies and examples from domains like scientific computing, machine learning, and data analytics.
+
+Through both theory and programming assignments and a final project, students will gain practical experience in developing and evaluating parallel programs. This course is essential for students interested in high-performance computing, big data processing, and modern software development.
+
 {% alert "note", "For access to editable slide decks" %}
 [Join the Fastcode instructors community](/get-involved/instructors/join/).
 {% endalert %}

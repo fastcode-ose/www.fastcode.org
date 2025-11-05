@@ -10,8 +10,6 @@ eleventyComputed:
     key: Developing the field of SPE
     parent: Events
     order: 2
-tags:
-  events
 ---
 
 {% alert "primary" %}

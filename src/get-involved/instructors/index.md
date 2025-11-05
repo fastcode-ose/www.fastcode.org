@@ -173,7 +173,7 @@ Nowadays, the vast majority of computer systems are built using multicore proces
 
 ## Yale
 #### CPSC 424 Parallel Programming Techniques
-The ever-increasing scale of modern datasets and the rise of multi-core processors demand efficient parallelprogramming techniques. This course equips students with the fundamental knowledge and practical skills to design, implement, and analyze parallel algorithms for diverse applications. We will explore various parallel programming paradigms, including but not limited to: threading, synchronization primitives, techniques for minimizing race conditions and deadlocks, concurrency, and optimizing for cache performance. 
+The ever-increasing scale of modern datasets and the rise of multi-core processors demand efficient parallel programming techniques. This course equips students with the fundamental knowledge and practical skills to design, implement, and analyze parallel algorithms for diverse applications. We will explore various parallel programming paradigms, including but not limited to: threading, synchronization primitives, techniques for minimizing race conditions and deadlocks, concurrency, and optimizing for cache performance. 
 
 Beyond algorithmic foundations, the course will delve into:
 * **Performance analysis and optimization:** Identifying bottlenecks, measuring speedup, and optimizing parallel code.

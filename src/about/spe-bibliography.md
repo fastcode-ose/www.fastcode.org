@@ -36,3 +36,7 @@ The lists are editable in the website source folder at `src/_data/books.yaml` an
 
 {% endfor %}
 </ul>
+
+{% alert "note" %}
+If you have any questions, comments, or suggested additions, please [let us know](/get-involved/contact/).
+{% endalert %}

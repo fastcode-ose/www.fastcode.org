@@ -9,6 +9,8 @@ eleventyNavigation:
   order: 4
 ---
 
+If you're looking for books and articles to help you get started with SPE, see [this page](../get-started-spe/#learning-more-about-spe).
+
 This page demonstrates the possibility of presenting lists of SPE books and SPE articles. We can add more fields and formatting. Anything is possible!
 
 The lists are editable in the website source folder at `src/_data/books.yaml` and `src/_data/articles.yaml`.

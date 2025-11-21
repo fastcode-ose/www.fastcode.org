@@ -33,8 +33,8 @@ PPoPP provides the ideal venue for this workshop. Parallel programming—the hea
     hardware.
 
 -   **Contributed talks:** We will solicit proposals from the broader
-    community. Submissions will include an abstract and up to two pages
-    of description. Each submission will undergo peer review, and
+    community. All submissions must include a title, an abstract, and a description of the talk, and should be no longer than one page.
+    Each submission will undergo peer review, and
     accepted talks will be presented at the workshop.
 
 -   **Panel discussion:** To conclude the workshop, we will hold a panel

@@ -13,7 +13,7 @@ eleventyNavigation:
 We are actively compiling this concise list of notable resources. See Wikipedia for longer lists of [performance analysis tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools) and [memory debuggers](https://en.wikipedia.org/wiki/Memory_debugger). 
 
 {% alert "note" %}
-Please [let us know](/get-involved/contact) how we can improve this list!
+Please [let us know](mailto:behoppe@mit.edu?subject=Fastcode%20SPE%20resource%20list&amp;body=) how we can improve this list!
 {% endalert %}
 
 ## Tools

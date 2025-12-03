@@ -22,7 +22,7 @@ Many people related a few common themes that are especially relevant for communi
 - A desire for events and activities that bring together "the scattered tribes of SPE"
 - A desire for improved tools that make it easier for all programmers to do SPE.
 
-If you're interested in connecting with others around the above topics (or any other topics), please [let us know](../contact/).
+If you're interested in connecting with others around the above topics (or any other topics), please [let us know](mailto:behoppe@mit.edu?subject=Fastcode%20opportunities%20for%20community&amp;body=).
 
 ## Why is SPE important?
 

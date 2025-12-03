@@ -22,7 +22,7 @@ Many people know how to write code, but few know how to write code that runs eff
 
 ## Learning more about SPE
 
-We are actively maintaining the following list of resources to help you learn SPE. If you have any questions, comments, or suggested additions, please [let us know](/get-involved/contact/).
+We are actively maintaining the following list of resources to help you learn SPE. If you have any questions, comments, or suggested additions, please [let us know](mailto:behoppe@mit.edu?subject=Fastcode%20get%20started%20list&amp;body=).
 
 ### Introductory materials
 * [Introduction to Parallel Computing](https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial): This overview briefly introduces a broad range of topics and concludes with its own list of [recommended reading](https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial##References). (By Livermore Computing)

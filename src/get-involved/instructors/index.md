@@ -30,7 +30,7 @@ The [Get started with SPE](/about/get-started-spe) page includes lots of resourc
 
 To help you develop your own course or module on SPE, below is an incomplete list of relevant classes and workshops. Each listing includes links to lecture PDFs and sometimes videos.
 
-Do you have your own class or module to add to our list? Please [let us know](/get-involved/contact/).
+Do you have your own class or module to add to our list? Please [let us know](mailto:behoppe@mit.edu?subject=Fastcode%20SPE%20resource%20list&amp;body=).
 
 ### For community members
 

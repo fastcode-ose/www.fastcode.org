@@ -8,7 +8,7 @@ eleventyComputed:
   eleventyNavigation:
     key: Task-parallel tech for SPE
     parent: About
-    order: 3
+    order: 4
 ---
 
 

@@ -5,13 +5,13 @@
   submit: late April
 - shortName: SPAA
   url: https://spaa.acm.org/
-  date: July 6-10, 2026
+  date: Jul 6-10, 2026
   start: 2026-06-10
   submit: late February
 - shortName: PPoPP
-  url: https://ppopp25.sigplan.org/
-  date: March 2026
-  start: 2026-03-01
+  url: https://ppopp26.sigplan.org/
+  date: Jan 31 - Feb 4, 2026
+  start: 2026-01-31
   submit: mid August
 - shortName: IPDPS
   url: https://www.ipdps.org/
@@ -20,22 +20,22 @@
   submit: early October
 - shortName: SODA
   url: https://www.siam.org/conferences-events/siam-conferences/soda26/
-  date: January 11-14, 2026
+  date: Jan 11-14, 2026
   start: 2026-01-11
   submit: mid July
 - shortName: ALENEX
   url: https://www.siam.org/conferences-events/siam-conferences/alenex26/
-  date: January 11-12, 2026
+  date: Jan 11-12, 2026
   start: 2026-01-11
   submit: mid July
 - shortName: PLDI
   url: https://pldi26.sigplan.org/
-  date: June 15-19, 2026
+  date: Jun 15-19, 2026
   start: 2026-06-15
   submit: mid November
 - shortName: ICCS
-  url: https://www.iccs-meeting.org/iccs2025/
-  date: June 29 - July 1, 2026
+  url: https://www.iccs-meeting.org/iccs2026/
+  date: Jun 29 - Jul 1, 2026
   start: 2026-06-29
   submit: mid February
 - shortName: ICPE
@@ -70,23 +70,23 @@
   submit: mid April
 - shortName: SIGCSE
   url: https://www.sigcse.org/
-  date: February 2026
+  date: Feb 18-21, 2026
   start: 2026-02-26
   submit: mid July
 - shortName: CGO
   url: https://conf.researchr.org/series/cgo
-  date: March 2026
-  start: 2026-03-02
+  date: Jan 31 - Feb 4, 2026
+  start: 2026-01-13
   submit: late May (R1), mid Sept (R2)
 - shortName: ICS
   url: https://www.ics-conference.org/
-  date: June 2026
-  start: 2026-06-08
+  date: Jul 6-9, 2026
+  start: 2026-07-06
   submit: mid Jan (R1), late Feb (R2)
 - shortName: ASPLOS
   url: https://www.asplos-conference.org/asplos2026/cfp/
-  date: April 2026
-  start: 2026-04-02
+  date: Mar 22-26, 2026
+  start: 2026-03-22
   submit: mid Mar (R1), mid Aug (R2)
 - shortName: MLSys
   url: https://mlsys.org/
@@ -95,12 +95,12 @@
   submit: late October
 - shortName: VLDB
   url: https://vldb.org
-  date: August 31 - September 4, 2026
+  date: Aug 31 - Sep 4, 2026
   start: 2026-08-31
   submit: montly until March
 - shortName: SIGMOD
   url: https://sigmod.org/
-  date: May 31 - June 5, 2026
+  date: May 31 - Jun 5, 2026
   start: 2026-05-31
   submit: Jan, Apr, Jul, Oct
 - shortName: ICPP
@@ -110,6 +110,6 @@
   submit: early May
 - shortName: EuroSys
   url: https://eurosys.org/
-  date: April 13-16, 2026
+  date: Apr 13-16, 2026
   start: 2026-04-13
   submit: mid May (R1), mid Sept (R2)

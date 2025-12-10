@@ -49,7 +49,7 @@ Submit your talk abstract at https://easychair.org/my/conference?conf=cachp26.
 
 # Important Dates
 
--   Dec. 15th, 2025: Talk submission deadline
+-   Dec. 15th, 2025 (End of Day, Anywhere on Earth): Talk submission deadline
 -   Jan. 10th, 2026: Accepted talk notification
 -   Jan. 31st, 2026: Morning workshop
 

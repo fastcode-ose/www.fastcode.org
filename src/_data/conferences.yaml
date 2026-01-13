@@ -19,14 +19,14 @@
   start: 2026-05-25
   submit: early October
 - shortName: SODA
-  url: https://www.siam.org/conferences-events/siam-conferences/soda26/
-  date: Jan 11-14, 2026
-  start: 2026-01-11
+  url: https://www.siam.org/conferences-events/siam-conferences/soda27/
+  date: Jan 24-27, 2027
+  start: 2027-01-24
   submit: mid July
 - shortName: ALENEX
-  url: https://www.siam.org/conferences-events/siam-conferences/alenex26/
-  date: Jan 11-12, 2026
-  start: 2026-01-11
+  url: https://www.siam.org/conferences-events/siam-conferences/alenex27/
+  date: Jan 24-25, 2027
+  start: 2027-01-24
   submit: mid July
 - shortName: PLDI
   url: https://pldi26.sigplan.org/

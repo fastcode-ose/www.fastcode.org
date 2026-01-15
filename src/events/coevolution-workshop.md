@@ -2,7 +2,7 @@
 title: Workshop on Co-evolution of Algorithms, Compilers, and Hardware for Performance
 tagline: A Fastcode workshop at PPoPP-26
 author: J. Nelson Amaral
-event_date: February 2026
+event_date: Jan 31, 2026
 #reg_deadline: January 10, 2025
 image: /img/fib-code-multicore.png
 eleventyComputed:

@@ -16,6 +16,14 @@ tags:
 
 {% imgLeft "/img/fastcode-coevolution.png", "600px" %}
 
+{% alert "note", "CACHP is 8:45am-12:45pm Saturday, Jan 31, at PPoPP-26 in Sydney, Australia." %}
+Congratulations to the authors of the following talks, accepted for CACHP-26:
+* Efficient Hardware Primitives for Immediate Memory Reclamation in Optimistic Data Structures (A. Singh, T. Brown, and M. Spear)
+* Adaptive Loop Unrolling for Automatic Parallelism Management (S.V. Satish and S. Westrick)
+* Synthesizing Dist-Memory Mappings for Tensor Computations with Domain and Hardware Knowledge (M. Kong)
+* Co-Design for Performance and Energy-Efficiency in modern AI paradigms (G. Cong)
+{% endalert %}
+
 The central idea behind Fastcode is that performance and efficient use of resources must remain a core focus of computing. Achieving these goals requires advances not only in algorithm design, but also in programming models, software construction, compilers, and hardware. Progress in one of these areas often influences and reshapes the others.  
 
 For example, a new code pattern may first appear as a hand-crafted optimization by an expert programmer, then evolve into a portable compiler transformation, and eventually inspire changes in hardware architecture or system design. Such cross-pollination drives innovation, yet opportunities for the communities to engage in joint discussion remain limited.  
@@ -26,26 +34,23 @@ The workshop will be organized as a half-day event (approximately four hours). I
 
 PPoPP provides the ideal venue for this workshop. Parallel programming—the heart of PPoPP—is a driving force behind modern compiler and hardware research. Moreover, the co-location with CGO and HPCA naturally connects all three dimensions of the ecosystem that Fastcode seeks to address. We believe the workshop will be of strong interest not only to the PPoPP community but also to participants of the co-located conferences.  
 
-# Proposed Activities
+# Planned Activities
 
--   **Invited talks:** We will invite distinguished speakers recognized
+-   **Invited talks:** We are inviting distinguished speakers recognized
     for high-impact contributions in algorithms, compilers, and
     hardware.
 
--   **Contributed talks:** We will solicit proposals from the broader
-    community. All submissions must include a title, an abstract, and a description of the talk, and should be no longer than one page.
-    Each submission will undergo peer review, and
-    accepted talks will be presented at the workshop.
+-   **Contributed talks:** We solicited proposals from the broader
+    community and accepted the following four talks for presentation at CACHP-26:
+      * Efficient Hardware Primitives for Immediate Memory Reclamation in Optimistic Data Structures (A. Singh, T. Brown, and M. Spear)
+      * Adaptive Loop Unrolling for Automatic Parallelism Management (S.V. Satish and S. Westrick)
+      * Synthesizing Dist-Memory Mappings for Tensor Computations with Domain and Hardware Knowledge (M. Kong)
+      * Co-Design for Performance and Energy-Efficiency in modern AI paradigms (G. Cong)
 
 -   **Panel discussion:** To conclude the workshop, we will hold a panel
     session where speakers and participants can discuss open challenges,
     research directions, and opportunities for collaboration.
 
-# Registration
-
-{% alert "note" %}
-Submit your talk abstract at https://easychair.org/my/conference?conf=cachp26.
-{% endalert %}
 
 # Important Dates
 

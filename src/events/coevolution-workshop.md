@@ -17,7 +17,7 @@ tags:
 {% imgLeft "/img/fastcode-coevolution.png", "600px" %}
 
 {% alert "note", "CACHP is 8:45am-12:45pm Saturday, Jan 31, at PPoPP-26 in Sydney, Australia." %}
-Congratulations to the authors of the following talks, accepted for CACHP-26:
+Congratulations to the authors of the following [contributed talks](#contributed-talks), accepted for CACHP-26:
 * Efficient Hardware Primitives for Immediate Memory Reclamation in Optimistic Data Structures (A. Singh, T. Brown, and M. Spear)
 * Adaptive Loop Unrolling for Automatic Parallelism Management (S.V. Satish and S. Westrick)
 * Synthesizing Dist-Memory Mappings for Tensor Computations with Domain and Hardware Knowledge (M. Kong)
@@ -36,20 +36,47 @@ PPoPP provides the ideal venue for this workshop. Parallel programming—the hea
 
 # Planned Activities
 
--   **Invited talks:** We are inviting distinguished speakers recognized
-    for high-impact contributions in algorithms, compilers, and
-    hardware.
+## Invited talks
+We are inviting distinguished speakers recognized for high-impact contributions in algorithms, compilers, and hardware.
 
--   **Contributed talks:** We solicited proposals from the broader
-    community and accepted the following four talks for presentation at CACHP-26:
-      * Efficient Hardware Primitives for Immediate Memory Reclamation in Optimistic Data Structures (A. Singh, T. Brown, and M. Spear)
-      * Adaptive Loop Unrolling for Automatic Parallelism Management (S.V. Satish and S. Westrick)
-      * Synthesizing Dist-Memory Mappings for Tensor Computations with Domain and Hardware Knowledge (M. Kong)
-      * Co-Design for Performance and Energy-Efficiency in modern AI paradigms (G. Cong)
+## Contributed talks
+We solicited proposals from the broader community and accepted the following four talks for presentation at CACHP-26:
+    
+### Efficient Hardware Primitives for Immediate Memory Reclamation in Optimistic Data Structures 
+(By A. Singh, T. Brown, and M. Spear) Safe memory reclamation (SMR) algorithms are crucial for preventing use-after-free errors in optimistic
+data structures. SMR algorithms typically delay reclamation for safety and reclaim objects in batches for efficiency. It is difficult to strike a balance between performance and space efficiency. Small batch sizes and frequent reclamation attempts lead to high overhead, while freeing large batches can lead to long program interruptions and high memory footprints. An ideal SMR algorithm would forgo batching, and reclaim memory immediately, without suffering high reclamation overheads. 
+To this end, we propose Conditional Access: a set of hardware instructions that offer immediate
+reclamation and low overhead in optimistic data structures. Conditional Access harnesses cache coherence
+to enable threads to efficiently detect potential use-after-free errors without explicit shared memory
+communication, and without introducing additional coherence traffic.
+We implement and evaluate Conditional Access in Graphite, a multicore simulator. Our experiments show
+that Conditional Access can rival the performance of highly optimized and carefully tuned SMR algorithms
+while simultaneously allowing immediate reclamation. This results in concurrent data structures with
+similar memory footprints to their sequential counterparts
 
--   **Panel discussion:** To conclude the workshop, we will hold a panel
-    session where speakers and participants can discuss open challenges,
-    research directions, and opportunities for collaboration.
+### Adaptive Loop Unrolling for Automatic Parallelism Management 
+(By S.V. Satish and S. Westrick) Recent work on automatic parallelism management in the MaPLe compiler has been developing efficient parallel fork-join primitives that eliminate the need for programmer-directed granularity control. Ongoing work specifically focuses on parallel loops, but incurs modest overhead for tight loops. We propose an adaptive loop unrolling technique to mitigate this overhead while preserving all potential parallelism. We compare performance against fast baselines in ParlayLib, and evaluate closing the gap in performance
+while maintaining MaPLe’s expressivity and safety
+
+### Synthesizing Dist-Memory Mappings for Tensor Computations with Domain and Hardware Knowledge 
+(By M. Kong) Large-scale scientific applications based on tensor computations constitute a critical class of applications that include
+domains such as computational chemistry, Density Functional Theory, material sciences, quantum mechanics and
+machine learning. Tensor computations have become a mainstay in numerical fields and in data science. Their use in
+distributed-memory, high-performance computing clusters with multi-node GPUs impose fundamental scientific and
+engineering challenges that require rethinking, redesigning and jointly optimizing tensor operators.
+
+### Co-Design for Performance and Energy-Efficiency in modern AI paradigms 
+(By G. Cong) The building of 100 billion dollar scale AI data centers makes energy-efficient AI a pressing theme
+in computing. On current platforms, fast code normally yields energy efficient implementations. Yet energy
+consumption and environmental impact (e.g., clean water usage in cooling) demand drastically new paradigms.
+We explore emerging devices for aggressive energy reduction, and in this context, brand-new research problems
+and directions emerge for co-optimizing algorithm, software, architecture, and circuit design. In this talk we
+will present our results, vision, and encountered challenges in energy efficient AI from projects within the De-
+partment of Energy (DOE) Advanced Scientific Computing Research (ASCR) programs and Oak Ridge National
+Laboratory Director’s Research Directive programs.
+
+## Panel discussion:
+To conclude the workshop, we will hold a panel session where speakers and participants can discuss open challenges, research directions, and opportunities for collaboration.
 
 
 # Important Dates

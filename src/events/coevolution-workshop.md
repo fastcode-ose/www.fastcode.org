@@ -36,8 +36,15 @@ PPoPP provides the ideal venue for this workshop. Parallel programming—the hea
 
 # Planned Activities
 
-## Invited talks
-We are inviting distinguished speakers recognized for high-impact contributions in algorithms, compilers, and hardware.
+## Invited talk
+
+### Optimizing for the Edge: From Neural Compilation to Instruction Fusion in RISC‑V Systems
+
+(By [Alexandra Jimborean](https://webs.um.es/alexandra.jimborean/miwiki/doku.php), University of Murcia)
+Bringing neural networks and Transformers to RISC‑V edge devices demands both smarter compilers and architecture‑aware optimizations. This talk traces a path from high‑level graph compilation to low‑level instruction reordering, showing how a unified compiler stack can unlock efficiency across the computing stack. 
+We begin with OML (ONNX‑MLIR‑LLVM), a portable compilation flow that automatically vectorizes deep learning operators through reduction detection and layout transformations—yielding performance gains on RISC‑V that match the ONNX-Runtime (ORT) manually tuned libraries. We then dive into CAIF (Compiler‑Assisted Instruction Fusion), a layout‑aware scheduler that reorders fusible operations to expose new hardware fusion opportunities, achieving close to 20% speed-up.
+Together, these advances reveal how compiler–architecture co‑design—from graph to instruction stream—can make RISC‑V a competitive target for both neural and general‑purpose workloads.
+
 
 ## Contributed talks
 We solicited proposals from the broader community and accepted the following four talks for presentation at CACHP-26:
@@ -83,7 +90,7 @@ To conclude the workshop, we will hold a panel session where speakers and partic
 
 -   Dec. 15th, 2025 (End of Day, Anywhere on Earth): Talk submission deadline
 -   Jan. 10th, 2026: Accepted talk notification
--   Jan. 31st, 2026: Morning workshop
+-   Jan. 31st, 2026: Morning workshop at PPoPP (8:45am-12:45pm)
 
 # Organizing Team
 

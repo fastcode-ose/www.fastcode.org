@@ -17,7 +17,7 @@ tags:
 {% imgLeft "/img/fastcode-coevolution.png", "600px" %}
 
 {% alert "note", "CACHP is 8:45am-12:45pm Saturday, Jan 31, at PPoPP-26 in Sydney, Australia." %}
-Workshop Schedule:
+**Workshop Schedule:**
 * Session 1
   - 08:45-09:15 Talk #1
   - 09:15-09:45 Talk #2

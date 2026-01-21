@@ -17,11 +17,24 @@ tags:
 {% imgLeft "/img/fastcode-coevolution.png", "600px" %}
 
 {% alert "note", "CACHP is 8:45am-12:45pm Saturday, Jan 31, at PPoPP-26 in Sydney, Australia." %}
+Workshop Schedule:
+* Session 1
+  - 08:45-09:15 Talk #1
+  - 09:15-09:45 Talk #2
+  - 09:45-10:30 Invited Talk
+* 10:30-11:00 Break
+* Session 2
+  - 11:00-11:40 Invited Talk
+  - 11:40-12:05 Talk #3
+  - 12:05-12:30 Talk #4
+  - 12:30-12:45 Closing Discussion
+
 Congratulations to the authors of the following [contributed talks](#contributed-talks), accepted for CACHP-26:
 * Efficient Hardware Primitives for Immediate Memory Reclamation in Optimistic Data Structures (A. Singh, T. Brown, and M. Spear)
 * Adaptive Loop Unrolling for Automatic Parallelism Management (S.V. Satish and S. Westrick)
 * Synthesizing Dist-Memory Mappings for Tensor Computations with Domain and Hardware Knowledge (M. Kong)
 * Co-Design for Performance and Energy-Efficiency in modern AI paradigms (G. Cong)
+
 {% endalert %}
 
 The central idea behind Fastcode is that performance and efficient use of resources must remain a core focus of computing. Achieving these goals requires advances not only in algorithm design, but also in programming models, software construction, compilers, and hardware. Progress in one of these areas often influences and reshapes the others.  
@@ -36,7 +49,7 @@ PPoPP provides the ideal venue for this workshop. Parallel programming—the hea
 
 # Planned Activities
 
-## Invited talk
+## Invited talks
 
 ### Optimizing for the Edge: From Neural Compilation to Instruction Fusion in RISC‑V Systems
 
@@ -45,6 +58,10 @@ Bringing neural networks and Transformers to RISC‑V edge devices demands both 
 We begin with OML (ONNX‑MLIR‑LLVM), a portable compilation flow that automatically vectorizes deep learning operators through reduction detection and layout transformations—yielding performance gains on RISC‑V that match the ONNX-Runtime (ORT) manually tuned libraries. We then dive into CAIF (Compiler‑Assisted Instruction Fusion), a layout‑aware scheduler that reorders fusible operations to expose new hardware fusion opportunities, achieving close to 20% speed-up.
 Together, these advances reveal how compiler–architecture co‑design—from graph to instruction stream—can make RISC‑V a competitive target for both neural and general‑purpose workloads.
 
+### Dynamic HLS and Compiler IR
+
+(By [Magnus Själander](https://www.ntnu.edu/employees/magnus.sjalander), Norwegian University of Science and Technology)
+Details TBA.
 
 ## Contributed talks
 We solicited proposals from the broader community and accepted the following four talks for presentation at CACHP-26:

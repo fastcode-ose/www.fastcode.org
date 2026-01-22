@@ -19,21 +19,16 @@ tags:
 {% alert "note", "CACHP is 8:45am-12:45pm Saturday, Jan 31, at PPoPP-26 in Sydney, Australia." %}
 **Workshop Schedule:**
 * Session 1
-  - 08:45-09:15 Talk #1
-  - 09:15-09:45 Talk #2
-  - 09:45-10:30 Invited Talk
+  - 08:45-09:15 -- [Co-Design for Performance and Energy-Efficiency in modern AI paradigms](#co-design-for-performance-and-energy-efficiency-in-modern-ai-paradigms) (G. Cong)
+  - 09:15-09:45 -- [Synthesizing Dist-Memory Mappings for Tensor Computations with Domain and Hardware Knowledge](#synthesizing-dist-memory-mappings-for-tensor-computations-with-domain-and-hardware-knowledge) (M. Kong)
+  - 09:45-10:30 -- [Optimizing for the Edge: From Neural Compilation to Instruction Fusion in RISC‑V Systems](#optimizing-for-the-edge:-from-neural-compilation-to-instruction-fusion-in-riscv-systems) (Invited talk by [Alexandra Jimborean](https://webs.um.es/alexandra.jimborean/miwiki/doku.php))
 * 10:30-11:00 Break
 * Session 2
-  - 11:00-11:40 Invited Talk
-  - 11:40-12:05 Talk #3
-  - 12:05-12:30 Talk #4
-  - 12:30-12:45 Closing Discussion
+  - 11:00-11:45 -- [R-HLS: An Intermediate Representation for Dynamic High-Level Synthesis](#r-hls:-an-intermediate-representation-for-dynamic-high-level-synthesis) (Invited talk by [Magnus Själander](https://www.ntnu.edu/employees/magnus.sjalander))
+  - 11:45-12:10 -- [Efficient Hardware Primitives for Immediate Memory Reclamation in Optimistic Data Structures](#efficient-hardware-primitives-for-immediate-memory-reclamation-in-optimistic-data-structures)  (A. Singh, T. Brown, and M. Spear)
+  - 12:10-12:35 -- [Adaptive Loop Unrolling for Automatic Parallelism Management](#adaptive-loop-unrolling-for-automatic-parallelism-management) (S.V. Satish and S. Westrick)
+  - 12:35-12:45 -- Closing Discussion
 
-Congratulations to the authors of the following [contributed talks](#contributed-talks), accepted for CACHP-26:
-* Efficient Hardware Primitives for Immediate Memory Reclamation in Optimistic Data Structures (A. Singh, T. Brown, and M. Spear)
-* Adaptive Loop Unrolling for Automatic Parallelism Management (S.V. Satish and S. Westrick)
-* Synthesizing Dist-Memory Mappings for Tensor Computations with Domain and Hardware Knowledge (M. Kong)
-* Co-Design for Performance and Energy-Efficiency in modern AI paradigms (G. Cong)
 
 {% endalert %}
 
@@ -58,10 +53,12 @@ Bringing neural networks and Transformers to RISC‑V edge devices demands both 
 We begin with OML (ONNX‑MLIR‑LLVM), a portable compilation flow that automatically vectorizes deep learning operators through reduction detection and layout transformations—yielding performance gains on RISC‑V that match the ONNX-Runtime (ORT) manually tuned libraries. We then dive into CAIF (Compiler‑Assisted Instruction Fusion), a layout‑aware scheduler that reorders fusible operations to expose new hardware fusion opportunities, achieving close to 20% speed-up.
 Together, these advances reveal how compiler–architecture co‑design—from graph to instruction stream—can make RISC‑V a competitive target for both neural and general‑purpose workloads.
 
-### Dynamic HLS and Compiler IR
+### R-HLS: An Intermediate Representation for Dynamic High-Level Synthesis
 
 (By [Magnus Själander](https://www.ntnu.edu/employees/magnus.sjalander), Norwegian University of Science and Technology)
-Details TBA.
+Dynamically scheduled hardware enables high-level synthesis (HLS) for applications with irregular control flow and latencies, which perform poorly with conventional statically scheduled approaches. Since dynamically scheduled hardware is inherently data flow based, it is beneficial to have an intermediate representation (IR) that captures the global data flow to enable easier transformations.
+R-HLS is based on the Regionalized Value State Dependence Graph (RVSDG) intermediate representation, and is specifically targeted for generating efficient dynamically scheduled hardware. R-HLS explicitly models control flow decisions, routing, and memory. Expressing the control flow as part of the data flow reduces the need for complex optimizations to extract performance and enables easy conversion to parallel circuits.
+Our results show that R-HLS exposes parallelism resulting in fewer executed cycles and a significant reduction in resource utilization, compared to the state-of-the-art in dynamic HLS.
 
 ## Contributed talks
 We solicited proposals from the broader community and accepted the following four talks for presentation at CACHP-26:

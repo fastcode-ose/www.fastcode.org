@@ -18,12 +18,12 @@ tags:
 
 {% alert "note", "CACHP is 8:45am-12:45pm Saturday, Jan 31, at PPoPP-26 in Sydney, Australia." %}
 **Workshop Schedule:**
-* Session 1
+* Session 1 - Chair: J. Nelson Amaral, University of Alberta
   - 08:45-09:15 -- [Co-Design for Performance and Energy-Efficiency in modern AI paradigms](#co-design-for-performance-and-energy-efficiency-in-modern-ai-paradigms) (G. Cong)
   - 09:15-09:45 -- [Synthesizing Dist-Memory Mappings for Tensor Computations with Domain and Hardware Knowledge](#synthesizing-dist-memory-mappings-for-tensor-computations-with-domain-and-hardware-knowledge) (M. Kong)
   - 09:45-10:30 -- [Optimizing for the Edge: From Neural Compilation to Instruction Fusion in RISC‑V Systems](#optimizing-for-the-edge:-from-neural-compilation-to-instruction-fusion-in-riscv-systems) (Invited talk by [Alexandra Jimborean](https://webs.um.es/alexandra.jimborean/miwiki/doku.php))
 * 10:30-11:00 Break
-* Session 2
+* Session 2 - Chair: Alexandra Jimborean, University of Murcia
   - 11:00-11:45 -- [R-HLS: An Intermediate Representation for Dynamic High-Level Synthesis](#r-hls:-an-intermediate-representation-for-dynamic-high-level-synthesis) (Invited talk by [Magnus Själander](https://www.ntnu.edu/employees/magnus.sjalander))
   - 11:45-12:10 -- [Efficient Hardware Primitives for Immediate Memory Reclamation in Optimistic Data Structures](#efficient-hardware-primitives-for-immediate-memory-reclamation-in-optimistic-data-structures)  (A. Singh, T. Brown, and M. Spear)
   - 12:10-12:35 -- [Adaptive Loop Unrolling for Automatic Parallelism Management](#adaptive-loop-unrolling-for-automatic-parallelism-management) (S.V. Satish and S. Westrick)

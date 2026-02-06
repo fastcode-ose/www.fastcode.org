@@ -11,12 +11,11 @@ eleventyComputed:
     parent: Events
     order: 3
 tags:
-  - events
 ---
 
 {% imgLeft "/img/fastcode-coevolution.png", "600px" %}
 
-{% alert "note", "CACHP is 8:45am-12:45pm Saturday, Jan 31, at PPoPP-26 in Sydney, Australia." %}
+{% alert "note", "CACHP was 8:45am-12:45pm Saturday, Jan 31, at PPoPP-26 in Sydney, Australia." %}
 **Workshop Schedule:**
 * Session 1 - Chair: J. Nelson Amaral, University of Alberta
   - 08:45-09:15 -- [Co-Design for Performance and Energy-Efficiency in modern AI paradigms](#co-design-for-performance-and-energy-efficiency-in-modern-ai-paradigms) (G. Cong)

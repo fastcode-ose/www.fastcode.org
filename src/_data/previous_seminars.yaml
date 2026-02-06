@@ -1,3 +1,8 @@
+- datetime: Thu Feb 5, 2026
+  speaker: Jan Wassenberg
+  organization: Google DeepMind
+  title: Highway to performance -- portable C++ SIMD
+  recording: https://mit.zoom.us/rec/share/u6EEZro-j813-Fj5Pk4zVh7VtJCsV8JiPNDR85OpB1WULihPYu57VpmnZ5pqjlsp.6GqcWnvS26x8NodS
 - datetime: Mon Dec 15, 2025
   speaker: Chen Ding
   organization: University of Rochester

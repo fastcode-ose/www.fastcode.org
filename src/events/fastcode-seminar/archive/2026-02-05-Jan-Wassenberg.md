@@ -13,7 +13,7 @@ tags:
 ---
 
 {% alert "note", "Help wanted" %}
-Our speaker, Jan Wassenberg, agreed with seminar attendees that there is need for a Highway tutorial. And he is happy to help! Would you like to join Jan and other Fastcoders in creating a Highway tutorial? Please [let us know](mailto:behoppe@mit.edu?subject=Fastcode%20Highway%20tutorial&amp;body=). 
+Our speaker, Jan, agreed with seminar attendees that there is need for a Highway tutorial. And he is happy to help! Would you like to join Jan and other Fastcoders in creating a Highway tutorial? Please [let us know](mailto:behoppe@mit.edu?subject=Fastcode%20Highway%20tutorial&amp;body=). 
 {% endalert %}
 
 ## Abstract

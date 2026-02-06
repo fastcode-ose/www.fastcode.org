@@ -3,15 +3,13 @@ sidebar: toc
 title: Highway to Performance -- Portable C++ SIMD
 author: Jan Wassenberg, Google
 tagline: Thursday, Feb 5, 2026 12PM ET
-zoomreg: https://mit.zoom.us/meeting/register/oRdRZlMtRQ-gAoFOVQC6fw
 date: 2026-02-05
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Seminar
-    key: Jan Wassenberg
-    order: 2
+    parent: Seminar Archive
+    key: Jan Wassenberg on SIMD
+    order: 91
 tags:
-  seminar
 ---
 
 
@@ -23,6 +21,10 @@ Based on a series of workshops for Google engineers, this talk introduces a bett
 
 We will cover the fundamentals of vectorization and discuss real-world use cases, including LLM inference ([gemma.cpp](https://github.com/google/gemma.cpp)) and image processing. The session provides a practical guide on porting standard C++ loops to portable and type-safe vector code. Going deeper, we demonstrate how to handle loop remainders and variable-length vectors, and how to implement runtime dispatch for selecting the best available instructions.
 This enables you to unlock hardware performance while keeping your codebase maintainable.
+
+## Recording 
+
+https://mit.zoom.us/rec/share/u6EEZro-j813-Fj5Pk4zVh7VtJCsV8JiPNDR85OpB1WULihPYu57VpmnZ5pqjlsp.6GqcWnvS26x8NodS
 
 ## Bio
 

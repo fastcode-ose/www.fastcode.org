@@ -9,7 +9,7 @@ eleventyComputed:
   eleventyNavigation:
     parent: Fastcode Seminar
     key: Laxman Dhulipala
-    order: 4
+    order: 6
 tags:
   seminar
 ---

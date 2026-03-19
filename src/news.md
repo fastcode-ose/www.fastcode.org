@@ -1,8 +1,8 @@
 ---
 eleventyNavigation:
-  key: Blog
+  key: News
   order: 7
   parent: Home
-  url: /blog/read-fastcode
+  url: /news/read-fastcode
 ---
 Dummy

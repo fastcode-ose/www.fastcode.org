@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
   key: Share your SPE story
-  parent: Blog
+  parent: News
   order: 2
   url: /get-involved/share-your-story/
 ---

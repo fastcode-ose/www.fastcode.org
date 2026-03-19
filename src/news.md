@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
   key: News
-  order: 7
+  order: 6
   parent: Home
   url: /news/read-fastcode
 ---

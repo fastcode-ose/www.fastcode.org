@@ -3,6 +3,6 @@
     "stylesheet": "none",
     "sidebar": "toc",
     "background": "bg-white",
-    "permalink": "/blog/{{ page.fileSlug | slugify }}/", 
+    "permalink": "/news/{{ page.fileSlug | slugify }}/", 
     "comments": false
 }

@@ -15,7 +15,7 @@ tags:
 
 Would you like to promote software performance engineering to a broad audience and get people curious about something you're into?
 
-{% alert "note", "Let the <a href='/blog/read-fastcode'>Fastcode blog</a> promote your work and interests in SPE." %}
+{% alert "note", "Let the <a href='/news/read-fastcode'>Fastcode blog</a> promote your work and interests in SPE." %}
 Contact [Bruce Hoppe](mailto:behoppe@mit.edu) to learn more.
 {% endalert %}
 

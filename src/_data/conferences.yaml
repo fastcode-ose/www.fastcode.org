@@ -49,10 +49,10 @@
   start: 2027-02-22
   submit:
 - shortName: ACDA
-  url: https://siam.org/conferences-events/siam-conferences/
-  date: July 2026
-  start: 2026-06-11
-  submit: mid February
+  url: https://www.siam.org/conferences-events/siam-conferences/acda27/
+  date: Feb 22-24 2027
+  start: 2027-02-24
+  submit: mid September
 - shortName: HPEC
   url: https://ieee-hpec.org/
   date: September 2026

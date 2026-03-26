@@ -39,9 +39,9 @@
   start: 2026-06-29
   submit: mid February
 - shortName: ICPE
-  url: https://icpe2025.spec.org/
-  date: April/May 2026
-  start: 2026-05-01
+  url: https://icpe2026.spec.org/
+  date: May 4-8, 2026
+  start: 2026-05-04
   submit: late October
 - shortName: SIAM-CSE
   url: https://www.siam.org/conferences-events/siam-conferences/cse27/
@@ -90,8 +90,8 @@
   submit: mid Mar (R1), mid Aug (R2)
 - shortName: MLSys
   url: https://mlsys.org/
-  date: May 2026
-  start: 2026-05-12
+  date: May 18-22, 2026
+  start: 2026-05-18
   submit: late October
 - shortName: VLDB
   url: https://vldb.org
@@ -99,7 +99,7 @@
   start: 2026-08-31
   submit: montly until March
 - shortName: SIGMOD
-  url: https://sigmod.org/
+  url: https://2026.sigmod.org/
   date: May 31 - Jun 5, 2026
   start: 2026-05-31
   submit: Jan, Apr, Jul, Oct
@@ -109,8 +109,8 @@
   start: 2026-08-20
   submit: early May
 - shortName: EuroSys
-  url: https://eurosys.org/
-  date: Apr 13-16, 2026
+  url: https://2026.eurosys.org/
+  date: Apr 27-30, 2026
   start: 2026-04-13
   submit: mid May (R1), mid Sept (R2)
 - shortName: EPEW

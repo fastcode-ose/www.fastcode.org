@@ -14,6 +14,8 @@ tags:
   seminar
 ---
 
+**Slides for the seminar are [here](/img/Engineering-Compressed-Data-Structures.pdf).**
+
 ## Abstract
 
 I will present several recent results on compressed data structures. All

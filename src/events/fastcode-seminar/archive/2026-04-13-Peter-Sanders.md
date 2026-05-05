@@ -3,18 +3,15 @@ sidebar: toc
 title: Engineering compressed data structures
 author: Peter Sanders, KIT
 tagline: Monday, Apr 13, 2026 11AM ET
-zoomreg: https://mit.zoom.us/meeting/register/6yyq8cjeTKmBqvdK7t4-MA
+#zoomreg: https://mit.zoom.us/meeting/register/6yyq8cjeTKmBqvdK7t4-MA
 date: 2026-04-13
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Seminar
-    key: Peter Sanders
-    order: 4
+    parent: Seminar Archive
+    key: Peter Sanders on Compressed Data
+    order: 90
 tags:
-  seminar
 ---
-
-**Slides for the seminar are [here](/img/Engineering-Compressed-Data-Structures.pdf).**
 
 ## Abstract
 
@@ -24,6 +21,12 @@ particular, we will see practical solutions whose space consumption is
 very close to theoretical lower bounds. Concretely, I will cover bit
 vectors with support for rank and select, perfect hashing, static
 function retrieval, and replacements for Bloom filters.
+
+## Slides and Recording 
+
+* Slides are [here](/img/Engineering-Compressed-Data-Structures.pdf).
+* Video recording is [here](https://mit.zoom.us/rec/share/_z5LAW032aUEu1PEAdgkNSxrhXiishPKHttFA7xvEkSeXCpNUJuHWl9bEpw0-QV1.03XsSMEVn3RWUkMI).
+
 
 ## Bio
 

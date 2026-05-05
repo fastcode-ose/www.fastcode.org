@@ -84,9 +84,9 @@
   start: 2026-07-06
   submit: mid Jan (R1), late Feb (R2)
 - shortName: ASPLOS
-  url: https://www.asplos-conference.org/asplos2026/cfp/
-  date: Mar 22-26, 2026
-  start: 2026-03-22
+  url: https://www.asplos-conference.org/
+  date: Apr 11-15, 2027
+  start: 2027-04-11
   submit: mid Mar (R1), mid Aug (R2)
 - shortName: MLSys
   url: https://mlsys.org/
@@ -110,8 +110,8 @@
   submit: early May
 - shortName: EuroSys
   url: https://2026.eurosys.org/
-  date: Apr 27-30, 2026
-  start: 2026-04-13
+  date: Apr 19-23, 2027
+  start: 2027-04-19
   submit: mid May (R1), mid Sept (R2)
 - shortName: EPEW
   url: https://epew-workshop.github.io/

@@ -3,15 +3,14 @@ sidebar: toc
 title: Scaling Parallel Algorithms to Massive Datasets using Multi-SSD Machines
 author: Laxman Dhulipala, UMD and Google
 tagline: Wednesday, May 27, 2026 1PM ET
-zoomreg: https://mit.zoom.us/meeting/register/Sw7xDXxhTIWcz0-orriawA
+#zoomreg: https://mit.zoom.us/meeting/register/Sw7xDXxhTIWcz0-orriawA
 date: 2026-05-27
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Seminar
-    key: Laxman Dhulipala
-    order: 6
+    parent: Seminar Archive
+    key: Laxman Dhulipala on multi-SSD machines
+    order: 88
 tags:
-  seminar
 ---
 
 ## Abstract
@@ -45,6 +44,10 @@ gigabytes of DRAM. The talk will also cover some ongoing work on
 implementing parallel graph algorithms, approximate nearest-neighbor
 search data structures, and other irregular algorithms on multi-SSD
 machines.
+
+## Recording
+
+https://mit.zoom.us/rec/share/Okao6EcVyVPm_uo_lOyuDVpk6gXuZVkCeRTmDqc-MrGYI77S77Kgiuoa135eRqJA.l6R1LkH21_C7vwRs
 
 ## Bio
 

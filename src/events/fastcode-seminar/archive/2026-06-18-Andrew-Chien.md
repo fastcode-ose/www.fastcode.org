@@ -3,15 +3,13 @@ sidebar: toc
 title: Making room for algorithm innovation “at the top” -- the UpDown graph supercomputer
 author: Andrew A Chien (UChicago) and David Gleich (Purdue)
 tagline: Thursday, June 18, 2026 11AM ET
-zoomreg: https://mit.zoom.us/meeting/register/F6aQgO1iS92Cw2hPn6RBrQ
+#zoomreg: https://mit.zoom.us/meeting/register/F6aQgO1iS92Cw2hPn6RBrQ
 date: 2026-06-18
 eleventyComputed:
   eleventyNavigation:
-    parent: Fastcode Seminar
-    key: Andrew Chien and David Gleich
-    order: 7
-tags:
-  seminar
+    parent: Seminar Archive
+    key: A. Chien and D. Gleich on the UpDown graph supercomputer
+    order: 87
 ---
 
 
@@ -22,6 +20,10 @@ Leiserson, et al. declared in 2020, “There’s plenty of room at the Top”.  
 UpDown supports fine-grained parallelism: 1-cycle thread creation and management, 1-cycle messages to enable efficient 10-100 instruction thread invocations.  Further, split-transaction DRAM access unlock the power of HBM’s massive memory bandwidth, while staying under software control.  A flexible map-reduce framework (KVMSR) and event-driven language (UDWeave) enable million-fold vertex and edge parallelism to be directly exploited and managed.  Adding a global address space and software control over reuse enables the UpDown system to supports good algorithms and data structures.  In many cases, programming complexity is comparable to multi-core systems (even for million-fold parallelism and supercomputer performance).
 
 UpDown performance on skewed-graph computations is >100x (vs multicore CPU’s) and up to 60x (vs GPU).  Performance scales 10,000-fold on BFS, Pagerank, Triangle Count, and more.  UpDown’s K-truss implementation won an MIT Graph Challenge Innovation Award in 2025.  The UpDown system was created under IARPA’s AGILE program.  The UpDown system is being commercialized in a Chicago-based startup.
+
+## Recording
+
+https://mit.zoom.us/rec/share/7CIbMH7w2NBEnhC0sYjykFnDWocO3WtAl-qDM3FKyoySH9jyC_xPPSrmSm-kEDtq.V9eloa9vaGz9IsBl
 
 ## Bio
 

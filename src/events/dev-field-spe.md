@@ -9,7 +9,7 @@ eleventyComputed:
   eleventyNavigation:
     key: Developing the field of SPE
     parent: Events
-    order: 2
+    order: 9
 ---
 
 {% alert "primary" %}

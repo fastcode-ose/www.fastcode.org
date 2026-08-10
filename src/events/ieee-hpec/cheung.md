@@ -1,12 +1,12 @@
 ---
 layout: layouts/page.njk
 sidebar: toc
-title: TBD
+title: Alvin Cheung, Berkeley
 #tagline: Tagline.
 eleventyComputed:
   eleventyNavigation:
     parent: IEEE HPEC '26
-    key: TBD
+    key: Alvin Cheung
     order: 2
 ---
 

@@ -112,6 +112,25 @@
    data_dist: #N/A
    scheduling: ws
    perf_mon: off
+-  name: Hedgehog
+   url: https://github.com/usnistgov/hedgehog
+   comm_model: sm
+   dist_mem: #N/A
+   hetero: m
+   graph: dag
+   task_part: #N/A
+   result_hand: m
+   task_cancel: ✓
+   worker_mgmt: auto
+   resilience: #N/A
+   work_map: m
+   synchro: m
+   tech_ready: 7
+   imp_type: lib.
+   target_arch: sm
+   data_dist: #N/A
+   scheduling: #N/A
+   perf_mon: on
 -  name: HPX
    url: https://hpx-docs.stellar-group.org/branches/master/html/index.html
    comm_model: gas

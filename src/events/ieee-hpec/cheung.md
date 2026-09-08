@@ -7,7 +7,7 @@ eleventyComputed:
   eleventyNavigation:
     parent: IEEE HPEC '26
     key: Alvin Cheung
-    order: 2
+    order: 4
 ---
 
 

@@ -7,7 +7,7 @@ eleventyComputed:
   eleventyNavigation:
     parent: IEEE HPEC '26
     key: Tim Kraska
-    order: 5
+    order: 3
 ---
 
 

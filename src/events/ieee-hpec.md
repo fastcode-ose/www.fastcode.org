@@ -26,10 +26,10 @@ How are AI coding assistants impacting software performance? What does that mean
 ## Featured speakers
 
 
-* Alvin Cheung (Berkeley)
-* Jatin Ganhotra (IBM)
-* Justin "Goju" Gottschlich (Merly)
+* Justin "Goju" Gottschlich (Merly, Stanford) [LLMs Are Great at Code Generation, But What About Code Adaptation?](gottschlich)
+* Jatin Ganhotra (IBM) [Green Means Stop -- Building the Reward Signal Code Optimization Never Had](ganhotra)
 * Tim Kraska (MIT)
+* Alvin Cheung (Berkeley)
 
 
 

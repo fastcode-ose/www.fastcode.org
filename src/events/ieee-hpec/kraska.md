@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 sidebar: toc
-title: The Post Developer Era
+title: The Post-Developer Era
 #tagline: Tagline.
 eleventyComputed:
   eleventyNavigation:

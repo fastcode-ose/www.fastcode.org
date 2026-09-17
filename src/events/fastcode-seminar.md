@@ -11,8 +11,6 @@ eleventyComputed:
     key: Fastcode Seminar
     parent: Events
     order: 1
-tags:
-  - events
 ---
 
 {% img "/img/fastcode-banner.png", "600px" %}

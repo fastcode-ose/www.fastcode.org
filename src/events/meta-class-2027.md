@@ -1,6 +1,6 @@
 ---
 title: Sign up for meta-class in SPE
-tagline: Registration is OPEN for free online peer-training
+tagline: Registration is OPEN for free online peer-training on teaching SPE
 author: Bruce Hoppe
 event_date: Spring 2027
 #reg_deadline: January 10, 2025

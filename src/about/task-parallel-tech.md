@@ -21,7 +21,7 @@ Please check out our [special session on task-parallel technology](/events/ieee-
 ## Feature comparison table
 
 
-The following table is based on [A taxonomy of task-based parallel programming technologies for high-performance computing](https://link.springer.com/article/10.1007/s11227-018-2238-4) by Thoman et al. With the authors' permission, we present an updated version of their classification, slightly abridged to focus on shared memory architecture. Our table adds two platforms: OpenCilk and Taskflow. (OpenCilk replaces Cilk Plus in their classification, and Taskflow is new.)
+The following table is based on [A taxonomy of task-based parallel programming technologies for high-performance computing](https://link.springer.com/article/10.1007/s11227-018-2238-4) by Thoman et al. With the authors' permission, we present an updated version of their classification, slightly abridged to focus on shared memory architecture. Our table adds three platforms: OpenCilk, Taskflow, and Hedgehog. (OpenCilk replaces Cilk Plus in their classification, and Taskflow and Hedgehog are new.)
 
 
 <table class="table table-responsive table-bordered table-striped">

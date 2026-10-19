@@ -10,8 +10,6 @@ eleventyComputed:
     key: IEEE HPEC '26
     parent: Events
     order: 6
-tags:
-  - events
 ---
 
 {% imgLeft "/img/fastcode-at-hpec.png", "600px" %}

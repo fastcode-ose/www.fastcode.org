@@ -1,12 +1,12 @@
 - shortName: PACT
-  url: https://pact2025.github.io/
+  url: https://pact2026.github.io/
   date: October 2026
-  start: 2026-10-13
+  start: 2026-10-19
   submit: late April
 - shortName: SPAA
   url: https://spaa.acm.org/
-  date: Jul 6-10, 2026
-  start: 2026-06-10
+  date: Jun 5-11, 2027
+  start: 2027-06-05
   submit: late February
 - shortName: PPoPP
   url: https://ppopp26.sigplan.org/
@@ -15,8 +15,8 @@
   submit: mid August
 - shortName: IPDPS
   url: https://www.ipdps.org/
-  date: May 25-29, 2026
-  start: 2026-05-25
+  date: June 1-5, 2027
+  start: 2027-06-01
   submit: early October
 - shortName: SODA
   url: https://www.siam.org/conferences-events/siam-conferences/soda27/
@@ -29,19 +29,19 @@
   start: 2027-01-24
   submit: mid July
 - shortName: PLDI
-  url: https://pldi26.sigplan.org/
-  date: Jun 15-19, 2026
-  start: 2026-06-15
+  url: https://pldi27.sigplan.org/
+  date: Jun 5-11, 2027
+  start: 2027-06-05
   submit: mid November
 - shortName: ICCS
-  url: https://www.iccs-meeting.org/iccs2026/
-  date: Jun 29 - Jul 1, 2026
-  start: 2026-06-29
+  url: https://www.iccs-meeting.org/iccs2027/
+  date: Jul 12-14, 2027
+  start: 2027-07-12
   submit: mid February
 - shortName: ICPE
-  url: https://icpe2026.spec.org/
-  date: May 4-8, 2026
-  start: 2026-05-04
+  url: https://icpe2027.spec.org/
+  date: May 24-28, 2027
+  start: 2027-05-24
   submit: late October
 - shortName: SIAM-CSE
   url: https://www.siam.org/conferences-events/siam-conferences/cse27/
@@ -55,18 +55,18 @@
   submit: mid September
 - shortName: HPEC
   url: https://ieee-hpec.org/
-  date: September 2026
-  start: 2026-09-14
+  date: September 2027
+  start: 2027-09-14
   submit: early July
 - shortName: ESA
-  url: https://algo-conference.org/2025
-  date: September 2026
-  start: 2026-09-15
+  url: https://algo-conference.org/2026
+  date: September 2027
+  start: 2027-09-15
   submit: mid April
 - shortName: SC
   url: https://supercomputing.org/
-  date: November 2026
-  start: 2026-11-16
+  date: Nov 15-20, 2026
+  start: 2026-11-15
   submit: mid April
 - shortName: SIGCSE
   url: https://www.sigcse.org/
@@ -80,8 +80,8 @@
   submit: late May (R1), mid Sept (R2)
 - shortName: ICS
   url: https://www.ics-conference.org/
-  date: Jul 6-9, 2026
-  start: 2026-07-06
+  date: Jun 5-11, 2027
+  start: 2027-06-05
   submit: mid Jan (R1), late Feb (R2)
 - shortName: ASPLOS
   url: https://www.asplos-conference.org/
@@ -90,23 +90,23 @@
   submit: mid Mar (R1), mid Aug (R2)
 - shortName: MLSys
   url: https://mlsys.org/
-  date: May 18-22, 2026
-  start: 2026-05-18
+  date: June 21-25, 2027
+  start: 2027-06-21
   submit: late October
 - shortName: VLDB
-  url: https://vldb.org
-  date: Aug 31 - Sep 4, 2026
-  start: 2026-08-31
-  submit: montly until March
+  url: https://vldb.org/2027/
+  date: Aug 23 - 27, 2027
+  start: 2027-08-23
+  submit: monthly until March
 - shortName: SIGMOD
-  url: https://2026.sigmod.org/
-  date: May 31 - Jun 5, 2026
-  start: 2026-05-31
+  url: https://2027.sigmod.org/
+  date: June 13-18, 2027
+  start: 2027-06-13
   submit: Jan, Apr, Jul, Oct
 - shortName: ICPP
-  url: https://icpp2025.sdsc.edu/
-  date: Aug/Sep 2026
-  start: 2026-08-20
+  url: https://icpp2026.github.io/
+  date: Sep 2027
+  start: 2027-09-15
   submit: early May
 - shortName: EuroSys
   url: https://2026.eurosys.org/
@@ -115,6 +115,6 @@
   submit: mid May (R1), mid Sept (R2)
 - shortName: EPEW
   url: https://epew-workshop.github.io/
-  date: Jun 24-26, 2026
-  start: 2026-06-24
+  date: Jun 22-25, 2027
+  start: 2027-06-22
   submit: Late Jan
